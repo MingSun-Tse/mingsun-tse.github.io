@@ -7,4 +7,4 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently a master student at Zhejiang University (ZJU), China, supervised by Prof. [Roland Hu](https://person.zju.edu.cn/en/huhaoji). Before that, I received my  B.S. Degree from Zhejiang University in 2016. Now, I am summer intern in the [Vision and Learning Lab](http://vllab.ucmerced.edu/) at University of California, Merced, supervised by Prof. [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). Here is my [CV](https://drive.google.com/file/d/1a2fDLzQiUqSvTN_HZRem1ioRwGFL2Pv-/view?usp=sharing).
+I am currently a M.S. student at Zhejiang University (ZJU), China, advised by Prof. [Haoji Hu](https://person.zju.edu.cn/en/huhaoji). Before that, I received my  B.E. Degree from Zhejiang University in 2016. Now, I am a visiting student at the [Vision and Learning Lab](http://vllab.ucmerced.edu/) in the University of California, Merced, working with Prof. [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). Here is my [CV](https://drive.google.com/file/d/1p9S2Z3U7NhaGaJ2YKWU2wyKpV4-Bjl8_/view?usp=sharing).
