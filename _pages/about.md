@@ -23,8 +23,6 @@ I am now a first-year PhD candidate at [SMILE lab](https://web.northeastern.edu/
 
 ## Publications
 <table style="border: none; border-collapse: collapse;" border="0">
-<tr style="border-collapse: separate; border-spacing:30em;">
-
 
 
 <td style="border-collapse: collapse; border: none;">
@@ -45,9 +43,6 @@ Paper
 <span><a href="https://github.com/MingSun-Tse/Caffe_IncReg">Code</a></span>
 </td>
 </tr>
-
-
-
 
 <td style="border-collapse: collapse; border: none;">
 <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/SPP.jpeg" width="400" />
