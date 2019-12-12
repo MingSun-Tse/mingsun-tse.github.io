@@ -26,7 +26,7 @@ I am now a first-year PhD candidate at [SMILE lab](https://web.northeastern.edu/
   </td>
 
   <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang</b>, Qiming Zhang, Yuehai Wang, Lu Yu, Haoji Hu.
+    <b>Huan Wang</b>, Xinyi Hu, Qiming Zhang, Yuehai Wang, Lu Yu, Haoji Hu.
     "Structured Pruning for Efficient ConvNets via Incremental Regularization".
     In NeurIPS-18 workshop, IJCNN-19 (<b>Oral</b>), journal extension to IEEE JSTSP.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5"> Paper (
