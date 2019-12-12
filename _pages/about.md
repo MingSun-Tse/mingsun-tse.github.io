@@ -22,7 +22,7 @@ I am now a first-year PhD candidate at [SMILE lab](https://web.northeastern.edu/
 
 <tr style="border-collapse: separate; border-spacing:30em;">
   <td style="border-collapse: collapse; border: none;">
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/IncReg.jpeg" width="400" />
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/IncReg.jpeg" width="600" />
   </td>
 
   <td style="border-collapse: collapse; border: none;">
@@ -40,7 +40,7 @@ I am now a first-year PhD candidate at [SMILE lab](https://web.northeastern.edu/
 
 <tr style="border-collapse: separate; border-spacing:30em;">
   <td style="border-collapse: collapse; border: none;">
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/SPP.jpeg" width="400" />
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/SPP.jpeg" width="600" />
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Qiming Zhang, Yuehai Wang, Haoji Hu. <br>
