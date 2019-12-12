@@ -43,7 +43,7 @@ I am now a first-year PhD candidate at [SMILE lab](https://web.northeastern.edu/
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/SPP.jpeg" width="600" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang</b>, Qiming Zhang, Yuehai Wang, Haoji Hu.
+    <b>Huan Wang</b>*, Qiming Zhang*, Yuehai Wang, Haoji Hu.
     "Structured Probabilistic Pruning for Convolutional Neural Network Acceleration".
     In BMVC-18 (<b>Oral</b>).<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
