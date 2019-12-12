@@ -15,12 +15,12 @@ I am now a first-year PhD candidate at [SMILE lab](https://web.northeastern.edu/
 - 2019/09: Join SMILE lab at NEU to pursue my Ph.D. degree.
 - 2019/07: Intern at Taobao of Alibaba Group at Hangzhou, China.
 - 2019/04: One ICIP-19 paper and ICML-19 workshop paper accepted.
-- 2019/03: One IJCNN paper accepted as oral.
+- 2019/03: One IJCNN-19 paper accepted as oral.
 
 ## Publications
 <table style="border: none; border-collapse: collapse;" border="0">
 
-<tr style="border-collapse: separate; border-spacing:30em;">
+<tr style="border-collapse: separate; border-spacing:60em;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/IncReg.jpeg" width="600" />
   </td>
