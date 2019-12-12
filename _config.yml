@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Welcome!"
+title                    : "Huan Wang's Website"
 title_separator          : "-"
 name                     : &name "Huan Wang"
 description              : &description "personal description"
