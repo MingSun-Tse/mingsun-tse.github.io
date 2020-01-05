@@ -11,7 +11,7 @@ redirect_from:
 I am now a first-year PhD candidate at [SMILE lab](https://web.northeastern.edu/smilelab/) of Northeastern University (Boston, US), advised by Prof. [Yun (Raymond) Fu](http://www1.ece.neu.edu/~yunfu/). Before that, I received my M.S. and B.E. degrees from Zhejiang University (Hangzhou, China) in June 2019 and June 2016, supervised by Prof. [Haoji Hu](https://person.zju.edu.cn/en/huhaoji). During 2018 summer, I visited [VLLab](http://vllab.ucmerced.edu/) at University of California, Merced, working with Prof. [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). I am interested in a variety of topics in computer vision and deep learning, especially deep model compression and interpretation. Here is my [CV](https://drive.google.com/file/d/17wU9IB2E4Jj_3p5EI50zksbuxRcm1Qmd/view?usp=sharing).
 
 ## News
-- 2020/01: Summer intern paper accepted by <a href="https://mlsys.org/">MLSys-20</a> (Project: <a href="https://github.com/alibaba/MNN">MNN</a> from Alibaba, one of the fastest mobile AI engines on this planet. Welcome trying!)
+- 2020/01: Summer intern paper accepted by <a href="https://mlsys.org/">MLSys-20</a>. (Project: <a href="https://github.com/alibaba/MNN">MNN</a> from Alibaba, one of the <i>fastest</i> mobile AI engines on this planet. Welcome trying!)
 - 2019/12: One journal paper accepted by <a href="https://signalprocessingsociety.org/publications-resources/ieee-journal-selected-topics-signal-processing">IEEE JSTSP</a>.
 - 2019/09: Join SMILE lab at NEU to pursue my Ph.D. degree.
 - 2019/07: Summer intern at Taobao of Alibaba Group at Hangzhou, China.
