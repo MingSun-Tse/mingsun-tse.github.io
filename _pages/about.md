@@ -28,7 +28,7 @@ I am now a first-year PhD candidate at [SMILE lab](https://web.northeastern.edu/
   <td style="border-collapse: collapse; border: none;">
     Xiaotang Jiang, <b>Huan Wang</b>, Yiliu Chen, Ziqi Wu, et al.
     "MNN: A Universal and Efficient Inference Engine".
-    In SysML-20 (<b>Oral</b>).<br>
+    In MLSys-20 (<b>Oral</b>).<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="wait_to_update">Paper</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
