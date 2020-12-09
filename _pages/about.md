@@ -13,7 +13,7 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
 ## News
 - 2020/02: One paper about model compression for ultra-resolution neural style transfer is accepted by CVPR-20. Code released at <a href="https://github.com/MingSun-Tse/Collaborative-Distillation">here</a>.
 - 2020/01: I will intern at MERL in the 2020 summer, working with Dr. <a href="https://scholar.google.com/citations?user=h-V4QaMAAAAJ&hl=en&oi=ao" >Michael Jones</a> and Dr. <a href="http://suhaslohit.github.io">Suhas Lohit</a>.
-- 2020/01: 2019 summer intern paper accepted by <a href="https://mlsys.org/">MLSys-20</a>. (Project: <a href="https://github.com/alibaba/MNN">MNN</a> from Alibaba, one of the <i>fastest</i> mobile AI engines on this planet. Welcome trying!)
+- 2020/01: 2019 summer intern paper accepted by <a href="https://mlsys.org/">MLSys 2020</a>. (Project: <a href="https://github.com/alibaba/MNN">MNN</a> from Alibaba, one of the <i>fastest</i> mobile AI engines on this planet. Welcome trying!)
 - 2019/12: One journal paper accepted by <a href="https://signalprocessingsociety.org/publications-resources/ieee-journal-selected-topics-signal-processing">IEEE JSTSP</a>.
 - 2019/09: Join SMILE lab at NEU to pursue my Ph.D. degree.
 - 2019/07: Summer intern at Taobao of Alibaba Group at Hangzhou, China.
@@ -62,7 +62,7 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Yijun Li, Yuehai Wang, Haoji Hu, Ming-Hsuan Yang.
     "Collabrotive Distillation for Ultra-Resolution Universal Style Transfer".
-    In CVPR-20.<br>
+    In CVPR 2020.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2003.08436">Paper</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
@@ -77,7 +77,7 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
   <td style="border-collapse: collapse; border: none;">
     Xiaotang Jiang, <b>Huan Wang</b>, Yiliu Chen, Ziqi Wu, et al.
     "MNN: A Universal and Efficient Inference Engine".
-    In MLSys-20 (<b>Oral</b>).<br>
+    In MLSys 2020 (<b>Oral</b>).<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2002.12418">Paper</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
@@ -93,10 +93,10 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Xinyi Hu, Qiming Zhang, Yuehai Wang, Lu Yu, Haoji Hu.
     "Structured Pruning for Efficient ConvNets via Incremental Regularization".
-    In NeurIPS-18 workshop, IJCNN-19 (<b>Oral</b>), journal extension to IEEE JSTSP.<br>
+    In NeurIPS 2018 workshop, IJCNN 2019 (<b>Oral</b>), journal extension to IEEE JSTSP.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5"> Paper (
-    <span><a href="https://arxiv.org/abs/1811.08390">NeurIPS-18 workshop</a></span>,
-    <span><a href="https://arxiv.org/abs/1804.09461">IJCNN-19</a></span>,
+    <span><a href="https://arxiv.org/abs/1811.08390">NeurIPS 2018 workshop</a></span>,
+    <span><a href="https://arxiv.org/abs/1804.09461">IJCNN 2019</a></span>,
     <span><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8937758">JSTSP</a></span>) <br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://github.com/alibaba/MNN">Code</a></span>
@@ -111,7 +111,7 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>*, Qiming Zhang*, Yuehai Wang, Haoji Hu.
     "Structured Probabilistic Pruning for Convolutional Neural Network Acceleration".
-    In BMVC-18 (<b>Oral</b>).<br>
+    In BMVC 2018 (<b>Oral</b>).<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/1709.06994">Paper</a></span> <br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
@@ -123,5 +123,4 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
 
 ## Academic Services
 - Program committee of ICML-19 workshop
-- Reviewer for Neurocomputing, NeurIPS-18 workshop, ICML-19 workshop, IEEE JSTSP, CVPR-20 workshop
-
+- Reviewer for TNNLS, IEEE JSTSP, Neurocomputing, NeurIPS-18 workshop, ICML-19 workshop, CVPR-20 workshop
