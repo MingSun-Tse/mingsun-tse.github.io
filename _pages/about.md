@@ -25,18 +25,32 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
 
 <tr style="border-collapse: separate; border-spacing:30em;">
   <td style="border-collapse: collapse; border: none;">
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/collaborative_distillation.jpg" width="800" />
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/KD_DA.png" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Suhas Lohit, Michael Jones, Yun Fu.
     "Knowledge Distillation Thrives on Data Augmentation".
-    In CVPR-20.<br>
+    Preprint, 2020.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://arxiv.org/abs/2003.08436">Paper</a></span><br>
+    <span><a href="https://arxiv.org/abs/2012.02909">Paper</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://github.com/MingSun-Tse/Collaborative-Distillation">Code</a></span><br>
+    <span>Code will be released soon.</span><br>
+  </td>
+</tr>
+
+
+<tr style="border-collapse: separate; border-spacing:30em;">
+  <td style="border-collapse: collapse; border: none;">
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/multihead_kd.png" width="800" />
+  </td>
+  <td style="border-collapse: collapse; border: none;">
+    <b>Huan Wang</b>, Suhas Lohit, Michael Jones, Yun Fu.
+    "Multi-head Knowledge Distillation for Model Compression".
+    Preprint, 2020.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span>Supplementary Material</span>
+    <span><a href="https://arxiv.org/abs/2012.02911">Paper</a></span><br>
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
+    <span>Code will be released soon.</span><br>
   </td>
 </tr>
 
@@ -53,8 +67,6 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
     <span><a href="https://arxiv.org/abs/2003.08436">Paper</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://github.com/MingSun-Tse/Collaborative-Distillation">Code</a></span><br>
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span>Supplementary Material</span>
   </td>
 </tr>
 
