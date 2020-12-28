@@ -23,6 +23,22 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
 ## Publications
 <table style="border: none; border-collapse: collapse;" border="0">
 
+
+<tr style="border-collapse: separate; border-spacing:30em;">
+  <td style="border-collapse: collapse; border: none;">
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/L1norm_vs_iter.png" width="800" />
+  </td>
+  <td style="border-collapse: collapse; border: none;">
+    <b>Huan Wang</b>, Can Qin, Yulun Zhang, Yun Fu.
+    "Neural Pruning via Growing Regularization".
+    Preprint, 2020.<br>
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
+    <span><a href="https://arxiv.org/abs/2012.09243">Paper</a></span><br>
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
+    <span><a href="https://github.com/MingSun-Tse/Regularization-Pruning">PyTorch Code</a></span><br>
+  </td>
+</tr>
+
 <tr style="border-collapse: separate; border-spacing:30em;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/KD_DA.png" width="800" />
@@ -66,7 +82,7 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2003.08436">Paper</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://github.com/MingSun-Tse/Collaborative-Distillation">Code</a></span><br>
+    <span><a href="https://github.com/MingSun-Tse/Collaborative-Distillation">PyTorch Code</a></span><br>
   </td>
 </tr>
 
@@ -99,7 +115,7 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
     <span><a href="https://arxiv.org/abs/1804.09461">IJCNN 2019</a></span>,
     <span><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8937758">JSTSP</a></span>) <br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://github.com/alibaba/MNN">Code</a></span>
+    <span><a href="https://github.com/alibaba/MNN">Caffe Code</a></span>
   </td>
 </tr>
 
@@ -115,7 +131,7 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/1709.06994">Paper</a></span> <br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://github.com/MingSun-Tse/Caffe_IncReg">Code</a></span>
+    <span><a href="https://github.com/MingSun-Tse/Caffe_IncReg">Caffe Code</a></span>
   </td>
 </tr>
 
