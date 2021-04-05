@@ -18,8 +18,9 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
 - 2019/12: One journal paper accepted by <a href="https://signalprocessingsociety.org/publications-resources/ieee-journal-selected-topics-signal-processing">IEEE JSTSP</a>.
 - 2019/09: Join SMILE lab at NEU to pursue my Ph.D. degree.
 - 2019/07: Summer intern at Taobao of Alibaba Group at Hangzhou, China.
-- 2019/04: One ICIP-19 paper and ICML-19 workshop paper accepted.
-- 2019/03: One IJCNN-19 paper accepted as oral.
+- 2019/06: Graduate with M.S. degree from Zhejiang University, Hangzhou, China.
+<!-- - 2019/04: One ICIP-19 paper and ICML-19 workshop paper accepted. -->
+<!-- - 2019/03: One IJCNN-19 paper accepted as oral. -->
 
 ## Publications
 <table style="border: none; border-collapse: collapse;" border="0">
@@ -32,7 +33,7 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Can Qin, Yulun Zhang, Yun Fu.
     "Neural Pruning via Growing Regularization".
-    Preprint, 2020.<br>
+    In ICLR (Poster), 2021.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2012.09243">Paper</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
