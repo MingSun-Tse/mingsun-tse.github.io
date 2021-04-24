@@ -141,4 +141,4 @@ I am a 2nd-year Ph.D. student at [SMILE lab](https://web.northeastern.edu/smilel
 
 ## Academic Services
 - Program committee of ICML-19 workshop
-- Reviewer for TNNLS, IEEE JSTSP, Neurocomputing, NeurIPS-18 workshop, ICML-19 workshop, CVPR-20 workshop
+- Reviewer for TNNLS, TIP, IEEE JSTSP, Neurocomputing, NeurIPS-18 workshop, ICML-19 workshop, CVPR-20 workshop
