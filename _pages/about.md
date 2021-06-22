@@ -80,7 +80,7 @@ I am a 2nd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smil
     "Knowledge Distillation Thrives on Data Augmentation".
     Preprint, 2020.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://arxiv.org/abs/2012.02909">Paper</a></span><br>
+    <span><a href="https://arxiv.org/abs/2012.02909">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span>Code will be released soon.</span><br>
   </td>
@@ -96,7 +96,7 @@ I am a 2nd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smil
     "Multi-head Knowledge Distillation for Model Compression".
     Preprint, 2020.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://arxiv.org/abs/2012.02911">Paper</a></span><br>
+    <span><a href="https://arxiv.org/abs/2012.02911">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span>Code will be released soon.</span><br>
   </td>
@@ -112,7 +112,7 @@ I am a 2nd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smil
     "Collabrotive Distillation for Ultra-Resolution Universal Style Transfer".
     In <b>CVPR</b> (Poster), 2020.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://arxiv.org/abs/2003.08436">Paper</a></span><br>
+    <span><a href="https://arxiv.org/abs/2003.08436">Arxiv</a>, <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Collaborative_Distillation_for_Ultra-Resolution_Universal_Style_Transfer_CVPR_2020_paper.html">Camera Ready</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://github.com/MingSun-Tse/Collaborative-Distillation">PyTorch Code</a></span><br>
   </td>
@@ -127,7 +127,7 @@ I am a 2nd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smil
     "MNN: A Universal and Efficient Inference Engine".
     In <b>MLSys</b> 2020 (<b>Oral</b>).<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://arxiv.org/abs/2002.12418">Paper</a></span><br>
+    <span><a href="https://arxiv.org/abs/2002.12418">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://github.com/alibaba/MNN">Code</a></span>
   </td>
@@ -142,9 +142,8 @@ I am a 2nd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smil
     <b>Huan Wang</b>, Xinyi Hu, Qiming Zhang, Yuehai Wang, Lu Yu, Haoji Hu.
     "Structured Pruning for Efficient ConvNets via Incremental Regularization".
     In <b>NeurIPS Workshop</b>, 2018; <b>IJCNN</b>, 2019 (<b>Oral</b>); Journal extension to <b>IEEE JSTSP</b>, 2019.<br>
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5"> Paper (
-    <span><a href="https://arxiv.org/abs/1811.08390">NeurIPS 2018 workshop</a></span>,
-    <span><a href="https://arxiv.org/abs/1804.09461">IJCNN 2019</a></span>,
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5"> Paper (<span><a href="https://arxiv.org/abs/1811.08390">NeurIPS Workshop</a></span>,
+    <span><a href="https://arxiv.org/abs/1804.09461">IJCNN</a></span>,
     <span><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8937758">JSTSP</a></span>) <br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://github.com/alibaba/MNN">Caffe Code</a></span>
@@ -161,7 +160,7 @@ I am a 2nd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smil
     "Structured Probabilistic Pruning for Convolutional Neural Network Acceleration".
     In <b>BMVC</b>, 2018 (<b>Oral</b>).<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://arxiv.org/abs/1709.06994">Paper</a></span> <br>
+    <span><a href="https://arxiv.org/abs/1709.06994">Arxiv</a>, <a href="http://bmvc2018.org/contents/papers/0870.pdf">Camera Ready</a></span> <br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://github.com/MingSun-Tse/Caffe_IncReg">Caffe Code</a></span>
   </td>
