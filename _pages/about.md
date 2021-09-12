@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 ## About Me
-I am a 2nd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smilelab/) of Northeastern University (Boston, US), advised by Prof. [Yun (Raymond) Fu](http://www1.ece.neu.edu/~yunfu/). Before that, I received my M.S. and B.E. degrees from Zhejiang University (Hangzhou, China) in 06/2019 and 06/2016, respectively, supervised by Prof. [Haoji Hu](https://person.zju.edu.cn/en/huhaoji). During 2018 summer, I visited [VLLab](http://vllab.ucmerced.edu/) at University of California, Merced, working with Prof. [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). I am interested in a variety of topics in computer vision and deep learning, especially deep model compression and interpretation. <!-- Here is my [CV](https://drive.google.com/file/d/17wU9IB2E4Jj_3p5EI50zksbuxRcm1Qmd/view?usp=sharing).-->
+I am a 3rd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smilelab/) of Northeastern University (Boston, US), advised by Prof. [Yun (Raymond) Fu](http://www1.ece.neu.edu/~yunfu/). Before that, I received my M.S. and B.E. degrees from Zhejiang University (Hangzhou, China) in 06/2019 and 06/2016, respectively, supervised by Prof. [Haoji Hu](https://person.zju.edu.cn/en/huhaoji). During 2018 summer, I visited [VLLab](http://vllab.ucmerced.edu/) at University of California, Merced, working with Prof. [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). I am interested in a variety of topics in computer vision and deep learning, especially deep model compression and interpretation. <!-- Here is my [CV](https://drive.google.com/file/d/17wU9IB2E4Jj_3p5EI50zksbuxRcm1Qmd/view?usp=sharing).-->
 
 ## News
 - 2021/06: Start summer internship at Snap Inc., working with the fantastic <a href="https://research.snap.com/team/category/creative-vision/">Creative Vision</a> team.
@@ -169,5 +169,4 @@ I am a 2nd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smil
 </table>
 
 ## Academic Services
-- Program committee of ICML-19 workshop
-- Reviewer for IJCV, TNNLS, TIP, JSTSP, Neurocomputing, NeurIPS-18 workshop, ICML-19 workshop, CVPR-20 workshop
+- Reviewer for IJCV, TNNLS, TIP, JSTSP, Neurocomputing, AAAI, NeurIPS-18 workshop, ICML-19 workshop, CVPR-20 workshop
