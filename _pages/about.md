@@ -11,6 +11,7 @@ redirect_from:
 I am a 3rd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smilelab/) of Northeastern University (Boston, US), advised by Prof. [Yun (Raymond) Fu](http://www1.ece.neu.edu/~yunfu/). Before that, I received my M.S. and B.E. degrees from Zhejiang University (Hangzhou, China) in 2019 and 2016, respectively, advised by Prof. [Haoji Hu](https://person.zju.edu.cn/en/huhaoji). During 2018 summer, I visited [VLLab](http://vllab.ucmerced.edu/) at University of California, Merced, working with Prof. [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). I am interested in a variety of topics in computer vision and deep learning, especially deep model compression and interpretation. <!-- Here is my [CV](https://drive.google.com/file/d/17wU9IB2E4Jj_3p5EI50zksbuxRcm1Qmd/view?usp=sharing).-->
 
 ## News
+- 2022/01: Two papers on neural network sparsity accepted by ICLR'22. Code will be released soon.
 - 2021/09: One paper on efficient image super-resolution is accepted by NeurIPS'21 as a <font color='red'>Spotlight</font> paper (<3%)! [<a href="https://github.com/MingSun-Tse/ASSL">PyTorch Code</a>]
 - 2021/06: Start summer internship at Snap Inc., working with the fantastic <a href="https://research.snap.com/team/category/creative-vision/">Creative Vision</a> team.
 - 2021/01: One paper about neural network pruning accepted by ICLR'21 as poster. [<a href="https://arxiv.org/abs/2012.09243">Arxiv</a>] [<a href="https://github.com/MingSun-Tse/Regularization-Pruning">PyTorch Code</a>]
