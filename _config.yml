@@ -80,12 +80,12 @@ analytics:
 # Site Author
 author:
   name             : "Huan Wang"
-  avatar           : "profile.png"
+  avatar           : "profile_v2.jpg"
   bio              : "Computer Vision, Deep Learning"
-  location         : "Boston, US"
+  location         : "Boston, U.S."
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=0-On0y4AAAAJ&hl=en"
-  email            : "wang.huan@husky.neu.edu"
+  email            : "wang.huan@northeastern.edu"
   uri              :
   bitbucket        :
   codepen          :
