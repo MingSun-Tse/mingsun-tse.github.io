@@ -62,12 +62,10 @@ I am a 3rd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smil
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/ICLR22_DLTH.png" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang*</b>, Yulun Zhang*, Can Qin, Yun Fu.
+    Yue Bai, <b>Huan Wang</b>, Zhiqiang Tao, Kunpeng Li, Yun Fu.
     "Dual Lottery Ticket Hypothesis". In <b>ICLR</b> (Poster), 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://openreview.net/forum?id=fOsN52jn25l">OpenReview</a></span><br>
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://arxiv.org/abs/2203.04248">Arxiv</a></span><br>
+    <span><a href="https://openreview.net/forum?id=fOsN52jn25l">OpenReview</a></span>, <span><a href="https://arxiv.org/abs/2203.04248">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://github.com/yue17/DLTH">PyTorch Code</a></span><br>
   </td>
@@ -81,7 +79,7 @@ I am a 3rd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smil
     <b>Huan Wang*</b>, Yulun Zhang*, Can Qin, Yun Fu.
     "Aligned Structured Sparsity Learning for Efficient Image Super-Resolution". In <b>NeurIPS</b> (<font color='red'>Spotlight</font>), 2021. (*Equal Contribution)<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span>Arxiv</span><br>
+    <span><a href="https://openreview.net/pdf?id=zAuDbrHC6fq">Camera Ready</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://github.com/MingSun-Tse/ASSL">PyTorch Code</a></span><br>
   </td>
@@ -187,9 +185,9 @@ I am a 3rd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smil
     <b>Huan Wang</b>, Xinyi Hu, Qiming Zhang, Yuehai Wang, Lu Yu, Haoji Hu.
     "Structured Pruning for Efficient ConvNets via Incremental Regularization".
     In <b>NeurIPS Workshop</b>, 2018; <b>IJCNN</b>, 2019 (<font color='red'>Oral</font>); Journal extension to <b>IEEE JSTSP</b>, 2019.<br>
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5"> Paper (<span><a href="https://arxiv.org/abs/1811.08390">NeurIPS Workshop</a></span>,
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5"> <span><a href="https://arxiv.org/abs/1811.08390">NeurIPS Workshop</a></span>,
     <span><a href="https://arxiv.org/abs/1804.09461">IJCNN</a></span>,
-    <span><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8937758">JSTSP</a></span>) <br>
+    <span><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8937758">JSTSP</a></span> <br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://github.com/alibaba/MNN">Caffe Code</a></span>
   </td>
