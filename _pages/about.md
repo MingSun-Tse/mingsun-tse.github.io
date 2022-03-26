@@ -33,9 +33,9 @@ I am a 3rd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smil
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/emerging_pruning.png" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang</b>, Can Qin, Yulun Zhang, Yun Fu.
+    <b>Huan Wang</b>, Can Qin, Yue Bai, Yulun Zhang, Yun Fu.
     "Recent Advances on Neural Network Pruning at Initialization".
-    Preprint Survey.<br>
+    <b>Preprint Survey</b>.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2103.06460">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
