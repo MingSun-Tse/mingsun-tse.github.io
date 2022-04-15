@@ -214,4 +214,4 @@ I am a 3rd-year Ph.D. candidate at [SMILE lab](https://web.northeastern.edu/smil
 
 ## Academic Services
 - Journal Reviewer: IJCV, TIP, TNNLS, JSTSP, Neurocomputing
-- Conference Reviewer: CVPR, ECCV, ICML, ICLR, AAAI
+- Conference Reviewer: CVPR, ECCV, ICML, NeurIPS, ICLR, AAAI
