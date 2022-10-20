@@ -57,13 +57,13 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/KD_DA.png" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang</b>, Suhas Lohit, Michael Jones, Yun Fu.
+    <b>Huan Wang</b>, Suhas Lohit, Mike Jones, Yun Fu.
     "What Makes a "Good" Data Augmentation in Knowledge Distillation -- A Statistical Perspective".
     In NeurIPS, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/project_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://mingsun-tse.github.io/Good-DA-in-KD">Project Webpage</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://arxiv.org/abs/2012.02909">Arxiv (outdated, to be updated soon)</a></span><br>
+    <span><a href="https://arxiv.org/abs/2012.02909">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://github.com/MingSun-Tse/Good-DA-in-KD">Code</a></span><br>
   </td>
@@ -78,7 +78,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
     "Parameter-Efficient Masking Networks".
     In NeurIPS, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span><a href="">Arxiv (Coming soon)</a></span><br>
+    <span><a href="https://arxiv.org/abs/2210.06699">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://github.com/yueb17/PEMN">Code</a></span><br>
   </td>
