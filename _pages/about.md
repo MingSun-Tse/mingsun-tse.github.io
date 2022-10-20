@@ -21,14 +21,14 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
 - 2022.04: **[IJCAI'22]** We offer the very first survey paper on **Pruning at Initialization**, accepted by IJCAI'22 [<a href="https://arxiv.org/abs/2103.06460">Arxiv</a>] [<a href="https://github.com/MingSun-Tse/Awesome-Pruning-at-Initialization">Paper Collection</a>].
 - 2022.01: **[ICLR'22]** Two papers on neural network sparsity accepted by ICLR'22. One is about efficient image super-resolution (<a href="https://openreview.net/forum?id=AjGC97Aofee">SRP</a>), the other about lottery ticket hypothsis (<a href="https://openreview.net/forum?id=fOsN52jn25l">DLTH</a>).
 - 2021.09: **[NeurIPS'21]** One paper on efficient image super-resolution is accepted by NeurIPS'21 as a <font color='red'>Spotlight</font> paper (<3%)! [<a href="https://github.com/MingSun-Tse/ASSL">PyTorch Code</a>]
-- 2021.06: Start summer internship at Snap Inc., working with the fantastic <a href="https://research.snap.com/team/category/creative-vision/">Creative Vision</a> team.
+- 2021.06: **[Internship'21]** Start summer internship at Snap Inc., working with the fantastic <a href="https://research.snap.com/team/category/creative-vision/">Creative Vision</a> team.
 - 2021.01: **[ICLR'21]** One paper about neural network pruning accepted by ICLR'21 as poster. [<a href="https://arxiv.org/abs/2012.09243">Arxiv</a>] [<a href="https://github.com/MingSun-Tse/Regularization-Pruning">PyTorch Code</a>]
-- 2020.06: Start summer internship at MERL, working with Dr. <a href="https://scholar.google.com/citations?user=h-V4QaMAAAAJ&hl=en&oi=ao" >Mike Jones</a> and Dr. <a href="http://suhaslohit.github.io">Suhas Lohit</a>. (09/2022 Update: Finally, paper of this project accpeted by NeurIPS'22. Thanks to my co-authors and the reviewers!)
+- 2020.06: **[Internship'20]** Start summer internship at MERL, working with Dr. <a href="https://scholar.google.com/citations?user=h-V4QaMAAAAJ&hl=en&oi=ao" >Mike Jones</a> and Dr. <a href="http://suhaslohit.github.io">Suhas Lohit</a>. (09/2022 Update: Finally, paper of this project accpeted by NeurIPS'22. Thanks to my co-authors and the reviewers!)
 - 2020.02: **[CVPR'20]** One paper about model compression for ultra-resolution neural style transfer is accepted by CVPR 2020. Code released <a href="https://github.com/MingSun-Tse/Collaborative-Distillation">here</a>.
 - 2020.01: **[MLSys'20]** 2019 summer intern paper accepted by <a href="https://mlsys.org/">MLSys 2020</a>. (Project: <a href="https://github.com/alibaba/MNN">MNN</a> from Alibaba, one of the <i>fastest</i> mobile AI engines on this planet. Welcome trying!)
 - 2019.12: **[JSTSP'19]** One journal paper accepted by <a href="https://signalprocessingsociety.org/publications-resources/ieee-journal-selected-topics-signal-processing">IEEE JSTSP</a>.
 - 2019.09: Join SMILE Lab at NEU (Boston, USA) to pursue my Ph.D. degree.
-- 2019.07: Start summer internship at Taobao of Alibaba Group at Hangzhou, China.
+- 2019.07: **[Internship'19]** Start summer internship at Taobao of Alibaba Group at Hangzhou, China.
 - 2019.06: Graduate with M.Sc. degree from Zhejiang University, Hangzhou, China.
 <!-- - 2019/04: One ICIP-19 paper and ICML-19 workshop paper accepted. -->
 <!-- - 2019/03: One IJCNN-19 paper accepted as oral. -->
