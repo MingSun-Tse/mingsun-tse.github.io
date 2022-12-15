@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 ## About Me
-(**<font color='red'>Nov. 2022 Update</font>**: It seems the *https* service has expried recently for my website. If you see a REALLY BIG selfie of me (sorry about this, I'm not a narcissist..), that means you are probably using the *https* instead of *http* to access my website (will fix this soon!) **Click [here](http://huanwang.tech)** to switch to the normal view.)
+(**<font color='red'>Nov. 2022 Update</font>**: It seems the *https* service has expried recently for my website. If you see a REALLY BIG selfie of me (sorry about this, I'm not a narcissist..), that means you are probably using the *https* instead of *http* to access my website (will fix this soon!) **Click [here](http://www.huanwang.tech)** to switch to the normal view.)
 
 <mark>Dec. 2022: I am actively looking for research internship opportunities (on efficient/mobile/edge deep learning for vision tasks) in 2023 summer. If you are interested, welcome to drop me an email (wang.huan [at] northeastern.edu). Thanks!</mark>
 
