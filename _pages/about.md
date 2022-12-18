@@ -64,7 +64,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   <td style="border-collapse: collapse; border: none;">
     Junli Cao, <b>Huan Wang</b>, Pavlo Chemerys, Vladislav Shakhrai, Ju Hu, Yun Fu, Denys Makoviichuk, Sergey Tulyakov, Jian Ren.<br>
     "<i>Real-Time Neural Light Field on Mobile Devices</i>".<br>
-    In <b>Preprint</b>, 2022.<br>
+    <b>Preprint</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/project_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://snap-research.github.io/MobileR2L/">Project Webpage</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
@@ -160,7 +160,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang*</b>, Yulun Zhang*, Can Qin, Yun Fu.<br>
     "<i>Learning Efficient Image Super-Resolution Networks via Structure-Regularized Pruning</i>".<br>
-    In <b>ICLR</b> (Poster), 2022. (*Equal Contribution)<br>
+    In <b>ICLR</b>, 2022. (*Equal Contribution)<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://openreview.net/forum?id=AjGC97Aofee">Open Review</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
@@ -175,7 +175,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   <td style="border-collapse: collapse; border: none;">
     Yue Bai, <b>Huan Wang</b>, Zhiqiang Tao, Kunpeng Li, Yun Fu.<br>
     "<i>Dual Lottery Ticket Hypothesis</i>".<br>
-    In <b>ICLR</b> (Poster), 2022.<br>
+    In <b>ICLR</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://openreview.net/forum?id=fOsN52jn25l">Open Review</a></span>, <span><a href="https://arxiv.org/abs/2203.04248">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
@@ -220,7 +220,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Can Qin, Yulun Zhang, Yun Fu.<br>
     "<i>Neural Pruning via Growing Regularization</i>".<br>
-    In <b>ICLR</b> (Poster), 2021.<br>
+    In <b>ICLR</b>, 2021.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2012.09243">Arxiv</a></span>, <span><a href="https://openreview.net/forum?id=o966_Is_nPA&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2021%2FConference%2FAuthors%23your-submissions)">OpenReview</a></span> <br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
@@ -251,7 +251,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Yijun Li, Yuehai Wang, Haoji Hu, Ming-Hsuan Yang.<br>
     "<i>Collabrotive Distillation for Ultra-Resolution Universal Style Transfer</i>".<br>
-    In <b>CVPR</b> (Poster), 2020.<br>
+    In <b>CVPR</b>, 2020.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2003.08436">Arxiv</a>, <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Collaborative_Distillation_for_Ultra-Resolution_Universal_Style_Transfer_CVPR_2020_paper.html">Camera Ready</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
@@ -266,7 +266,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   <td style="border-collapse: collapse; border: none;">
     Xiaotang Jiang, <b>Huan Wang</b>, Yiliu Chen, Ziqi Wu, et al.<br>
     "<i>MNN: A Universal and Efficient Inference Engine</i>".<br>
-    In <b>MLSys</b> 2020 (<font color='red'>Oral</font>).<br>
+    In <b>MLSys</b> (<font color='red'>Oral</font>), 2020.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2002.12418">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
