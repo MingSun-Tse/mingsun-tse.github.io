@@ -40,7 +40,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
 <!-- - 2019/03: One IJCNN-19 paper accepted as oral. -->
 
 ## Selected Publications
-<table style="border: none; border-collapse: collapse;" border="0">
+<table style="border: none; border-collapse: collapse;">
 
 <!-- <tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
@@ -309,6 +309,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
 
 </table>
 
+
 ## Academic Services
-- Journal Reviewer: IJCV, TIP, TNNLS, JSTSP, Neurocomputing
-- Conference Reviewer: CVPR, ECCV, ICML, NeurIPS, ICLR, AAAI
+- Journal Reviewer: IJCV, TIP, TNNLS, JSTSP, Neurocomputing, etc.
+- Conference Reviewer: CVPR, ECCV, ICML, NeurIPS, ICLR, AAAI, IJCAI, MLSys, etc.
