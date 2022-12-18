@@ -48,7 +48,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Yun Fu.
-    "Trainability Preserving Neural Structured Pruning".
+    "<i><b>Trainability Preserving Neural Structured Pruning".
     <b>ECCV</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2207.12534">Arxiv</a></span><br>
@@ -63,7 +63,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     Junli Cao, <b>Huan Wang</b>, Pavlo Chemerys, Vladislav Shakhrai, Ju Hu, Yun Fu, Denys Makoviichuk, Sergey Tulyakov, Jian Ren.<br>
-    "Real-Time Neural Light Field on Mobile Devices".<br>
+    "<i><b>Real-Time Neural Light Field on Mobile Devices</b></i>".<br>
     In <b>Preprint</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/project_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://snap-research.github.io/MobileR2L/">Project Webpage</a></span><br>
@@ -80,7 +80,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Suhas Lohit, Mike Jones, Yun Fu.<br>
-    "What Makes a "Good" Data Augmentation in Knowledge Distillation -- A Statistical Perspective".<br>
+    "<i><b>What Makes a "Good" Data Augmentation in Knowledge Distillation -- A Statistical Perspective</b></i>".<br>
     In <b>NeurIPS</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/project_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://mingsun-tse.github.io/Good-DA-in-KD">Project Webpage</a></span><br>
@@ -97,7 +97,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     Yue Bai, <b>Huan Wang</b>, Xu Ma, Yitian Zhang, Zhiqiang Tao, Yun Fu.<br>
-    "Parameter-Efficient Masking Networks".<br>
+    "<i><b>Parameter-Efficient Masking Networks</b></i>".<br>
     In <b>NeurIPS</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2210.06699">Arxiv</a></span><br>
@@ -112,7 +112,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     Yitian Zhang, Yue Bai, <b>Huan Wang</b>, Yi Xu, Yun Fu.<br>
-    "Look More but Care Less in Video Recognition".<br>
+    "<i><b>Look More but Care Less in Video Recognition</b></i>".<br>
     In <b>NeurIPS</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="">Arxiv (Coming soon)</a></span><br>
@@ -127,7 +127,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Jian Ren, Zeng Huang, Kyle Olszewski, Menglei Chai, Yun Fu, Sergey Tulyakov.<br>
-    "R2L: Distilling Neural Radiance Field to Neural Light Field for Efficient Novel View Synthesis".<br>
+    "<i><b>R2L: Distilling Neural Radiance Field to Neural Light Field for Efficient Novel View Synthesis</b></i>".<br>
     In <b>ECCV</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/project_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://snap-research.github.io/R2L/">Project Webpage</a></span><br>
@@ -144,7 +144,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Can Qin, Yue Bai, Yulun Zhang, Yun Fu.<br>
-    "Recent Advances on Neural Network Pruning at Initialization".<br>
+    "<i><b>Recent Advances on Neural Network Pruning at Initialization</b></i>".<br>
     In <b>IJCAI</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2103.06460">Arxiv</a></span><br>
@@ -159,7 +159,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang*</b>, Yulun Zhang*, Can Qin, Yun Fu.<br>
-    "Learning Efficient Image Super-Resolution Networks via Structure-Regularized Pruning".<br>
+    "<i><b>Learning Efficient Image Super-Resolution Networks via Structure-Regularized Pruning</b></i>".<br>
     In <b>ICLR</b> (Poster), 2022. (*Equal Contribution)<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://openreview.net/forum?id=AjGC97Aofee">Open Review</a></span><br>
@@ -174,7 +174,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     Yue Bai, <b>Huan Wang</b>, Zhiqiang Tao, Kunpeng Li, Yun Fu.<br>
-    "Dual Lottery Ticket Hypothesis".<br>
+    "<i><b>Dual Lottery Ticket Hypothesis</b></i>".<br>
     In <b>ICLR</b> (Poster), 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://openreview.net/forum?id=fOsN52jn25l">Open Review</a></span>, <span><a href="https://arxiv.org/abs/2203.04248">Arxiv</a></span><br>
@@ -189,7 +189,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang*</b>, Yulun Zhang*, Can Qin, Yun Fu.<br>
-    "Aligned Structured Sparsity Learning for Efficient Image Super-Resolution".<br>
+    "<i><b>Aligned Structured Sparsity Learning for Efficient Image Super-Resolution</b></i>".<br>
     In <b>NeurIPS</b> (<font color='red'>Spotlight</font>), 2021. (*Equal Contribution)<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://openreview.net/pdf?id=zAuDbrHC6fq">Camera Ready</a></span><br>
@@ -204,7 +204,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Can Qin, Yue Bai, Yun Fu.
-    "Dynamical Isometry: The Missing Ingredient for Neural Network Pruning".
+    "<i><b>Dynamical Isometry: The Missing Ingredient for Neural Network Pruning".
     Preprint.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2105.05916">Arxiv</a></span><br>
@@ -219,7 +219,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Can Qin, Yulun Zhang, Yun Fu.<br>
-    "Neural Pruning via Growing Regularization".<br>
+    "<i><b>Neural Pruning via Growing Regularization</b></i>".<br>
     In <b>ICLR</b> (Poster), 2021.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2012.09243">Arxiv</a></span>, <span><a href="https://openreview.net/forum?id=o966_Is_nPA&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2021%2FConference%2FAuthors%23your-submissions)">OpenReview</a></span> <br>
@@ -234,7 +234,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Suhas Lohit, Mike Jones, Yun Fu.
-    "Multi-head Knowledge Distillation for Model Compression".
+    "<i><b>Multi-head Knowledge Distillation for Model Compression".
     Preprint, 2020.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2012.02911">Arxiv</a></span><br>
@@ -250,7 +250,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Yijun Li, Yuehai Wang, Haoji Hu, Ming-Hsuan Yang.
-    "Collabrotive Distillation for Ultra-Resolution Universal Style Transfer".
+    "<i><b>Collabrotive Distillation for Ultra-Resolution Universal Style Transfer".
     In <b>CVPR</b> (Poster), 2020.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2003.08436">Arxiv</a>, <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Collaborative_Distillation_for_Ultra-Resolution_Universal_Style_Transfer_CVPR_2020_paper.html">Camera Ready</a></span><br>
@@ -265,7 +265,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     Xiaotang Jiang, <b>Huan Wang</b>, Yiliu Chen, Ziqi Wu, et al.<br>
-    "MNN: A Universal and Efficient Inference Engine".<br>
+    "<i><b>MNN: A Universal and Efficient Inference Engine</b></i>".<br>
     In <b>MLSys</b> 2020 (<font color='red'>Oral</font>).<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2002.12418">Arxiv</a></span><br>
@@ -281,7 +281,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Xinyi Hu, Qiming Zhang, Yuehai Wang, Lu Yu, Haoji Hu.<br>
-    "Structured Pruning for Efficient ConvNets via Incremental Regularization".<br>
+    "<i><b>Structured Pruning for Efficient ConvNets via Incremental Regularization</b></i>".<br>
     In <b>NeurIPS Workshop</b>, 2018; <b>IJCNN</b>, 2019 (<font color='red'>Oral</font>); Journal extension to <b>IEEE JSTSP</b>, 2019.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5"> <span><a href="https://arxiv.org/abs/1811.08390">NeurIPS Workshop</a></span>,
     <span><a href="https://arxiv.org/abs/1804.09461">IJCNN</a></span>,
@@ -298,7 +298,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>*, Qiming Zhang*, Yuehai Wang, Haoji Hu.<br>
-    "Structured Probabilistic Pruning for Convolutional Neural Network Acceleration".<br>
+    "<i><b>Structured Probabilistic Pruning for Convolutional Neural Network Acceleration</b></i>".<br>
     In <b>BMVC</b>, 2018 (<font color='red'>Oral</font>).<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/1709.06994">Arxiv</a>, <a href="http://bmvc2018.org/contents/papers/0870.pdf">Camera Ready</a></span> <br>
