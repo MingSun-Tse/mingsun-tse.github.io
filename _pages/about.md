@@ -42,14 +42,14 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
 ## Selected Publications
 <table style="border: none; border-collapse: collapse;" border="0">
 
-<!-- <tr style="border-collapse: separate; border-spacing:30em;">
+<!-- <tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/ECCV22_TPP.png" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
     <b>Huan Wang</b>, Yun Fu.
     "Trainability Preserving Neural Structured Pruning".
-    In <b>ECCV</b>, 2022.<br>
+    <b>ECCV</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2207.12534">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
@@ -57,15 +57,31 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr> -->
 
+<tr style="border-collapse: separate; border-spacing:none;">
+  <td style="border-collapse: collapse; border: none;">
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/MobileR2L.png" width="800" />
+  </td>
+  <td style="border-collapse: collapse; border: none;">
+    Junli Cao, <b>Huan Wang</b>, Pavlo Chemerys, Vladislav Shakhrai, Ju Hu, Yun Fu, Denys Makoviichuk, Sergey Tulyakov, Jian Ren.<br>
+    "Real-Time Neural Light Field on Mobile Devices".<br>
+    In <b>Preprint</b>, 2022.<br>
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/project_icon.png" width="20" height="20" hspace="5">
+    <span><a href="https://snap-research.github.io/MobileR2L/">Project Webpage</a></span><br>
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
+    <span><a href="https://arxiv.org/abs/2212.08057">Arxiv</a></span><br>
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
+    <span><a href="https://github.com/snap-research/MobileR2L">Code</a></span><br>
+  </td>
+</tr>
 
-<tr style="border-collapse: separate; border-spacing:30em;">
+<tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/KD_DA.png" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang</b>, Suhas Lohit, Mike Jones, Yun Fu.
-    "What Makes a "Good" Data Augmentation in Knowledge Distillation -- A Statistical Perspective".
-    In NeurIPS, 2022.<br>
+    <b>Huan Wang</b>, Suhas Lohit, Mike Jones, Yun Fu.<br>
+    "What Makes a "Good" Data Augmentation in Knowledge Distillation -- A Statistical Perspective".<br>
+    In <b>NeurIPS</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/project_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://mingsun-tse.github.io/Good-DA-in-KD">Project Webpage</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
@@ -75,14 +91,14 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr>
 
-<tr style="border-collapse: separate; border-spacing:30em;">
+<tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/Yue_NIPS22_PEMN.svg" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    Yue Bai, <b>Huan Wang</b>, Xu Ma, Yitian Zhang, Zhiqiang Tao, Yun Fu
-    "Parameter-Efficient Masking Networks".
-    In NeurIPS, 2022.<br>
+    Yue Bai, <b>Huan Wang</b>, Xu Ma, Yitian Zhang, Zhiqiang Tao, Yun Fu.<br>
+    "Parameter-Efficient Masking Networks".<br>
+    In <b>NeurIPS</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2210.06699">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
@@ -90,14 +106,14 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr>
 
-<tr style="border-collapse: separate; border-spacing:30em;">
+<tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/Yitian_NIPS22_AFNet.svg" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    Yitian Zhang, Yue Bai, <b>Huan Wang</b>, Yi Xu, Yun Fu.
-    "Look More but Care Less in Video Recognition".
-    In NeurIPS, 2022.<br>
+    Yitian Zhang, Yue Bai, <b>Huan Wang</b>, Yi Xu, Yun Fu.<br>
+    "Look More but Care Less in Video Recognition".<br>
+    In <b>NeurIPS</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="">Arxiv (Coming soon)</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
@@ -105,13 +121,13 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr>
 
-<tr style="border-collapse: separate; border-spacing:30em;">
+<tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/R2L.png" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang</b>, Jian Ren, Zeng Huang, Kyle Olszewski, Menglei Chai, Yun Fu, Sergey Tulyakov.
-    "R2L: Distilling Neural Radiance Field to Neural Light Field for Efficient Novel View Synthesis".
+    <b>Huan Wang</b>, Jian Ren, Zeng Huang, Kyle Olszewski, Menglei Chai, Yun Fu, Sergey Tulyakov.<br>
+    "R2L: Distilling Neural Radiance Field to Neural Light Field for Efficient Novel View Synthesis".<br>
     In <b>ECCV</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/project_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://snap-research.github.io/R2L/">Project Webpage</a></span><br>
@@ -122,13 +138,13 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr>
 
-<tr style="border-collapse: separate; border-spacing:30em;">
+<tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/emerging_pruning.png" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang</b>, Can Qin, Yue Bai, Yulun Zhang, Yun Fu.
-    "Recent Advances on Neural Network Pruning at Initialization".
+    <b>Huan Wang</b>, Can Qin, Yue Bai, Yulun Zhang, Yun Fu.<br>
+    "Recent Advances on Neural Network Pruning at Initialization".<br>
     In <b>IJCAI</b>, 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2103.06460">Arxiv</a></span><br>
@@ -137,13 +153,14 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr>
 
-<tr style="border-collapse: separate; border-spacing:30em;">
+<tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/ICLR22_SRP.png" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang*</b>, Yulun Zhang*, Can Qin, Yun Fu.
-    "Learning Efficient Image Super-Resolution Networks via Structure-Regularized Pruning". In <b>ICLR</b> (Poster), 2022. (*Equal Contribution)<br>
+    <b>Huan Wang*</b>, Yulun Zhang*, Can Qin, Yun Fu.<br>
+    "Learning Efficient Image Super-Resolution Networks via Structure-Regularized Pruning".<br>
+    In <b>ICLR</b> (Poster), 2022. (*Equal Contribution)<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://openreview.net/forum?id=AjGC97Aofee">Open Review</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
@@ -151,13 +168,14 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr>
 
-<tr style="border-collapse: separate; border-spacing:30em;">
+<tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/ICLR22_DLTH.png" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    Yue Bai, <b>Huan Wang</b>, Zhiqiang Tao, Kunpeng Li, Yun Fu.
-    "Dual Lottery Ticket Hypothesis". In <b>ICLR</b> (Poster), 2022.<br>
+    Yue Bai, <b>Huan Wang</b>, Zhiqiang Tao, Kunpeng Li, Yun Fu.<br>
+    "Dual Lottery Ticket Hypothesis".<br>
+    In <b>ICLR</b> (Poster), 2022.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://openreview.net/forum?id=fOsN52jn25l">Open Review</a></span>, <span><a href="https://arxiv.org/abs/2203.04248">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
@@ -165,13 +183,14 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr>
 
-<tr style="border-collapse: separate; border-spacing:30em;">
+<tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/NIPS21_ASSL.png" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang*</b>, Yulun Zhang*, Can Qin, Yun Fu.
-    "Aligned Structured Sparsity Learning for Efficient Image Super-Resolution". In <b>NeurIPS</b> (<font color='red'>Spotlight</font>), 2021. (*Equal Contribution)<br>
+    <b>Huan Wang*</b>, Yulun Zhang*, Can Qin, Yun Fu.<br>
+    "Aligned Structured Sparsity Learning for Efficient Image Super-Resolution".<br>
+    In <b>NeurIPS</b> (<font color='red'>Spotlight</font>), 2021. (*Equal Contribution)<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://openreview.net/pdf?id=zAuDbrHC6fq">Camera Ready</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
@@ -179,7 +198,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr>
 
-<!-- <tr style="border-collapse: separate; border-spacing:30em;">
+<!-- <tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/dynamical_isometry_verification.png" width="800" />
   </td>
@@ -194,13 +213,13 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr> -->
 
-<tr style="border-collapse: separate; border-spacing:30em;">
+<tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/L1norm_vs_iter.png" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang</b>, Can Qin, Yulun Zhang, Yun Fu.
-    "Neural Pruning via Growing Regularization".
+    <b>Huan Wang</b>, Can Qin, Yulun Zhang, Yun Fu.<br>
+    "Neural Pruning via Growing Regularization".<br>
     In <b>ICLR</b> (Poster), 2021.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2012.09243">Arxiv</a></span>, <span><a href="https://openreview.net/forum?id=o966_Is_nPA&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2021%2FConference%2FAuthors%23your-submissions)">OpenReview</a></span> <br>
@@ -209,7 +228,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr>
 
-<!-- <tr style="border-collapse: separate; border-spacing:30em;">
+<!-- <tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/multihead_kd.png" width="800" />
   </td>
@@ -225,7 +244,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
 </tr> -->
 
 
-<tr style="border-collapse: separate; border-spacing:30em;">
+<tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/collaborative_distillation.jpg" width="800" />
   </td>
@@ -240,13 +259,13 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr>
 
-<tr style="border-collapse: separate; border-spacing:30em;">
+<tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/MNN.jpg" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    Xiaotang Jiang, <b>Huan Wang</b>, Yiliu Chen, Ziqi Wu, et al.
-    "MNN: A Universal and Efficient Inference Engine".
+    Xiaotang Jiang, <b>Huan Wang</b>, Yiliu Chen, Ziqi Wu, et al.<br>
+    "MNN: A Universal and Efficient Inference Engine".<br>
     In <b>MLSys</b> 2020 (<font color='red'>Oral</font>).<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2002.12418">Arxiv</a></span><br>
@@ -256,13 +275,13 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
 </tr>
 
 
-<tr style="border-collapse: separate; border-spacing:30em;">
+<tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/IncReg.jpeg" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang</b>, Xinyi Hu, Qiming Zhang, Yuehai Wang, Lu Yu, Haoji Hu.
-    "Structured Pruning for Efficient ConvNets via Incremental Regularization".
+    <b>Huan Wang</b>, Xinyi Hu, Qiming Zhang, Yuehai Wang, Lu Yu, Haoji Hu.<br>
+    "Structured Pruning for Efficient ConvNets via Incremental Regularization".<br>
     In <b>NeurIPS Workshop</b>, 2018; <b>IJCNN</b>, 2019 (<font color='red'>Oral</font>); Journal extension to <b>IEEE JSTSP</b>, 2019.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5"> <span><a href="https://arxiv.org/abs/1811.08390">NeurIPS Workshop</a></span>,
     <span><a href="https://arxiv.org/abs/1804.09461">IJCNN</a></span>,
@@ -273,13 +292,13 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
 </tr>
 
 
-<tr style="border-collapse: separate; border-spacing:30em;">
+<tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/SPP.jpeg" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang</b>*, Qiming Zhang*, Yuehai Wang, Haoji Hu.
-    "Structured Probabilistic Pruning for Convolutional Neural Network Acceleration".
+    <b>Huan Wang</b>*, Qiming Zhang*, Yuehai Wang, Haoji Hu.<br>
+    "Structured Probabilistic Pruning for Convolutional Neural Network Acceleration".<br>
     In <b>BMVC</b>, 2018 (<font color='red'>Oral</font>).<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/1709.06994">Arxiv</a>, <a href="http://bmvc2018.org/contents/papers/0870.pdf">Camera Ready</a></span> <br>
