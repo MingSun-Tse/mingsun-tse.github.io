@@ -249,8 +249,8 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/collaborative_distillation.jpg" width="800" />
   </td>
   <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang</b>, Yijun Li, Yuehai Wang, Haoji Hu, Ming-Hsuan Yang.
-    "<i><b>Collabrotive Distillation for Ultra-Resolution Universal Style Transfer".
+    <b>Huan Wang</b>, Yijun Li, Yuehai Wang, Haoji Hu, Ming-Hsuan Yang.<br>
+    "<i><b>Collabrotive Distillation for Ultra-Resolution Universal Style Transfer</b></i>".<br>
     In <b>CVPR</b> (Poster), 2020.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2003.08436">Arxiv</a>, <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Collaborative_Distillation_for_Ultra-Resolution_Universal_Style_Transfer_CVPR_2020_paper.html">Camera Ready</a></span><br>
