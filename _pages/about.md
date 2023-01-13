@@ -21,6 +21,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
 
 ## News
 - 2023.01: 🔥Check out our preprint work that deciphers the *so confusing* benchmark situation in neural network (filter) pruning: [[Arxiv](https://arxiv.org/abs/2301.05219)] [[Code](https://github.com/mingsun-tse/why-the-state-of-pruning-so-confusing)]
+- 2022.12: 🔥Check out our new blazing fast🚀 neural rendering model on mobile devices: MobileR2L can render a 1008x756 image at 56fps on iPhone13 [[Arxiv](https://arxiv.org/abs/2212.08057)] [[Code](https://github.com/snap-research/MobileR2L)]
 - 2022.12: Recognized among [2022 Snap Fellowship Honorable Mentions](https://research.snap.com/fellowships.html). Thanks to Snap!
 - 2022.10: **[NeurIPS'22]** Awarded the NeurIPS'22 Scholar Award. Thanks to <a href="https://nips.cc/">NeurIPS</a>!
 - 2022.09: **[NeurIPS'22]** 3 papers accepted by NeurIPS'22: One on my lead (it was my 1st internship work at MERL in 2020 summer. Rejected 4 times. Now finally I close the loop. Thanks to my co-authors and the reviewers!), two collaborations. Code: <a href="https://huanwang.tech/Good-DA-in-KD/">Good-DA-in-KD</a>, <a href="https://github.com/yueb17/PEMN">PEMN</a>, <a href="https://github.com/BeSpontaneous/AFNet-pytorch">AFNet</a>.
@@ -58,6 +59,21 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
     <span><a href="https://github.com/mingsun-tse/tpp">PyTorch Code</a></span><br>
   </td>
 </tr> -->
+
+<tr style="border-collapse: separate; border-spacing:none;">
+  <td style="border-collapse: collapse; border: none;">
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/plot_Fairness_overview_for_Arxiv_v2.png" width="800" />
+  </td>
+  <td style="border-collapse: collapse; border: none;">
+    <b>Huan Wang</b>, Can Qin, Yue Bai, Yun Fu.
+    "<i>Why is the State of Neural Network Pruning so Confusing? On the Fairness, Comparison Setup, and Trainability in Network Pruning</i>".
+    <b>Preprint</b>, 2023.<br>
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
+    <span><a href="https://arxiv.org/abs/2301.05219">Arxiv</a></span><br>
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
+    <span><a href="https://github.com/MingSun-Tse/Why-the-State-of-Pruning-so-Confusing">Code</a></span><br>
+  </td>
+</tr>
 
 <tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
