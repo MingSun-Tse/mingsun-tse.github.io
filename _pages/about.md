@@ -20,6 +20,7 @@ I am interested in a variety of topics in computer vision and machine learning. 
 I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilelogging) research.
 
 ## News
+- 2023.01: Two papers accpeted by ICLR'23: [Trainabaility Preserveing Neural Pruning](https://openreview.net/forum?id=AZFvpnnewr) and [Image as Set of Points](https://openreview.net/forum?id=awnvqZja69&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2023%2FConference%2FAuthors%23your-submissions)) (<font color='red'>Oral, 5%</font>). 
 - 2023.01: 🔥Check out our preprint work that deciphers the *so confusing* benchmark situation in neural network (filter) pruning: [[Arxiv](https://arxiv.org/abs/2301.05219)] [[Code](https://github.com/mingsun-tse/why-the-state-of-pruning-so-confusing)]
 - 2022.12: 🔥Check out our new blazing fast🚀 neural rendering model on mobile devices: MobileR2L can render **1008x756** images at **56fps** on **iPhone13** [[Arxiv](https://arxiv.org/abs/2212.08057)] [[Code](https://github.com/snap-research/MobileR2L)]
 - 2022.12: Recognized among [2022 Snap Fellowship Honorable Mentions](https://research.snap.com/fellowships.html). Thanks to Snap!
@@ -42,23 +43,9 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
 <!-- - 2019/04: One ICIP-19 paper and ICML-19 workshop paper accepted. -->
 <!-- - 2019/03: One IJCNN-19 paper accepted as oral. -->
 
-## Selected Publications
-<table style="border: none; border-collapse: collapse;">
 
-<!-- <tr style="border-collapse: separate; border-spacing:none;">
-  <td style="border-collapse: collapse; border: none;">
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/ECCV22_TPP.png" width="800" />
-  </td>
-  <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang</b>, Yun Fu.
-    "<i>Trainability Preserving Neural Structured Pruning".
-    <b>ECCV</b>, 2022.<br>
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://arxiv.org/abs/2207.12534">Arxiv</a></span><br>
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://github.com/mingsun-tse/tpp">PyTorch Code</a></span><br>
-  </td>
-</tr> -->
+## Preprint
+<table style="border: none; border-collapse: collapse;">
 
 <tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
@@ -92,6 +79,43 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr>
 
+</table>
+
+## Selected Publications
+<table style="border: none; border-collapse: collapse;">
+
+<tr style="border-collapse: separate; border-spacing:none;">
+  <td style="border-collapse: collapse; border: none;">
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/ICLR23_TPP.png" width="800" />
+  </td>
+  <td style="border-collapse: collapse; border: none;">
+    <b>Huan Wang</b>, Yun Fu.<br>
+    "<i>Trainability Preserving Neural Pruning</i>". <br>
+    In <b>ICLR</b>, 2023.<br>
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/openreivew_icon.png" width="20" height="20" hspace="5">
+    <span><a href="https://openreview.net/forum?id=AZFvpnnewr">OpenReivew</a></span><br>
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
+    <span><a href="https://arxiv.org/abs/2207.12534">Arxiv (to be updated)</a></span><br>
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
+    <span><a href="https://github.com/mingsun-tse/tpp">PyTorch Code (to be updated)</a></span><br>
+  </td>
+</tr>
+
+<tr style="border-collapse: separate; border-spacing:none;">
+  <td style="border-collapse: collapse; border: none;">
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/ICLR23_CoC.jpeg" width="800" />
+  </td>
+  <td style="border-collapse: collapse; border: none;">
+    Xu Ma, Yuqian Zhou, <b>Huan Wang</b>, Can Qin, Bin Sun, Chang Liu, Yun Fu. <br>
+    "<i>Image as Set of Points</i>". <br>
+    In <b>ICLR</b> (<font color='red'>Oral, 5%</font>), 2023.<br>
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/open_icon.png" width="20" height="20" hspace="5">
+    <span><a href="https://openreview.net/forum?id=awnvqZja69">OpenReview</a></span><br>
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
+    <span><a href="https://anonymous.4open.science/r/ContextCluster/README.md">PyTorch Code</a></span><br>
+  </td>
+</tr>
+
 <tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/KD_DA.png" width="800" />
@@ -105,7 +129,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2012.02909">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://github.com/MingSun-Tse/Good-DA-in-KD">Code</a></span><br>
+    <span><a href="https://github.com/MingSun-Tse/Good-DA-in-KD">PyTorch Code</a></span><br>
   </td>
 </tr>
 
@@ -120,7 +144,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2210.06699">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://github.com/yueb17/PEMN">Code</a></span><br>
+    <span><a href="https://github.com/yueb17/PEMN">PyTorch Code</a></span><br>
   </td>
 </tr>
 
@@ -135,7 +159,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="">Arxiv (Coming soon)</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://github.com/BeSpontaneous/AFNet-pytorch">Code</a></span><br>
+    <span><a href="https://github.com/BeSpontaneous/AFNet-pytorch">PyTorch Code</a></span><br>
   </td>
 </tr>
 
