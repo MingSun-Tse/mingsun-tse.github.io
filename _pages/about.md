@@ -20,9 +20,9 @@ I am interested in a variety of topics in computer vision and machine learning. 
 I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilelogging) research.
 
 ## News
-- 2023.01: Two papers accpeted by ICLR'23: [Trainabaility Preserveing Neural Pruning](https://openreview.net/forum?id=AZFvpnnewr) and [Image as Set of Points](https://openreview.net/forum?id=awnvqZja69&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2023%2FConference%2FAuthors%23your-submissions)) (<font color='red'>Oral, 5%</font>). 
-- 2023.01: 🔥Check out our preprint work that deciphers the *so confusing* benchmark situation in neural network (filter) pruning: [[Arxiv](https://arxiv.org/abs/2301.05219)] [[Code](https://github.com/mingsun-tse/why-the-state-of-pruning-so-confusing)]
-- 2022.12: 🔥Check out our new blazing fast🚀 neural rendering model on mobile devices: MobileR2L can render **1008x756** images at **56fps** on **iPhone13** [[Arxiv](https://arxiv.org/abs/2212.08057)] [[Code](https://github.com/snap-research/MobileR2L)]
+- 2023.01: **[ICLR'23]** Two papers accpeted by ICLR'23: [Trainabaility Preserveing Neural Pruning](https://openreview.net/forum?id=AZFvpnnewr) and [Image as Set of Points](https://openreview.net/forum?id=awnvqZja69&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2023%2FConference%2FAuthors%23your-submissions)) (<font color='red'>Oral, 5%</font>). 
+- 2023.01: **[Preprint]** 🔥Check out our preprint work that deciphers the *so confusing* benchmark situation in neural network (filter) pruning: [[Arxiv](https://arxiv.org/abs/2301.05219)] [[Code](https://github.com/mingsun-tse/why-the-state-of-pruning-so-confusing)]
+- 2022.12: **[Preprint]** 🔥Check out our new blazing fast🚀 neural rendering model on mobile devices: MobileR2L can render **1008x756** images at **56fps** on **iPhone13** [[Arxiv](https://arxiv.org/abs/2212.08057)] [[Code](https://github.com/snap-research/MobileR2L)]
 - 2022.12: Recognized among [2022 Snap Fellowship Honorable Mentions](https://research.snap.com/fellowships.html). Thanks to Snap!
 - 2022.10: **[NeurIPS'22]** Awarded the NeurIPS'22 Scholar Award. Thanks to <a href="https://nips.cc/">NeurIPS</a>!
 - 2022.09: **[NeurIPS'22]** 3 papers accepted by NeurIPS'22: One on my lead (it was my 1st internship work at MERL in 2020 summer. Rejected 4 times. Now finally I close the loop. Thanks to my co-authors and the reviewers!), two collaborations. Code: <a href="https://huanwang.tech/Good-DA-in-KD/">Good-DA-in-KD</a>, <a href="https://github.com/yueb17/PEMN">PEMN</a>, <a href="https://github.com/BeSpontaneous/AFNet-pytorch">AFNet</a>.
@@ -92,7 +92,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
     <b>Huan Wang</b>, Yun Fu.<br>
     "<i>Trainability Preserving Neural Pruning</i>". <br>
     In <b>ICLR</b>, 2023.<br>
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/openreivew_icon.png" width="20" height="20" hspace="5">
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/openreview_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://openreview.net/forum?id=AZFvpnnewr">OpenReivew</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2207.12534">Arxiv (to be updated)</a></span><br>
@@ -109,7 +109,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
     Xu Ma, Yuqian Zhou, <b>Huan Wang</b>, Can Qin, Bin Sun, Chang Liu, Yun Fu. <br>
     "<i>Image as Set of Points</i>". <br>
     In <b>ICLR</b> (<font color='red'>Oral, 5%</font>), 2023.<br>
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/open_icon.png" width="20" height="20" hspace="5">
+    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/openreview_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://openreview.net/forum?id=awnvqZja69">OpenReview</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://anonymous.4open.science/r/ContextCluster/README.md">PyTorch Code</a></span><br>
