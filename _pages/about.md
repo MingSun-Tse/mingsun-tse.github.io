@@ -9,6 +9,7 @@ redirect_from:
   - /about.html
 ---
 ## About Me
+
 (**<font color='red'>Nov. 2022 Update</font>**: It seems the *https* service has expried recently for my website. If you see a REALLY BIG selfie of me (sorry about this, I'm not a narcissist..), that means you are probably using the *https* instead of *http* to access my website (will fix this soon!) **Click [here](http://www.huanwang.tech)** to switch to the normal view.)
 
 <mark>Dec. 2022: I am actively looking for research internship opportunities (on efficient/mobile/edge deep learning for vision tasks) in 2023 summer. If you are interested, welcome to drop me an email (wang.huan [at] northeastern [dot] edu). Thanks!</mark>
@@ -240,21 +241,6 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr>
 
-<!-- <tr style="border-collapse: separate; border-spacing:none;">
-  <td style="border-collapse: collapse; border: none;">
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/dynamical_isometry_verification.png" width="800" />
-  </td>
-  <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang</b>, Can Qin, Yue Bai, Yun Fu.
-    "<i>Dynamical Isometry: The Missing Ingredient for Neural Network Pruning".
-    Preprint.<br>
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://arxiv.org/abs/2105.05916">Arxiv</a></span><br>
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
-    <span>Code will be released soon.</span><br>
-  </td>
-</tr> -->
-
 <tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/L1norm_vs_iter.png" width="800" />
@@ -269,22 +255,6 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
     <span><a href="https://github.com/MingSun-Tse/Regularization-Pruning">PyTorch Code</a></span><br>
   </td>
 </tr>
-
-<!-- <tr style="border-collapse: separate; border-spacing:none;">
-  <td style="border-collapse: collapse; border: none;">
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/multihead_kd.png" width="800" />
-  </td>
-  <td style="border-collapse: collapse; border: none;">
-    <b>Huan Wang</b>, Suhas Lohit, Mike Jones, Yun Fu.
-    "<i>Multi-head Knowledge Distillation for Model Compression".
-    Preprint, 2020.<br>
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://arxiv.org/abs/2012.02911">Arxiv</a></span><br>
-    <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
-    <span>Code will be released soon.</span><br>
-  </td>
-</tr> -->
-
 
 <tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
@@ -351,7 +321,10 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
 
 </table>
 
+## Talks
+- [01/06/2023] [VITA group @ UT Austin](https://vita-group.github.io/index.html): *[Why is the State of Neural Network Pruning so Confusing? On the Fairness, Comparison Setup, and Trainability in Network Pruning](https://github.com/mingsun-tse/why-the-state-of-pruning-so-confusing)*
+- [09/30/2021] [Data Lab @ NEU](https://db.khoury.northeastern.edu/activities/): *[Neural Pruning via Growing Regularization](https://github.com/MingSun-Tse/Regularization-Pruning)*
 
 ## Academic Services
 - Journal Reviewer: IJCV, TIP, TNNLS, JSTSP, Neurocomputing, etc.
-- Conference Reviewer: CVPR, ECCV, ICML, NeurIPS, ICLR, AAAI, IJCAI, MLSys, etc.
+- Conference Reviewer: CVPR'22, ECCV'22, ICML'22, NeurIPS'22, ICLR'22, AAAI'23, IJCAI'23, CVPR'23, MLSys'23, ICCV'23, etc.
