@@ -16,12 +16,14 @@ redirect_from:
 
 My name is Huan Wang (Chinese: 王欢. My first name means "happiness/joy" in Chinese, a simple and ultimate wish from my parents). I am now a 4th-year Ph.D. candidate at [SMILE Lab](https://web.northeastern.edu/smilelab/) of Northeastern University (Boston, USA), advised by Prof. [Yun (Raymond) Fu](http://www1.ece.neu.edu/~yunfu/). Before that, I received my M.S. and B.E. degrees from Zhejiang University (Hangzhou, China) in 2019 and 2016, respectively, advised by Prof. [Haoji Hu](https://person.zju.edu.cn/en/huhaoji). During 2018 summer, I visited [VLLab](http://vllab.ucmerced.edu/) at University of California, Merced, luckily working with Prof. [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). I have been very lucky to work with  fatanstic industrial guys from **Alibaba Group** / **MERL** / **Snap** during my summer internships.
 
-I am interested in a variety of topics in computer vision and machine learning. My research works orbit [efficient deep learning](https://github.com/MingSun-Tse/EfficientDNNs) (a.k.a. model compression), spanning from the most common image classifcation task ([GReg](https://github.com/MingSun-Tse/Regularization-Pruning), [Awesome-PaI](https://github.com/MingSun-Tse/Awesome-Pruning-at-Initialization), [TPP](https://github.com/MingSun-Tse/TPP)) to neural style transfer ([Collaborative-Distillation](https://github.com/MingSun-Tse/Collaborative-Distillation)), single image super-resolution ([ASSL](https://github.com/MingSun-Tse/ASSL), [SRP](https://github.com/MingSun-Tse/SRP)), and 3D novel view synthesis ([R2L](https://snap-research.github.io/R2L/)).
+I am interested in a variety of topics in computer vision and machine learning. My research works orbit [efficient deep learning](https://github.com/MingSun-Tse/EfficientDNNs) (a.k.a. model compression), spanning from the most common image classifcation task ([GReg](https://github.com/MingSun-Tse/Regularization-Pruning), [Awesome-PaI](https://github.com/MingSun-Tse/Awesome-Pruning-at-Initialization), [TPP](https://github.com/MingSun-Tse/TPP)) to neural style transfer ([Collaborative-Distillation](https://github.com/MingSun-Tse/Collaborative-Distillation)), single image super-resolution ([ASSL](https://github.com/MingSun-Tse/ASSL), [SRP](https://github.com/MingSun-Tse/SRP)), and 3D novel view synthesis / NeRF ([R2L](https://snap-research.github.io/R2L/), [MobileR2L](https://github.com/snap-research/MobileR2L)).
 
 I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilelogging) research.
 
 ## News
+- 2023.02: **[CVPR'23]** Two papers accepted by CVPR'23: 1. MobileR2L: [[Arxiv](https://arxiv.org/abs/2212.08057)] [[Code](https://github.com/snap-research/MobileR2L)] (🎉congrats to [Junli](https://www.linkedin.com/in/junli-cao-5165b41a1/)) 2. Frame Flexible Network (🎉congrats to [Yitian](https://bespontaneous.github.io/homepage/))
 - 2023.01: **[ICLR'23]** Two papers accpeted by ICLR'23: [Trainabaility Preserveing Neural Pruning](https://openreview.net/forum?id=AZFvpnnewr) and [Image as Set of Points](https://openreview.net/forum?id=awnvqZja69&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2023%2FConference%2FAuthors%23your-submissions)) (<font color='red'>Oral, 5%</font>). 
+- 2023.01: **[Internship]** Start part-time research internship at Snap, luckily working with the [Creative Vision](https://research.snap.com/team/category/creative-vision.html) team again.
 - 2023.01: **[Preprint]** 🔥Check out our preprint work that deciphers the *so confusing* benchmark situation in neural network (filter) pruning: [[Arxiv](https://arxiv.org/abs/2301.05219)] [[Code](https://github.com/mingsun-tse/why-the-state-of-pruning-so-confusing)]
 - 2022.12: **[Preprint]** 🔥Check out our new blazing fast🚀 neural rendering model on mobile devices: MobileR2L can render **1008x756** images at **56fps** on **iPhone13** [[Arxiv](https://arxiv.org/abs/2212.08057)] [[Code](https://github.com/snap-research/MobileR2L)]
 - 2022.12: Recognized among [2022 Snap Fellowship Honorable Mentions](https://research.snap.com/fellowships.html). Thanks to Snap!
@@ -32,7 +34,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
 - 2022.04: **[IJCAI'22]** We offer the very first survey paper on **Pruning at Initialization**, accepted by IJCAI'22 [<a href="https://arxiv.org/abs/2103.06460">Arxiv</a>] [<a href="https://github.com/MingSun-Tse/Awesome-Pruning-at-Initialization">Paper Collection</a>].
 - 2022.01: **[ICLR'22]** Two papers on neural network sparsity accepted by ICLR'22. One is about efficient image super-resolution (<a href="https://openreview.net/forum?id=AjGC97Aofee">SRP</a>), the other about lottery ticket hypothsis (<a href="https://openreview.net/forum?id=fOsN52jn25l">DLTH</a>).
 - 2021.09: **[NeurIPS'21]** One paper on efficient image super-resolution is accepted by NeurIPS'21 as a <font color='red'>Spotlight</font> paper (<3%)! [<a href="https://github.com/MingSun-Tse/ASSL">PyTorch Code</a>]
-- 2021.06: **[Internship'21]** Start summer internship at Snap Inc., working with the fantastic <a href="https://research.snap.com/team/category/creative-vision/">Creative Vision</a> team.
+- 2021.06: **[Internship'21]** Start summer internship at Snap Inc., working with the fantastic <a href="https://research.snap.com/team/category/creative-vision.html">Creative Vision</a> team.
 - 2021.01: **[ICLR'21]** One paper about neural network pruning accepted by ICLR'21 as poster. [<a href="https://arxiv.org/abs/2012.09243">Arxiv</a>] [<a href="https://github.com/MingSun-Tse/Regularization-Pruning">PyTorch Code</a>]
 - 2020.06: **[Internship'20]** Start summer internship at MERL, working with Dr. <a href="https://scholar.google.com/citations?user=h-V4QaMAAAAJ&hl=en&oi=ao" >Mike Jones</a> and Dr. <a href="http://suhaslohit.github.io">Suhas Lohit</a>. (09/2022 Update: Finally, paper of this project accpeted by NeurIPS'22. Thanks to my co-authors and the reviewers!)
 - 2020.02: **[CVPR'20]** One paper about model compression for ultra-resolution neural style transfer is accepted by CVPR 2020. Code released <a href="https://github.com/MingSun-Tse/Collaborative-Distillation">here</a>.
@@ -63,6 +65,11 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   </td>
 </tr>
 
+</table>
+
+## Selected Publications
+<table style="border: none; border-collapse: collapse;">
+  
 <tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/MobileR2L.png" width="800" />
@@ -70,7 +77,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
   <td style="border-collapse: collapse; border: none;">
     Junli Cao, <b>Huan Wang</b>, Pavlo Chemerys, Vladislav Shakhrai, Ju Hu, Yun Fu, Denys Makoviichuk, Sergey Tulyakov, Jian Ren.<br>
     "<i>Real-Time Neural Light Field on Mobile Devices</i>".<br>
-    <b>Preprint</b>, 2022.<br>
+    <b>CVPR</b>, 2023.<br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/project_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://snap-research.github.io/MobileR2L/">Project Webpage</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
@@ -79,11 +86,6 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
     <span><a href="https://github.com/snap-research/MobileR2L">Code</a></span><br>
   </td>
 </tr>
-
-</table>
-
-## Selected Publications
-<table style="border: none; border-collapse: collapse;">
 
 <tr style="border-collapse: separate; border-spacing:none;">
   <td style="border-collapse: collapse; border: none;">
