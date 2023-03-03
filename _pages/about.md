@@ -98,7 +98,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/openreview_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://openreview.net/forum?id=AZFvpnnewr">OpenReivew</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://arxiv.org/abs/2207.12534">Arxiv (to be updated)</a></span><br>
+    <span><a href="https://arxiv.org/abs/2207.12534">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://github.com/mingsun-tse/tpp">PyTorch Code (to be updated)</a></span><br>
   </td>
