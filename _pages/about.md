@@ -12,7 +12,7 @@ redirect_from:
 
 (**<font color='red'>Nov. 2022 Update</font>**: It seems the *https* service has expried recently for my website. If you see a REALLY BIG selfie of me (sorry about this, I'm not a narcissist..), that means you are probably using the *https* instead of *http* to access my website (will fix this soon!) **Click [here](http://www.huanwang.tech)** to switch to the normal view.)
 
-<mark>Dec. 2022: I am actively looking for research internship opportunities (on efficient/mobile/edge deep learning for vision tasks) in 2023 summer. If you are interested, welcome to drop me an email (wang.huan [at] northeastern [dot] edu). Thanks!</mark>
+<!-- <mark>Dec. 2022: I am actively looking for research internship opportunities (on efficient/mobile/edge deep learning for vision tasks) in 2023 summer. If you are interested, welcome to drop me an email (wang.huan [at] northeastern [dot] edu). Thanks!</mark> -->
 
 My name is Huan Wang (Chinese: 王欢. My first name means "happiness/joy" in Chinese, a simple and ultimate wish from my parents). I am now a 4th-year Ph.D. candidate at [SMILE Lab](https://web.northeastern.edu/smilelab/) of Northeastern University (Boston, USA), advised by Prof. [Yun (Raymond) Fu](http://www1.ece.neu.edu/~yunfu/). Before that, I received my M.S. and B.E. degrees from Zhejiang University (Hangzhou, China) in 2019 and 2016, respectively, advised by Prof. [Haoji Hu](https://person.zju.edu.cn/en/huhaoji). During 2018 summer, I visited [VLLab](http://vllab.ucmerced.edu/) at University of California, Merced, luckily working with Prof. [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). I have been very lucky to work with  fatanstic industrial guys from **Alibaba Group** / **MERL** / **Snap** during my summer internships.
 
