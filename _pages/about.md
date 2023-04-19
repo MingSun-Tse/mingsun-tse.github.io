@@ -21,7 +21,8 @@ I am interested in a variety of topics in computer vision and machine learning. 
 I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilelogging) research.
 
 ## News
-- 2023.03: **[Award]** Received ICLR'23 travel award. Thanks to [ICLR](https://iclr.cc/)! I am going to attend ICLR'23 in [Kigali Rwanda](https://www.wikiwand.com/en/Kigali) to present our papers ([Trainability Preserving Neural Pruning](https://openreview.net/forum?id=AZFvpnnewr), [Image as Set of Points](https://openreview.net/forum?id=awnvqZja69)). Look forward to seeing you there if you also attend!
+- 2023.04: **[TPAMI]** Extension of our NeurIPS'21 spotlight paper [ASSL](https://openreview.net/pdf?id=zAuDbrHC6fq) is accepted by TPAMI! Code will be relased to the [same repo](https://github.com/MingSun-Tse/ASSL).
+- 2023.03: **[Award]** Received ICLR'23 travel award. Thanks to [ICLR](https://iclr.cc/)! <s>I am going to attend ICLR'23 in [Kigali Rwanda](https://www.wikiwand.com/en/Kigali) to present our papers ([Trainability Preserving Neural Pruning](https://openreview.net/forum?id=AZFvpnnewr), [Image as Set of Points](https://openreview.net/forum?id=awnvqZja69)). Look forward to seeing you there if you also attend!</s> (I shall not attend in person due to visa issues...🙁)
 - 2023.02: **[CVPR'23]** Two papers accepted by CVPR'23: 1. MobileR2L: [[Arxiv](https://arxiv.org/abs/2212.08057)] [[Code](https://github.com/snap-research/MobileR2L)] (🎉congrats to [Junli](https://www.linkedin.com/in/junli-cao-5165b41a1/)) 2. Frame Flexible Network (🎉congrats to [Yitian](https://bespontaneous.github.io/homepage/))
 - 2023.01: **[ICLR'23]** Two papers accpeted by ICLR'23: [Trainabaility Preserveing Neural Pruning](https://openreview.net/forum?id=AZFvpnnewr) and [Image as Set of Points](https://openreview.net/forum?id=awnvqZja69&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2023%2FConference%2FAuthors%23your-submissions)) (<font color='red'>Oral, top-5%</font>). 
 - 2023.01: **[Internship]** Start part-time research internship at Snap, luckily working with the [Creative Vision](https://research.snap.com/team/category/creative-vision.html) team again.
@@ -101,7 +102,7 @@ I do my best towards [easily reproducible](https://github.com/MingSun-Tse/smilel
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/pdf_icon.png" width="20" height="20" hspace="5">
     <span><a href="https://arxiv.org/abs/2207.12534">Arxiv</a></span><br>
     <img src="https://raw.githubusercontent.com/mingsun-tse/mingsun-tse.github.io/master/images/github_icon.png" width="20" height="20" hspace="5">
-    <span><a href="https://github.com/mingsun-tse/tpp">PyTorch Code (to be updated)</a></span><br>
+    <span><a href="https://github.com/mingsun-tse/tpp">PyTorch Code</a></span><br>
   </td>
 </tr>
 
