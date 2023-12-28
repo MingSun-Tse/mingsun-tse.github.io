@@ -113,6 +113,7 @@ a {
     font-size: 16px;
 }
 
+/* Not used */
 strong {
     font-family: Optima, "Lato", Verdana, Helvetica, sans-serif;
     /* font-size: 14px; */
@@ -125,6 +126,7 @@ heading {
     font-size: 24px;
 }
 
+/* Not used */
 papertitle {
     font-family: Optima, "Lato", Verdana, Helvetica, sans-serif;
     /* font-size: 14px; */
@@ -167,4 +169,101 @@ name {
 
 span.highlight {
     background-color: #ffffd0;
+}
+
+/* Define my own td for text and image. */
+.td_bio_text {
+    padding: 2.5%;
+    width: 60%;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.td_bio_photo {
+    padding: 2.5%;
+    width: 25%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.td_project_image {
+    padding-left: 2.5%;
+    padding-bottom: 2.5%;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.td_project_text {
+    padding-left: 2.5%;
+    padding-bottom: 2.5%;
+    width: 70%;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.table_projects {
+    width: 100%;
+    border: 0px;
+    border-spacing: 3px; /* Here, border-spacing:5px is to adjust the vertical margin between two tr below */
+    border-collapse: separate;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+}
+
+/* Customize mobile view */
+@media screen and (max-width: 800px) {
+    table,
+    tbody,
+    tr {
+        display: block;
+        width: 100%;
+    }
+    td {
+        display: block;
+        width: 100%;
+    }
+    .td_bio_photo {
+        padding-left: 32%;
+        padding-right: 32%;
+        width: 36%;
+    }
+    .td_bio_text {
+        width: 100%;
+    }
+    .td_project_image {
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+    }
+    .td_project_text {
+        width: 100%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        padding-bottom: 10%;
+    }
+    .table_projects {
+        border-spacing: 0 20px;
+    }
+
+    /* Adjust font size */
+    name {
+        font-family: Optima, "Lato", Verdana, Helvetica, sans-serif;
+        font-size: 24px;
+    }
+
+    heading {
+        font-family: Optima, "Lato", Verdana, Helvetica, sans-serif;
+        font-size: 22px;
+    }
+
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+        font-family: Optima, "Lato", Verdana, Helvetica, sans-serif;
+        font-size: 14px;
+    }
 }
