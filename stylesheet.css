@@ -211,6 +211,14 @@ span.highlight {
     text-align: justify;
 }
 
+.date_badge {
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    padding: 0px 5px; /* Vertical and horizontal padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 90%; /* Slightly smaller font size */
+}
+
 /* Customize mobile view */
 @media screen and (max-width: 800px) {
     table,
