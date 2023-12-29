@@ -175,18 +175,18 @@ span.highlight {
 .td_bio_text {
     padding-top: 2.5%;
     padding-right: 2.5%;
-    padding-left: 0;
-    padding-bottom: 0;
+    padding-left: 2.5%;
+    padding-bottom: 2.5%;
     width: 60%;
     text-align: justify;
     vertical-align: middle;
 }
 
 .td_bio_photo {
+    padding-top: 2.5%;
+    padding-right: 2.5%;
     padding-left: 2.5%;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 2.5%;
     width: 25%;
     vertical-align: middle;
     text-align: center;
@@ -238,14 +238,12 @@ span.highlight {
         width: 100%;
     }
     .td_bio_photo {
-        padding-top: 0;
-        padding-bottom: 0;
         padding-left: 32%;
         padding-right: 32%;
         width: 36%;
     }
     .td_bio_text {
-        width: 100%;
+        width: 95%;
     }
     .td_project_image {
         padding-left: 5%;
@@ -253,7 +251,7 @@ span.highlight {
         width: 90%;
     }
     .td_project_text {
-        width: 100%;
+        width: 95%;
         padding-left: 2.5%;
         padding-right: 2.5%;
         padding-bottom: 10%;
