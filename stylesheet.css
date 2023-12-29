@@ -173,14 +173,20 @@ span.highlight {
 
 /* Define my own td for text and image. */
 .td_bio_text {
-    padding: 2.5%;
+    padding-top: 2.5%;
+    padding-right: 2.5%;
+    padding-left: 0;
+    padding-bottom: 0;
     width: 60%;
     text-align: justify;
     vertical-align: middle;
 }
 
 .td_bio_photo {
-    padding: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     width: 25%;
     vertical-align: middle;
     text-align: center;
@@ -232,6 +238,8 @@ span.highlight {
         width: 100%;
     }
     .td_bio_photo {
+        padding-top: 0;
+        padding-bottom: 0;
         padding-left: 32%;
         padding-right: 32%;
         width: 36%;
