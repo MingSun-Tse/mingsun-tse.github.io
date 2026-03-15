@@ -4,16 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For Prospective PhD Students</title>
+    <title>Huan's Research Statement</title>
     <style>
         body {
-            font-family: 'Georgia', 'Times New Roman', serif;
+            font-family: 'Optima', 'Georgia', 'Times New Roman', serif;
             line-height: 1.7;
             max-width: 780px;
             margin: 40px auto;
             padding: 0 20px;
             color: #222;
             background-color: #fdfdfd;
+            scroll-behavior: smooth;
         }
 
         h1 {
@@ -32,100 +33,297 @@
             margin: 40px 0;
         }
 
-        .notes {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            font-size: 14px;
-            background-color: #f5f5f5;
-            padding: 20px;
-            border-radius: 6px;
-            color: #444;
-        }
-
-        .notes h3 {
-            margin-top: 0;
-            font-size: 16px;
-        }
-
         p {
             margin-bottom: 1.2em;
             text-align: justify;
+        }
+
+        /* --- 引用样式 --- */
+        .citation {
+            font-size: 0.8em;
+            vertical-align: super;
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+
+        /* --- 新增：类似 LaTeX \tt 的打字机等宽字体样式 --- */
+        .tt {
+            font-family: 'Courier New', Courier, 'Lucida Console', Monaco, monospace;
+            /* 可选：稍微增加一点字间距，更有打字机的感觉 */
+            letter-spacing: 0.5px;
+            color: #000;
+            /* 稍微加深一点颜色，让等宽字体更醒目 */
+        }
+
+        /* --- 作者信息样式 --- */
+        .author-info {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .author-name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .citation:hover {
+            text-decoration: underline;
+        }
+
+        .references {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 2px solid #eee;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .references h2 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        .references ol {
+            padding-left: 22px;
+        }
+
+        .references li {
+            margin-bottom: 12px;
+            scroll-margin-top: 20px;
+        }
+
+        .backref {
+            color: #666;
+            text-decoration: none;
+            margin-left: 8px;
+            font-size: 0.9em;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>How do I consider my research? and what is Efficient AI?</h1>
+    <h1>Huan's Research Statement</h1>
 
-    <p>Yes, my research focuses on intelligence, and my official title is Assistant Professor.</p>
+    <!-- 新增：作者信息区域，居中显示 -->
+    <div class="author-info">
+        <span class="author-name">Huan Wang</span>,
+        <span class="author-institution">Westlake University</span>,
+        <span class="author-email"><span class="tt">wanghuan@westlake.edu.cn</span></span>
+    </div>
 
-    <p>However, when it comes to my self-identification, what we refer to in most cases is one’s occupation.</p>
+    <h2>What I am doing and how I do it</h2>
 
-    <p>What is an occupation? An occupation is the work people engage in to make a living.</p>
+    <p>Yes, I am doing "AI research", attempting to realize intelligence on machines, as an assistant professor at
+        Westlake University. My group specifically focuses on
+        a particular aspect of it, like many others do, called "Efficient AI".
+    </p>
 
-    <p>For me, working at Westlake University carries a far more profound meaning: it is my vocation. It is the very way
-        I exist as a human being.</p>
+    <p>This is not the whole story, nevertheless.</p>
 
-    <p>At the fundamental level, even my professional work is part of all my conscious activities, guided and framed by
-        my world outlook, outlook on life, and values. Long before I took this position, my thinking as an individual
-        was shaped and inspired by Enlightenment thinkers (Jean-Jacques Rousseau), German classical philosophy (Immanuel
-        Kant), contemporary art (Marcel Duchamp), and Karl Marx.</p>
 
-    <p>Existing as a means is only one part of my being. I hope this part will take up less and less space in my life,
-        until ultimately, I exist purely as an end in myself.</p>
+    <p>Working at Westlake University is an occupation, a means for livelihood, more importantly, also a vocation, a
+        way of "being".
+    </p>
 
-    <p>None of the above has a direct link to AI or my specific research direction (though they are intrinsically
-        connected at the fundamental level). Yet none of us exists as a collection of isolated attributes; we exist as
-        an integrated whole. These ideas and influences profoundly shape how I view current technologies, including AI,
-        how I work at Westlake University, how I lead my research group, and what kind of papers I choose to publish,
-        among many other things. For this reason, beyond my core research work, I have maintained a long-term focus on
-        philosophy and sociology. While these are labeled as academic disciplines that seem to stand parallel to
+
+    <p>Fundamentally, my professional work is part of all my conscious activities, guided and framed by
+        my perspective on the world and myself. Before I took this position, my thinking as
+        an individual
+        was shaped and inspired by a few authentic brains: the Enlightenment thinkers (e.g., Jean-Jacques
+        Rousseau)<cite data-key="rousseau"></cite>, modern philosophers (e.g., Immanuel
+        Kant)<cite data-key="kant"></cite>, Ludwig Wittgenstein<cite data-key="wittgenstein"></cite>, and Friedrich
+        Hegel<cite data-key="hegel"></cite>), Zen
+        buddaism<cite data-key="zen"></cite>, contemporary art (e.g., Marcel Duchamp<cite data-key="duchamp"></cite>,
+        Marina Abramović<cite data-key="abramovic"></cite>, Deqing Xie<cite data-key="xie"></cite>), and post-modernism,
+        and of course, the Chinese pragmatism-centered thinkers (e.g., SIMA Tan / SIMA Qian<cite
+            data-key="sima"></cite>) and their
+        near-modern followers (e.g., QIAN Mu<cite data-key="qianmu"></cite>, HU Shih<cite data-key="hushih"></cite>).
+        Their ideas and perspectives have inspired me to think of the world as a dynamic, interconnected whole, instead
+        of separate problems for
+        different disciplines / professionals. To a large extent, I am not opting to do so; instead, I
+        <em>had
+        </em> to,
+        after I
+        realized we <em>cannot</em> really "outsource" the very personal problems of our own
+        (e.g., meaning of life, purpose of existence, what kind of job / research / study / family /
+        friendship /
+        relationship we
+        want
+        to have)
+        to some
+        people called "scientists" / "philosophers" / "sociologists" / "psychologists" simply based on
+        the reason that they
+        are more "expert" in these areas than we are.
+    </p>
+
+    <p>Admittedly, none of the above appears to have a direct connection to AI or my specific research at Westlake
+        (though they
+        are
+        intrinsically
+        connected at the fundamental level, the way I see it). Yet just like we all exist as an integrated whole
+        instead of a collection of isolated attributes, these ideas and influences profoundly shape how I view current
+        technologies, including AI, how I work at Westlake, how I lead my research group, and what kind of
+        papers we tend to publish, among many others.
+
+        For this reason, beyond my core research work, I also maintain a long-term focus on
+        philosophy and sociology, not only for the long-term goal of job / occupation / money making as a tool for
+        livelihood, but also for
+        understanding
+        the world and myself as a pure goal in itself. While
+        these are
+        labeled as academic disciplines that seem to stand parallel to
         computer science and AI — one falling into the humanities and social sciences, the other into science and
-        engineering — I lean toward the view held by Auguste Comte and many philosophers: these disciplines do not stand
+        engineering — I lean toward the view<cite data-key="comte"></cite> that these disciplines do not
+        stand
         on an equal footing in parallel, but rather exist in a hierarchical, inclusive relationship. I study them not
-        out of curiosity / hobby, but because they serve a critical purpose: they help me understand the fundamental
-        nature of the
-        world and of myself. Hierarchically and ontologically, this pursuit sits at a higher level than my AI research.
-        The former is about ends and existence, while the latter is about means and livelihood.</p>
+        out of curiosity / hobby, but for a very practical reason: they uncloud the fog for me that science and
+        technology cannot see through (at least in their current capabilities).
+        Hierarchically and ontologically, this pursuit sits at a higher level than my
+        AI research in the technical sense.
+    </p>
+
+    <h2>What is Efficient AI? What is the long-term mission?</h2>
 
     <p>My own work accounts for only a small fraction of the broader field of AI (we all must maintain focused given our
         limited time and energy). However, at the level of thinking and inquiry, my attention extends far beyond the
         scope covered in my published papers. Broadly speaking, I focus on two core areas: first, how AI can serve as a
         better information processing tool (where "better" is defined as stronger performance at a lower cost, grounded
-        in instrumental rationality); and second, AI ethics (grounded in value rationality).</p>
+        in instrumental rationality); and second, AI ethics (grounded in value rationality)<cite
+            data-key="weber"></cite>.
+    </p>
 
     <p>To elaborate on how AI can be a better information processing tool: AI as it exists today is built on computer
-        systems. What it essentially does is deploy models onto hardware, and the work we do acts as a "bridge" between
+        systems. The almost 80 years of history of AI (since 1948 Winner Cybenetics) coincided with the development of
+        computer systems. What it essentially does is deploy models onto hardware, and the work we do acts as a "bridge"
+        between
         the two. This bridge is structured in layers: the algorithm layer, the system layer, and the hardware layer.
         Each layer comes with different potential gains and risks. During my PhD, my work focused primarily on the
-        algorithm layer; now, my research spans both the algorithm and system layers.</p>
+        algorithm layer; now, my research spans both the algorithm and system layers.
+    </p>
 
     <p>We place no restrictions on the upper-layer models and tasks we work on; we pursue cutting-edge topics as they
         emerge. This is why you will see that our work has covered a wide range of tasks, including classification,
         style transfer, super-resolution, text-to-image generation, large video models, robot manipulation, and
         single-exposure imaging, among others. Fundamentally, this is because the processing tool for all these tasks is
         the neural network model. Our core research objects are inherently models and hardware, and which specific task
-        the model is applied to is ultimately of secondary relevance to our work.</p>
-
-    <hr>
-
+        the model is applied to is ultimately of secondary relevance to our work.
+    </p>
 
 
+    <h2>To Prospective Students and Collaborators</h2>
 
-    <!-- 访问量统计代码开始 -->
-    <script async src="https://cdn.jsdelivr.net/npm/counterapi@1.14.0/dist/index.umd.min.js"></script>
+    <p>If you are interested in joining my lab, please feel free to contact me; please refer to <a
+            href="https://huanwang.tech/files/to_prospective_students_huan_westlake.pdf">this file</a>.
+        At the same time, I am also eager to
+        collaborate interdisciplinaryly with researchers in sustainability, philosophy, and social sciences, etc.
+    </p>
+
+
+    <p>Last updated: March 15th, 2026</p>
+
+
+    <!-- 这里是参考文献的容器，JS会自动把列表生成在这里 -->
+    <section class="references">
+        <h2>References</h2>
+        <ol id="references-list">
+            <!-- 列表内容将由 JS 自动生成 -->
+        </ol>
+    </section>
+
+
+
+
+    <!-- 访问量统计 -->
     <div style="text-align: center; margin-top: 50px; font-size: 14px; color: #888;">
-        👁️ Views: <span id="visits"></span>
+        👁️ Views: <span id="visits">--</span>
     </div>
-    <script>
-        // 使用你的页面路径生成一个唯一的ID，你也可以改成自己的名字
-        const counterId = 'westlake_phd_page';
 
-        counterapi.up(counterId).then(resp => {
-            document.getElementById('visits').innerText = resp.value;
+    <!-- ========================================== -->
+    <!-- 【核心区域】你只需要修改这里的参考文献数据即可 -->
+    <!-- ========================================== -->
+    <script>
+        // 参考文献数据库
+        // 格式："唯一ID": "完整的文献信息",
+        // 注意：ID不要有空格，用下划线或连字符
+        const BIBLIOGRAPHY_DATA = {
+            "rousseau": "Rousseau, J.-J. (1762). <em>Émile, or On Education</em>.",
+            "kant": "Kant, I. (1781). <em>Critique of Pure Reason</em>.",
+            "wittgenstein": "Wittgenstein, L. (1953). <em>Philosophical Investigations</em>. Blackwell.",
+            "zen": "Suzuki, D. T. (1949). <em>Zen Buddhism</em>. Doubleday.",
+            "duchamp": "Duchamp, M. (1973). <em>The Essential Writings of Marcel Duchamp</em>. Thames & Hudson.",
+            "abramovic": "Abramović, M. (2018). <em>Walk Through Walls: A Memoir</em>. Crown Archetype.",
+            "xie": "Xie, D. (2005). <em>Xie Deqing: Performance Art</em>.",
+            "confucius": "Confucius. (1997). <em>The Analects</em> (D. C. Lau, Trans.). Penguin Classics.",
+            "sima": "Sima, Q. (1993). <em>Records of the Grand Historian</em> (B. Watson, Trans.). Columbia University Press.",
+            "comte": "Comte, A. (1855). <em>The Positive Philosophy of Auguste Comte</em>.",
+            "weber": "Weber, M. (1946). <em>From Max Weber: Essays in Sociology</em> (H. H. Gerth & C. Wright Mills, Eds.). Oxford University Press."
+        };
+
+        // ------------------------------------------------------
+        // 下面的逻辑代码不需要修改，它会自动处理编号和跳转
+        // ------------------------------------------------------
+        document.addEventListener('DOMContentLoaded', function () {
+            const citeTags = document.querySelectorAll('cite[data-key]');
+            const refList = document.getElementById('references-list');
+            const orderMap = {}; // 存储 key -> 序号 的映射
+            let currentIndex = 1;
+
+            // 1. 遍历正文所有引用，分配序号
+            citeTags.forEach(tag => {
+                const key = tag.getAttribute('data-key');
+
+                // 如果这个key还没出现过，分配新序号
+                if (!orderMap[key]) {
+                    orderMap[key] = currentIndex++;
+                }
+
+                const index = orderMap[key];
+
+                // 生成上标链接
+                const link = document.createElement('a');
+                link.href = `#ref-${key}`;
+                link.id = `cite-${key}`;
+                link.className = 'citation';
+                link.textContent = `[${index}]`;
+
+                // 替换掉原来的 <cite> 标签
+                tag.parentNode.replaceChild(link, tag);
+            });
+
+            // 2. 生成底部参考文献列表（按出现顺序排序）
+            // 先把对象转成数组并按序号排序
+            const sortedRefs = Object.keys(orderMap)
+                .map(key => ({ key: key, index: orderMap[key], text: BIBLIOGRAPHY_DATA[key] || `Missing ref for ${key}` }))
+                .sort((a, b) => a.index - b.index);
+
+            sortedRefs.forEach(ref => {
+                const li = document.createElement('li');
+                li.id = `ref-${ref.key}`;
+                li.innerHTML = `${ref.text} <a href="#cite-${ref.key}" class="backref">↩</a>`;
+                refList.appendChild(li);
+            });
         });
     </script>
-    <!-- 访问量统计代码结束 -->
+
+    <!-- 计数器脚本 -->
+    <script async src="https://cdn.jsdelivr.net/npm/counterapi@1.14.0/dist/index.umd.min.js"></script>
+    <script>
+        window.addEventListener('load', () => {
+            if (window.counterapi) {
+                counterapi.up('westlake_phd_page').then(r => {
+                    document.getElementById('visits').innerText = r.value;
+                });
+            }
+        });
+    </script>
 
 </body>
 
