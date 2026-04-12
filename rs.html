@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huan's Research Statement</title>
+    <style>
+        body {
+            font-family: 'Optima', 'Georgia', 'Times New Roman', serif;
+            line-height: 1.7;
+            max-width: 780px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #222;
+            background-color: #fdfdfd;
+            scroll-behavior: smooth;
+        }
+
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: normal;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+
+        h2,
+        h3 {
+            margin-top: 2.2em;
+            margin-bottom: 1.1em;
+        }
+
+        p {
+            margin-bottom: 1.3em;
+            text-align: justify;
+        }
+
+        /* Citation style */
+        .citation {
+            font-size: 0.8em;
+            vertical-align: super;
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        .citation:hover {
+            text-decoration: underline;
+        }
+
+        /* Footnote style */
+        .footnote-ref {
+            font-size: 0.78em;
+            vertical-align: super;
+            color: #0066cc;
+            text-decoration: none;
+            cursor: pointer;
+            margin-left: 3px;
+        }
+
+        .footnote-ref:hover {
+            text-decoration: underline;
+        }
+
+        .footnotes {
+            margin-top: 70px;
+            padding-top: 35px;
+            border-top: 2px solid #eee;
+            font-size: 14.5px;
+            line-height: 1.65;
+        }
+
+        .footnotes h2 {
+            font-size: 18px;
+            margin-bottom: 22px;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        .footnotes ol {
+            padding-left: 24px;
+        }
+
+        .footnotes li {
+            margin-bottom: 16px;
+            scroll-margin-top: 30px;
+        }
+
+        .footnote-back {
+            color: #666;
+            text-decoration: none;
+            margin-left: 10px;
+            font-size: 0.92em;
+        }
+
+        .footnote-back:hover {
+            text-decoration: underline;
+        }
+
+        /* Author info */
+        .author-info {
+            text-align: center;
+            margin-bottom: 45px;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .author-name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .references {
+            margin-top: 70px;
+            padding-top: 35px;
+            border-top: 2px solid #eee;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .references h2 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        .references ol {
+            padding-left: 22px;
+        }
+
+        .references li {
+            margin-bottom: 12px;
+            scroll-margin-top: 20px;
+        }
+
+        .backref {
+            color: #666;
+            text-decoration: none;
+            margin-left: 8px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Research Statement</h1>
+
+    <div class="author-info">
+        <span class="author-name">Huan Wang</span><br>
+        <span class="author-institution">Westlake University, Hangzhou, China</span>
+    </div>
+
+    <h2>1. Brief Introduction</h2>
+
+    <p>Yes, I am doing "AI research", as a
+        Tenure-Track Assistant Professor at Westlake University, Hangzhou, China. My group, ENCODE Lab, focuses on
+        <b>Efficient AI</b>,
+        an area trying
+        to build efficient and reliable AI systems that are scalable and self-improving.
+    </p>
+
+    <h2>2. What is Efficient AI?</h2>
+
+    <p><b>Efficient AI is more about computing systems, at the implementation level of AI</b>. If we look at the past
+        history
+        of AI (roughly starting
+        from Turing's great paper in 1950<cite data-key="Turing"></cite>), we might be bezzled by the fact that AI is so
+        interdisplenary topic that has
+        been stuided so broadly by many diverse groups. They try to answer what is human-like intelligence. These
+        questions I call "the AI modeling problem". Just, as is well known, computers based on transistors are well
+        developed.
+        With sufficient data, a data-driven paradigm now is demonating. Efficient AI, the way I see it, is
+        treated
+        in the
+        context of computing systems, namely, the implementation level instead of the modeling level. A fact to see this
+        is that: many researchers in efficient AI may approach the problem by optimizing the memory access, where they
+        do not even need a trained model.
+
+    <p><b>Efficient AI is like a "bridge"; tradeoff is everywhere</b>. What we are doing is deploy AI
+        models (deep neural networks) on hardware, and the work we do acts as a
+        "bridge" between the two. Efficient AI is bascially about getting the model training and deployment, and
+        inference more efficient. We are more focused on model deployment and inference (since we do not have much
+        Comput resource for training). Efficiency is never a free lunch. So we need to make tradeoffs between different
+        aspects: time, space (memory), energy, money, accuracy, etc. A good man in effcient AI is those who are familiar
+        with the model (such as deep network architecture), the algorithm (how model is used), and the underlying
+        hardware (such as GPU/CPU/NPU/FPGA/ASIC, etc.). namey, a full-stack guy.<sup class="footnote"
+            data-fn="full-stack"></sup>
+        </footnote>
+    </p>
+
+    <p><b>Computing systems are hierarchical</b>: the algorithm level, the model level, the system
+        level, and the hardware level. We can get efficiency gains from each level - this is why you may see researchers
+        from different backgrounds all claim they are doing efficient AI. But different levels come with different
+        potential gains and worloads - developping a fast AI inference algorithm (such as INT4 quantization) is easy (in
+        1 month), but the gain is also relatviely limited (e.g., 2-3x speedup). During my Ph.D. period, I focused
+        primarily on the algorithm level (I wrote Python, rarely touching C/C++/CUDA); now, my research spans all the
+        spectrum of the computing systems (Python/C/C++/CUDA/Triton/ASM/etc. are all our choices, as is necessary).
+
+    <p><b>Efficient AI is less about the task</b>. AI tasks are unifying in the past several years (thanks to
+        transformers
+        and some general representation learning paradigms). Efficient AI is therefore less about specific tasks. We are
+        dealing with deep models, which are typically transformers. And the data now is all token flow. As a result, we
+        place no
+        restrictions on the specific tasks we work on; we pursue new topics as they
+        emerge (in Chinese: "追热点"). This is why you may see that my works have covered a wide range of tasks, including
+        image classification,
+        style transfer, super-resolution, text-to-image generation, large video models, robot manipulation, and
+        SCI (snapshot compressed imaging), among others.
+    </p>
+
+
+    <h2>3. The Problem Should be Considered as One - in a Technical Meaning</h2>
+
+    <p>If we ask "What is the next big problem in AI now?", it is no surprise to hear many would say: "Obviously,
+        how to
+        achieve AGI
+        or
+        Strong AI is the next big problem in AI". The success of LLMs are so astonishing that many people are convinced
+        that AGI or Strong AI is just around the corner<sup class="footnote" data-fn="AGI"></sup>, for the first time in
+        history. The path leading us here is said
+        in many different ways, but
+        the
+        core is the same: "Scaling
+        Law" - scaling the
+        model and feed it with more data, supported with more GPUs. Finger crossed: When
+        the
+        model/data/GPUs are enough, intelligence/magic will "emerge" on its own. This path is called the empirical
+        path, data fitting, trial-and-error, etc.</p>
+
+    <p>I also believe the empirical path - i.e., fitting the data can lead to intelligence, but the point is:
+        <i>to which
+            level</i>? The empirical path can lead us to a certain distance, while I do not believe this
+        trial-and-error approach can lead us for that far. An example to illustrate this point: Before Claude Shannon
+        formalizes the mathamatical definition of "information", radio, wireless communication already existed for quite
+        a while, just in the dark. Without information theory, we probably can still listen to music via radio at
+        present;
+        yet Turbo code and LDPC code will very unlikely appear, and we cannot have the Internet as we know it today. Big
+        data will also very unlikely be possible, let alone the current AI boom. I deem this the power of a good
+        theory, something arising from the empirical data but beyond - "Nothing is more practical than a good theory (in
+        the long run)", if we still remember it.
+    </p>
+
+
+    <p>Speaking of a good theory, if we look at the AI history (starting from Turing's great paper in 1950), we can
+        see
+        many great minds from a vaerity of fields have been trying to answer the AI modeling problem: Philosophy,
+        Psychology, Neuroscience, Cognitive Science, in addition to the computer science and engineering. Now, it seems
+        the room is crowed with people of only a few kinds. Too boring - the computer guys are the dominant force in the
+        AI field; among them, LLM guys are the dominant (Yann
+        LeCun even argued: Young Researchers should avoid LLMs). No
+        wonder,
+        some
+        said "LLM sucks the oxgen out of the room".</p>
+
+    <p>No need to think it so hard, we will see that AI problem is clearly not just about
+        computers
+        and engineering. Opinions from all disciplines should be considered (in a formal/mathematical manner, not
+        citing their sayings like quoting a maxim of Aristotle) when developing technical methods or systems.<sup
+            class="footnote" data-fn="consider-other-disciplines"></sup>
+    </p>
+
+    <p>Hereby, I believe that the problem should be considered as one.</p>
+
+
+    <h2>4. The Problem Should be Considered as One - in a Broader Meaning</h2>
+
+
+    <p>Being a researcher is an occupation, a means of livelihood. It is also a vocation<cite data-key="weber"></cite>,
+        a way of “Dasein”, which should be <i>examined</i><cite data-key="Socrates-examined"></cite>.</p>
+
+    <p>On many occasions, we are accustomed to defining ourselves by a school, a department, a narrow field. I deem this
+        as a necessity brought by industrial division of labor, not the way things ought to be, especially when what we
+        study is <i>AI</i>.</p>
+
+    <p>AI is mostly treated in the domain of science and technology, while from the very beginning, its context and
+        meaning are
+        much richer. No discipline in the past has been like this: The creature is to be like the creator.
+        Even if we refrain from a religious perspective such as "we are doing something like playing God", nor can we
+        deny
+        that AI research is
+        probably the most important research of all time, if we take it really seriously.</p>
+
+    <p>This means we should not, and cannot, consider it a problem that is purely technical; nor deprive others
+        (including those who do not even code) of the interest in the problem.
+
+        At least, many AI researchers are
+        electrified by the idea of a super intelligent system (AGI/Strong AI)
+        that
+        aims to replace common humans laboring in various fields, as many pieces
+        of evidence have projected. But have
+        we ever asked if they want to be replaced<sup class="footnote" data-fn="want-to-be-replaced"></sup>? Or, more
+        broadly, why the technology <i>has to</i> keep going?
+        Where will we end up?</p>
+
+    <p>Now, let’s just look at the builders of AI. As human beings, AI researchers
+        must also answer questions like the
+        meaning of life, and the deeper significance of doing AI. We can explain the technical motivation of a method,
+        but we must also explain the motivation of the people who build this technology — the “hidden motivation”, I
+        would call it. From my even limited experience, I have found that this hidden motivation determines the external
+        outcomes, and also shapes the technical motivation itself.</p>
+
+    <p>If we consider the profound importance of the AI problem and the fact that the main producers of current AI
+        papers are actually a very young group (Ph.D./M.S. or even undergrad/high school students), then in reality we
+        are entrusting a critical issue that concerns the
+        fate of humanity to a group of young people. I am not saying they lack capability; many are talented as we have
+        seen; rather, it seems they have
+        been shouldering a burden far beyond their years - this is the price. Anxiety is pervasive — something I can
+        clearly sense within my own
+        group — and many are burning out. This state itself is non-technical. It hides behind the papers and influences
+        the technical outcomes we see, yet it is not fully discussed.<sup class="footnote"
+            data-fn="anxiety-story"></sup></p>
+
+    <p>In my group, I try to help my students to keep up with the pace and meanwhile seeking ways to "jump out", with a
+        kind of the "old-fashioned motivation. Two examples of this "old-fashioned motivation: 1) the address by Albert
+        Einstein in 1918: <em><a href="https://www.nobelprize.org/uploads/2018/06/einstein-lecture.pdf"
+                target="_blank">Principles of
+                Research</a></em>, and also the story how <em>Records of the Grand Historian</em> (<cite
+            data-key="sima"></cite>) was written by a father and son: Sima Tan and Sima Qian, two grand historians in
+        100 BC.<sup class="footnote" data-fn="sima-story"></sup></p>
+
+    <p>Here we say, motivation matters; perspective matters.</p>
+
+    <p>Some may argue these problems belong to philosophy and sociology, psychologists, etc., while we are computer
+        scientists or engineers. They are not our areas. I think this is a valid argument, yet merely in a narrow sense.
+        In a broader sense, we have no other choice but to accept the challenge, once it is realized that we cannot
+        really
+        outsource
+        our own personal questions — the meaning of life, the purpose of existence,
+        what kind of work, research, family, friendship, and relationships we want — to people called “scientists”,
+        “philosophers”, “sociologists”, or “psychologists”, simply because they are deemed more “expert” in these areas
+        than we are.</p>
+
+    <p>Hereby, I believe that the problem should be considered as one.</p>
+
+    <h2>5. To Prospective Students and Collaborators</h2>
+
+    <p>If you are interested in joining my lab, please feel free to contact me (refer to the <a
+            href="https://huanwang.tech/admission.pdf" target="_blank">admission.pdf</a>). At the same time, I am also
+        eager to collaborate interdisciplinarily with researchers from different fields, including philosophy & social
+        sciences, physics, and sustainability, etc.</p>
+
+    <p>March 28th, 2026. (This research statement was mostly done on a back flight from Tübingen to Shanghai, after
+        CPAL'26.)</p>
+
+    <center>
+        <img src="https://huanwang.tech/images/bridge.jpg" alt="bridge" width="50%">
+        <br>
+        The beautiful bridge in Tübingen.
+    </center>
+
+
+    <!-- Footnotes -->
+    <section class="footnotes">
+        <h2>Footnotes</h2>
+        <ol id="footnotes-list"></ol>
+    </section>
+
+    <!-- References -->
+    <section class="references">
+        <h2>References</h2>
+        <ol id="references-list"></ol>
+    </section>
+
+
+    <script>
+        // ====================== Bibliography Data ======================
+        const BIBLIOGRAPHY_DATA = {
+            "Socrates-examined": "Socrates, J. (470-399 BC). <em>Apology</em>.",
+            "weber": "Weber, M. (1946). <em>From Max Weber: Essays in Sociology</em> (H. H. Gerth & C. Wright Mills, Eds.). Oxford University Press.",
+            "sima": "Sima, Q. (1993). <em>Records of the Grand Historian</em> (B. Watson, Trans.). Columbia University Press."
+        };
+
+        // ====================== Footnote Data ======================
+        const FOOTNOTE_DATA = {
+            "sima-story": "史记 in Chinese, the very first history book in China; I personally consider its position as important as the Bible in the West. It was written by a father and son: Sima Tan and Sima Qian, two grand historians in 100 BC. The way they wrote it largely laid down the foundation for the later history books in China. If you have ever heard any Chinese say they are proud that their ancient civilization is never lost, that pride is due in a fair share to this great work. The point is, if you look into it, this great work was written purely based on their own feeling of responsibility for history — a side-work in today’s language.",
+            "anxiety-story": 'If you are in the AI field, you must know the current "AI researchers" are actually dominated by young Ph.D./ M.S. students, or even undergraduate students. Each year, many "top - tier" AI papers are produced by them. I have to admit, when I was their age, I am very confused about my life. Learning the fast-paced AI techniques, reading papers, experimenting with code, at the same time, are no doubt a tough job, not to mention AI is actually the most important research of all time. The youth now, is shouldering the responsibility beyond their years. For most of them, they are expected to input; while the field now seems to "force" them to output. The tone on social media makes it worse. The rapidly increasing submissions and low-quality reviews are not a surprise, as a result.',
+            "full-stack": "To junior students: If you have ambition to know both the AI and hardware, efficient AI is a good direction to go.",
+            "AGI": "There is actually no formal definition of AGI or Strong AI. The most common definition is: an AI system that can perform any intellectual task that a human can do. In this statement, I use the term AGI=Strong AI=Human-level AI. Actually, when the AI term was coined by John McCarthy in 1956, he meant the term to be more general, including the ability to learn and reason. The word `Artifical` in AI alreay portrays their expectation of the intelligence level should be on par with human. Namely, the term AI per se means human-level intelligence.",
+            "different": "https://www.notion.com/blog/steam-steel-and-infinite-minds-ai",
+            "consider-other-disciplines": "Therefore, I (personally, not my students; one of the funny facts is that many of my students think I am chanting something useless; while I try to encurage them to `think bigger` and convince them of the words by pioneers like Judea Pearl and Bernhard Schölkopf, etc.) also keep close attention to the modeling level, in a way that a philosophical perspective is heavily taken, although, I am not sure if any of my `research` in philosophy (or actually nonsense thoughts) will turn into tangible publications in a short term.",
+            "want-to-be-replaced": "Speaking of AI replacing human, I have a short summary of current AI development, the Tale of Three Tools: One tool (AI researchers) is creating a powerful tool (AI) so as to replace another tool (common human labor in various economic sectors).",
+            "AGI": "Though many believe meantime, it is still quite far, me included. ",
+        };
+
+        // ====================== Initialize Citations and Footnotes ======================
+        document.addEventListener('DOMContentLoaded', function () {
+            // Handle Citations
+            const citeTags = document.querySelectorAll('cite[data-key]');
+            const refList = document.getElementById('references-list');
+            const citationOrder = {};
+            let citationIndex = 1;
+
+            citeTags.forEach(tag => {
+                const key = tag.getAttribute('data-key');
+                if (!citationOrder[key]) {
+                    citationOrder[key] = citationIndex++;
+                }
+                const index = citationOrder[key];
+
+                const link = document.createElement('a');
+                link.href = `#ref-${key}`;
+                link.id = `cite-${key}`;
+                link.className = 'citation';
+                link.textContent = `[${index}]`;
+
+                tag.parentNode.replaceChild(link, tag);
+            });
+
+            // Generate References
+            Object.keys(citationOrder).sort((a, b) => citationOrder[a] - citationOrder[b]).forEach(key => {
+                const li = document.createElement('li');
+                li.id = `ref-${key}`;
+                li.innerHTML = `${BIBLIOGRAPHY_DATA[key] || `Missing ref for ${key}`} <a href="#cite-${key}" class="backref">↩</a>`;
+                refList.appendChild(li);
+            });
+
+            // Handle Footnotes
+            const footnoteRefs = document.querySelectorAll('sup.footnote');
+            const fnList = document.getElementById('footnotes-list');
+            const fnOrder = {};
+            let fnIndex = 1;
+
+            footnoteRefs.forEach(ref => {
+                let key = ref.getAttribute('data-fn');
+                if (!key) key = 'fn-' + fnIndex;
+
+                if (!fnOrder[key]) {
+                    fnOrder[key] = fnIndex++;
+                }
+                const index = fnOrder[key];
+
+                const link = document.createElement('a');
+                link.href = `#fn-${key}`;
+                link.id = `fnref-${key}`;
+                link.className = 'footnote-ref';
+                link.textContent = `[${index}]`;
+
+                ref.parentNode.replaceChild(link, ref);
+            });
+
+            // Generate Footnotes
+            Object.keys(fnOrder).sort((a, b) => fnOrder[a] - fnOrder[b]).forEach(key => {
+                const content = FOOTNOTE_DATA[key] || "Footnote content missing.";
+                const li = document.createElement('li');
+                li.id = `fn-${key}`;
+                li.innerHTML = `${content} <a href="#fnref-${key}" class="footnote-back">↩</a>`;
+                fnList.appendChild(li);
+            });
+        });
+    </script>
+
+    <!-- Counter -->
+    <script async src="https://cdn.jsdelivr.net/npm/counterapi@1.14.0/dist/index.umd.min.js"></script>
+    <script>
+        window.addEventListener('load', () => {
+            if (window.counterapi) {
+                counterapi.up('westlake_phd_page').then(r => {
+                    document.getElementById('visits').innerText = r.value;
+                });
+            }
+        });
+    </script>
+
+</body>
+
+</html>
