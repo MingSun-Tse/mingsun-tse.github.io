@@ -20,10 +20,18 @@
         h1 {
             font-size: 24px;
             text-align: center;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            text-align: center;
             margin-bottom: 40px;
             font-weight: normal;
             border-bottom: 1px solid #eee;
             padding-bottom: 20px;
+            font-style: italic;
         }
 
         h2,
@@ -143,71 +151,131 @@
             margin-left: 8px;
             font-size: 0.9em;
         }
+
+        /* Clustrmaps style */
+        .clustrmaps-container {
+            margin-top: 50px;
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
 
     <h1>Research Statement</h1>
+    <div class="subtitle">-- The Problem Should be Considered as One</div>
 
     <div class="author-info">
         <span class="author-name">Huan Wang</span><br>
-        <span class="author-institution">Westlake University, Hangzhou, China</span>
+        <span class="author-email">wanghuan@westlake.edu.cn</span><br>
+        <span class="author-institution">Westlake University, Hangzhou, China</span><br>
+        <span class="author-website"><a href="https://huanwang.tech/rs"
+                target="_blank">https://huanwang.tech/rs</a></span>
     </div>
+
+    This statement is meant to help prospective students and collaborators know what I am doing and how I do it. It is
+    also a roadmap for my internal reflection on my research.
 
     <h2>1. Brief Introduction</h2>
 
-    <p>Yes, I am doing "AI research", as a
+    <p>I am doing "AI research", as a
         Tenure-Track Assistant Professor at Westlake University, Hangzhou, China. My group, ENCODE Lab, focuses on
         <b>Efficient AI</b>,
         an area trying
-        to build efficient and reliable AI systems that are scalable and self-improving.
+        to build efficient and reliable AI systems that are scalable and self-improving. In layman's terms, we try to
+        make AI models run faster and/or consume less resources (energy, memory, etc.) on hardware. Speed/energy/memory
+        are all about your time/money. So simply put, our job is to save your time/money when you are using AI :-).
     </p>
 
-    <h2>2. What is Efficient AI?</h2>
+    <h2>2. What is Efficient AI Essentially?</h2>
 
-    <p><b>Efficient AI is more about computing systems, at the implementation level of AI</b>. If we look at the past
+
+    <p><b>Efficient AI is more about computing systems, at the implementation level of AI</b>.
+        If we look at the past
         history
         of AI (roughly starting
-        from Turing's great paper in 1950<cite data-key="Turing"></cite>), we might be bezzled by the fact that AI is so
-        interdisplenary topic that has
-        been stuided so broadly by many diverse groups. They try to answer what is human-like intelligence. These
-        questions I call "the AI modeling problem". Just, as is well known, computers based on transistors are well
-        developed.
-        With sufficient data, a data-driven paradigm now is demonating. Efficient AI, the way I see it, is
-        treated
-        in the
-        context of computing systems, namely, the implementation level instead of the modeling level. A fact to see this
-        is that: many researchers in efficient AI may approach the problem by optimizing the memory access, where they
-        do not even need a trained model.
+        from Turing's great paper in 1950<cite data-key="Turing"></cite>), we might be impressed by the fact that AI is
+        so
+        interdisciplinary a topic that has
+        been studied so broadly by many diverse groups. They try to answer what is human-level intelligence, especially
+        what is the difference between human intelligence and animal intelligence<cite data-key="dartmouth"></cite>.</p>
+
+
+    <p>We humans approach scientific problems through different levels (by using a kind of very special capability that
+        we still know
+        little about except its name: "abstraction"). In the AI field, if we
+        borrow the wisdom from David Marr<cite data-key="david_marr_vision"></cite>, the problem can be split into three
+        levels: the "Computational theory" level (or, I personally prefer to call it the "Modelling Level"), the
+        "Representation and Algorithm" level,
+        and the "Hardware
+        Implementation" level. For simplicity, if we consider the "Representation and Algorithm" level as the
+        "software implementation" level and merged with the "Hardware Implementation" level, then we have two levels:
+        the modelling level and the implementation level.</p>
+
+    <p>Both the modelling level and the implementation level are indispensable towards the final goal of solving the
+        problem in the real world. But, in terms
+        of scientific
+        value, nuanced yet important distinction still exists (this distinction usually arises when we try to answer why
+        one
+        paper is
+        more
+        novel or important than another): the modelling level is about <em>what</em> and <em>why</em>;
+        the implementation level is mostly about <em>how</em><cite data-key="david_marr_vision"></cite>.</p>
+
+    <p>The computing systems based on the
+        semiconductor
+        are
+        well
+        developed. They are the "body" of AI today. Most works in the efficient AI area are actually about how to
+        improve
+        the
+        efficiency of the "body" (computing systems),
+        of AI. In this sense, efficient AI, in my opinion, is mostly at the implementation level of AI, not
+        the
+        modeling level - I dare to believe that most papers in the efficient AI area
+        prove my opinion. This is why the current efficient AI area works like a <i>post-processing</i> stage in the
+        whole
+        AI pipeline: after we
+        have some super powerful model, we try
+        to compress/accelerate it through various techniques (model compression, token compression, memory optimization,
+        etc.). Another fact to see this is
+        that:
+        many
+        researchers (esp. those with computer system background) may approach the AI efficiency problem by optimizing
+        the memory access,
+        where they do not even
+        care whether the AI model is smart or dumb.</p>
+
 
     <p><b>Efficient AI is like a "bridge"; tradeoff is everywhere</b>. What we are doing is deploy AI
         models (deep neural networks) on hardware, and the work we do acts as a
-        "bridge" between the two. Efficient AI is bascially about getting the model training and deployment, and
-        inference more efficient. We are more focused on model deployment and inference (since we do not have much
-        Comput resource for training). Efficiency is never a free lunch. So we need to make tradeoffs between different
-        aspects: time, space (memory), energy, money, accuracy, etc. A good man in effcient AI is those who are familiar
-        with the model (such as deep network architecture), the algorithm (how model is used), and the underlying
-        hardware (such as GPU/CPU/NPU/FPGA/ASIC, etc.). namey, a full-stack guy.<sup class="footnote"
+        "bridge" between the two. Efficient AI is basically about getting the model training and deployment, and
+        inference more efficient. My group is more focused on model deployment and inference (since we do not have many
+        GPUs :()).
+
+    <p>Efficiency is never a free lunch. Tradeoffs are unavoidable within different
+        aspects: time, space (memory), energy, accuracy, etc. A good man in efficient AI is usually who is familiar
+        with the model (deep neural network architecture), the algorithm (how model is used), and the underlying
+        hardware (e.g., GPU/CPU/NPU/ASIC/FPGA, etc.), namely, a full-stack guy.<sup class="footnote"
             data-fn="full-stack"></sup>
-        </footnote>
     </p>
 
-    <p><b>Computing systems are hierarchical</b>: the algorithm level, the model level, the system
-        level, and the hardware level. We can get efficiency gains from each level - this is why you may see researchers
-        from different backgrounds all claim they are doing efficient AI. But different levels come with different
-        potential gains and worloads - developping a fast AI inference algorithm (such as INT4 quantization) is easy (in
-        1 month), but the gain is also relatviely limited (e.g., 2-3x speedup). During my Ph.D. period, I focused
-        primarily on the algorithm level (I wrote Python, rarely touching C/C++/CUDA); now, my research spans all the
-        spectrum of the computing systems (Python/C/C++/CUDA/Triton/ASM/etc. are all our choices, as is necessary).
+    <p><b>Computing systems are hierarchical</b>. For today's AI computing systems, the problem can be split into
+        usually three levels: the algorithm level, the model level, the system
+        level, and the hardware level. We can get efficiency gains from each level. But different levels come with
+        different
+        potential gains and workloads - developing a fast AI inference algorithm (such as INT4 quantization) is easy (in
+        1 month), but the gain is also relatively limited (e.g., 2-3x speedup). During my Ph.D. period, I focused
+        primarily on the algorithm level; now, my research spans all the
+        spectrum of the computing systems.
 
-    <p><b>Efficient AI is less about the task</b>. AI tasks are unifying in the past several years (thanks to
-        transformers
-        and some general representation learning paradigms). Efficient AI is therefore less about specific tasks. We are
-        dealing with deep models, which are typically transformers. And the data now is all token flow. As a result, we
+    <p><b>Efficient AI is less about the task</b>. AI tasks are unifying in the past several years. Efficient AI is
+        therefore less about specific tasks. We are
+        dealing with deep models, which are typically transformers. The data now is all token flow. As a result, we
         place no
         restrictions on the specific tasks we work on; we pursue new topics as they
-        emerge (in Chinese: "追热点"). This is why you may see that my works have covered a wide range of tasks, including
+        emerge (in Chinese: "chasing hot topics"). This is why you may see that my works have covered a wide range of
+        tasks, including
         image classification,
         style transfer, super-resolution, text-to-image generation, large video models, robot manipulation, and
         SCI (snapshot compressed imaging), among others.
@@ -220,8 +288,8 @@
         how to
         achieve AGI
         or
-        Strong AI is the next big problem in AI". The success of LLMs are so astonishing that many people are convinced
-        that AGI or Strong AI is just around the corner<sup class="footnote" data-fn="AGI"></sup>, for the first time in
+        Strong AI is the next big problem". The success of LLMs is astonishing that many people are convinced
+        that Strong AI or AGI is just around the corner<sup class="footnote" data-fn="AGI"></sup>, for the first time in
         history. The path leading us here is said
         in many different ways, but
         the
@@ -229,39 +297,99 @@
         Law" - scaling the
         model and feed it with more data, supported with more GPUs. Finger crossed: When
         the
-        model/data/GPUs are enough, intelligence/magic will "emerge" on its own. This path is called the empirical
-        path, data fitting, trial-and-error, etc.</p>
+        model/data/GPUs are enough, intelligence/magic will "emerge" on its own. This path is phrased in many different
+        ways, such as "data fitting", "data-driven", "trial-and-error", etc. I personally prefer to call it the
+        "empirical path", citing the philosophical debate between empiricism and rationalism.</p>
 
-    <p>I also believe the empirical path - i.e., fitting the data can lead to intelligence, but the point is:
+    <p>I believe the empirical path - i.e., fitting the data can lead to intelligence, but the key question is:
         <i>to which
-            level</i>? The empirical path can lead us to a certain distance, while I do not believe this
-        trial-and-error approach can lead us for that far. An example to illustrate this point: Before Claude Shannon
-        formalizes the mathamatical definition of "information", radio, wireless communication already existed for quite
-        a while, just in the dark. Without information theory, we probably can still listen to music via radio at
-        present;
-        yet Turbo code and LDPC code will very unlikely appear, and we cannot have the Internet as we know it today. Big
-        data will also very unlikely be possible, let alone the current AI boom. I deem this the power of a good
-        theory, something arising from the empirical data but beyond - "Nothing is more practical than a good theory (in
-        the long run)", if we still remember it.
+            level</i>? The empirical path can lead us to a certain distance, while no sufficient evidence convinces me
+        that this
+        trial-and-error approach can lead us for that far. I firmly believe, <em>a computational theory is a must to
+            bring us the next level of artificial intelligence in the road to so-called strong AI or AGI</em>. Some may
+        argue,
+        ChatGPT/LLMs are so successful with the black-box deep neural networks, isn't this enough to show maths
+        are not indispensable?
+
+        Well, a good theory is something arising from the empirical data but beyond. The value of a good theory may have
+        been well
+        said by Kurt Lewin - "Nothing is more practical than a good
+        theory
+        (in
+        the long run)". If this argument is not strong enough, I wish the following example can say something: Before
+        Claude
+        Shannon
+        formalizes the mathematical definition of "information"<cite data-key="shannon-information"></cite>, radio and
+        wireless communication already existed for
+        quite a while (the first radio was invented by Guglielmo Marconi in 1895), just in the dark. Without the light
+        of information
+        theory, we probably can still listen to
+        music via radio; yet Turbo code<cite data-key="turbo-code"></cite> and LDPC code<cite
+            data-key="ldpc-code"></cite> will very unlikely appear, and we cannot have the
+        Internet as we know it today. Big data will also very unlikely be possible, let alone the current AI boom.
+        So basically, I consider the success of today's LLMs, which might appear so astonishing, is still at a very
+        early stage, like the radio was
+        invented. We are in grave need of the "light".
     </p>
 
 
-    <p>Speaking of a good theory, if we look at the AI history (starting from Turing's great paper in 1950), we can
+    <p>Speaking of a good theory, if we look at the AI history, we can
         see
-        many great minds from a vaerity of fields have been trying to answer the AI modeling problem: Philosophy,
-        Psychology, Neuroscience, Cognitive Science, in addition to the computer science and engineering. Now, it seems
-        the room is crowed with people of only a few kinds. Too boring - the computer guys are the dominant force in the
-        AI field; among them, LLM guys are the dominant (Yann
-        LeCun even argued: Young Researchers should avoid LLMs). No
-        wonder,
-        some
-        said "LLM sucks the oxgen out of the room".</p>
+        many great minds from a variety of fields have been trying to answer the AI modeling problem:
+        philosophy,
+        psychology, neuroscience, cognitive science, in addition to the computer science and engineering. Now,
+        it seems
+        the room is (too) crowded with people of only a few kinds. The computer guys are the dominant force in the
+        AI field; among them, LLM guys are the dominant -- "LLM sucks the oxygen out of the room". No wonder, Yann
+        LeCun even <a href="https://x.com/ylecun/status/1796982509567180927">argued</a>: "If you
+        are
+        a PhD student, don't work on LLMs".</p>
 
-    <p>No need to think it so hard, we will see that AI problem is clearly not just about
-        computers
-        and engineering. Opinions from all disciplines should be considered (in a formal/mathematical manner, not
-        citing their sayings like quoting a maxim of Aristotle) when developing technical methods or systems.<sup
-            class="footnote" data-fn="consider-other-disciplines"></sup>
+    <p>No need to think it hard, we will see that AI problem is clearly not just about
+        computer science
+        and engineering. Opinions from all disciplines should be considered, especially philosophy, psychology,
+        neuroscience, cognitive science, etc<sup class="footnote" data-fn="consider-other-disciplines"></sup>. However,
+        here we will encounter a central question in the practical level: we involve the ideas
+        from other disciplines, <em>in what capacity, to what level</em>?
+
+        I never doubt even a little bit about the formality and seriousness of the researchers in humanities and social
+        sciences, their interest and their contributions to the AI problem. Yet, we (I mean those with a
+        science/engineering
+        background) are still identified as scientists, vs.
+        philosophers/anthropologists. We must set an important boundary to avoid our discussion
+        slips into an ambiguous territory that loses our unique identity.
+        (I personally have met many who talked to me:
+        There is no point discussing these
+        high level things because we do not even have a common ground.)
+        I do not doubt a bit the formality and seriousness of the explorations. To me, science, humanities, art are not
+        side-by-side. They all serve a central purpose: to understand the world and ourselves. Just, they are at
+        different positions of a spectrum. Science is based on measurable and computable quantities. Philosophy may not
+        be computable, but still needs logic and reasoning. Art goes even more bold, highlighting the feeling/first
+        impression instead of thinking -- This part is owing to my discussion with the admin assistant of our lab, Ms
+        Xinjun Lin.) The boundary is actually easy to see, if we recall the key definition of <em>
+            science</em>, falsifiability: measurable, computable, and
+        replicable<sup class="footnote" data-fn="computable"></sup> Namely, philosophers can discuss AI in a more
+        ambiguous fashion - they are entitled with that kind of right, while we have to be precise, clearly define what
+        we try to discuss.
+        For some concepts yet to
+        be clearly defined, we may still use these terms, but should realize this is not the ultimate situation it
+        should
+        stay -
+        this is a
+        compromised situation because we reach the boundary between science and non-science (by non-science, I do not
+        mean they are wrong.). Respect should be given to those who try to make these ambiguous concepts precise,
+        like
+        Shannon did with the measure of information; like Newton and Leibniz did with calculus. (This part is largely
+        owing to personal conversations with Dr. Yi Ma
+        at HKU).
+
+        Here I sail under the flag of Kant, Wittgenstein, and everyone who seriously claims as a member in the
+        science field - before cognizing an object, first examine whether the cognitive tools are reasonable: for the
+        concepts we cannot
+        clearly
+        define now, we should
+        be cautious, hold a sense of awe, and try to avoid abusing words that have not yet reached scientific standards
+        in a seemingly scientific way.
     </p>
 
     <p>Hereby, I believe that the problem should be considered as one.</p>
@@ -269,70 +397,98 @@
 
     <h2>4. The Problem Should be Considered as One - in a Broader Meaning</h2>
 
+    <p>When I write this part, I try to figure out why I am writing this, along with other questions like what I
+        am
+        living for, etc. Being a researcher is an occupation, a means of livelihood. It is also a vocation<cite
+            data-key="weber"></cite>,
+        a way of "dasein"<cite data-key="dasein"></cite>, which should be <i>examined</i><cite
+            data-key="Socrates-examined"></cite>.</p>
 
-    <p>Being a researcher is an occupation, a means of livelihood. It is also a vocation<cite data-key="weber"></cite>,
-        a way of “Dasein”, which should be <i>examined</i><cite data-key="Socrates-examined"></cite>.</p>
-
-    <p>On many occasions, we are accustomed to defining ourselves by a school, a department, a narrow field. I deem this
-        as a necessity brought by industrial division of labor, not the way things ought to be, especially when what we
+    <p>On many occasions, we are accustomed to defining ourselves by a school, a department, a narrow field. I
+        deem this
+        as a necessity brought by industrial division of labor, not the way things ought to be, especially when
+        what we
         study is <i>AI</i>.</p>
 
-    <p>AI is mostly treated in the domain of science and technology, while from the very beginning, its context and
-        meaning are
-        much richer. No discipline in the past has been like this: The creature is to be like the creator.
-        Even if we refrain from a religious perspective such as "we are doing something like playing God", nor can we
+    <p>It is not hard to see that AI is a very fundamental topic, one of the "holy grail" problems. No
+        discipline in the
+        past is like this: The
+        creature is to be like the
+        creator.
+        Even if we refrain from a religious perspective such as "we are doing something like playing God", nor
+        can we
         deny
         that AI research is
-        probably the most important research of all time, if we take it really seriously.</p>
+        probably the most important research of all time, if we take it really seriously<sup class="footnote"
+            data-fn="take-seriously"></sup>.</p>
 
     <p>This means we should not, and cannot, consider it a problem that is purely technical; nor deprive others
         (including those who do not even code) of the interest in the problem.
-
         At least, many AI researchers are
-        electrified by the idea of a super intelligent system (AGI/Strong AI)
+        electrified by the idea of inventing a super intelligent system (strong AI or AGI)
         that
         aims to replace common humans laboring in various fields, as many pieces
         of evidence have projected. But have
-        we ever asked if they want to be replaced<sup class="footnote" data-fn="want-to-be-replaced"></sup>? Or, more
+        we ever asked if they want to be replaced<sup class="footnote" data-fn="want-to-be-replaced"></sup>? Or,
+        more
         broadly, why the technology <i>has to</i> keep going?
         Where will we end up?</p>
 
     <p>Now, let’s just look at the builders of AI. As human beings, AI researchers
         must also answer questions like the
-        meaning of life, and the deeper significance of doing AI. We can explain the technical motivation of a method,
-        but we must also explain the motivation of the people who build this technology — the “hidden motivation”, I
-        would call it. From my even limited experience, I have found that this hidden motivation determines the external
+        meaning of life, and the deeper significance of doing AI. We can explain the technical motivation of a
+        method,
+        but we must also explain the motivation of the people who build this technology — the "hidden
+        motivation", I
+        would call it. From my even limited experience, I have found that this hidden motivation determines the
+        external
         outcomes, and also shapes the technical motivation itself.</p>
 
-    <p>If we consider the profound importance of the AI problem and the fact that the main producers of current AI
-        papers are actually a very young group (Ph.D./M.S. or even undergrad/high school students), then in reality we
-        are entrusting a critical issue that concerns the
-        fate of humanity to a group of young people. I am not saying they lack capability; many are talented as we have
-        seen; rather, it seems they have
-        been shouldering a burden far beyond their years - this is the price. Anxiety is pervasive — something I can
-        clearly sense within my own
-        group — and many are burning out. This state itself is non-technical. It hides behind the papers and influences
-        the technical outcomes we see, yet it is not fully discussed.<sup class="footnote"
-            data-fn="anxiety-story"></sup></p>
+    <p>If we consider the profound importance of the AI problem and the fact that the main producers of current
+        AI
+        papers are actually a very young group (Ph.D./M.S. or even undergrad/high school students), we might be
+        shocked by this counterintuitive fact: a critical problem that concerns the
+        fate of humanity is entrusted to a group of young people. The problem is, it looks like these students
+        or young
+        researchers
+        (maybe I should include myself), as a group, have
+        been shouldering a burden in a weird way. Anxiety is pervasive — something I can
+        clearly sense within my own group — many are burning out. This state itself is non-technical. It hides
+        behind the papers and influences the technical outcomes we see, yet it is not fully discussed.<sup
+            class="footnote" data-fn="anxiety-story"></sup></p>
 
-    <p>In my group, I try to help my students to keep up with the pace and meanwhile seeking ways to "jump out", with a
-        kind of the "old-fashioned motivation. Two examples of this "old-fashioned motivation: 1) the address by Albert
-        Einstein in 1918: <em><a href="https://www.nobelprize.org/uploads/2018/06/einstein-lecture.pdf"
-                target="_blank">Principles of
-                Research</a></em>, and also the story how <em>Records of the Grand Historian</em> (<cite
-            data-key="sima"></cite>) was written by a father and son: Sima Tan and Sima Qian, two grand historians in
-        100 BC.<sup class="footnote" data-fn="sima-story"></sup></p>
+    <p>In my group, I try to help my students to keep up with the pace and meanwhile seeking ways to "jump out".
+        The way
+        out hinges on the motivation of doing research / publishing papers. I personally am greatly inspired by
+        two
+        stories: 1) the <a href="https://www.site.uottawa.ca/~yymao/misc/Einstein_PlanckBirthday.html"
+            target="_blank">address
+            <em>Principles of Research</em></a> by
+        Albert
+        Einstein in 1918 for Max Planck's sixtieth birthday; 2) the story how <em>Records of the Grand
+            Historian</em> <cite data-key="sima"></cite> was written by a father and son: Sima Tan and Sima
+        Qian, two
+        grand historians in
+        China in 100 BC.<sup class="footnote" data-fn="sima-story"></sup>. If I dare to use Max Weber's words, the
+        community
+        (academia and industry) now seems to be filled with instrumental rationality.
+    </p>
 
     <p>Here we say, motivation matters; perspective matters.</p>
 
-    <p>Some may argue these problems belong to philosophy and sociology, psychologists, etc., while we are computer
-        scientists or engineers. They are not our areas. I think this is a valid argument, yet merely in a narrow sense.
-        In a broader sense, we have no other choice but to accept the challenge, once it is realized that we cannot
+    <p>Some may argue these problems belong to philosophy and sociology, psychologists, etc., while we are
+        computer
+        scientists or engineers. They are not our areas. I think this is a valid argument, yet merely in a
+        narrow sense.
+        In a broader sense, we have no other choice but to accept the challenge, once it is realized that we
+        cannot
         really
         outsource
         our own personal questions — the meaning of life, the purpose of existence,
-        what kind of work, research, family, friendship, and relationships we want — to people called “scientists”,
-        “philosophers”, “sociologists”, or “psychologists”, simply because they are deemed more “expert” in these areas
+        what kind of work, research, family, friendship, and relationships we want — to people called
+        "scientists",
+        "philosophers", "sociologists", or "psychologists", simply because they are deemed more "expert" in
+        these areas
         than we are.</p>
 
     <p>Hereby, I believe that the problem should be considered as one.</p>
@@ -340,17 +496,22 @@
     <h2>5. To Prospective Students and Collaborators</h2>
 
     <p>If you are interested in joining my lab, please feel free to contact me (refer to the <a
-            href="https://huanwang.tech/admission.pdf" target="_blank">admission.pdf</a>). At the same time, I am also
-        eager to collaborate interdisciplinarily with researchers from different fields, including philosophy & social
+            href="https://huanwang.tech/admission.pdf" target="_blank">admission.pdf</a>). At the same time, I
+        am also
+        eager to collaborate interdisciplinarily with researchers from different fields, including philosophy &
+        social
         sciences, physics, and sustainability, etc.</p>
 
-    <p>March 28th, 2026. (This research statement was mostly done on a back flight from Tübingen to Shanghai, after
-        CPAL'26.)</p>
+    <p>March 28th, 2026.</p>
+
+    <p>(This statement was mostly conceived on a back flight from Tübingen to Shanghai, after
+        <a href=https://cpal.cc>CPAL</a> 2026.)
+    </p>
 
     <center>
-        <img src="https://huanwang.tech/images/bridge.jpg" alt="bridge" width="50%">
+        <img src="https://huanwang.tech/images/bridge.jpg" alt="bridge" width="73%">
         <br>
-        The beautiful bridge in Tübingen.
+        Beautiful view on the Eberhardsbrücke bridge in Tübingen, Germany.
     </center>
 
 
@@ -366,25 +527,40 @@
         <ol id="references-list"></ol>
     </section>
 
+    <!-- Clustrmaps Visitor Counter -->
+    <div class="clustrmaps-container">
+        <script type='text/javascript' id='clustrmaps'
+            src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=YOUR_UNIQUE_D_PARAMETER_HERE'></script>
+        <noscript><a href='https://clustrmaps.com/site/your-site-id' title='Visit tracker'><img
+                    src='//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=tt&d=YOUR_UNIQUE_D_PARAMETER_HERE' /></a></noscript>
+    </div>
+
 
     <script>
         // ====================== Bibliography Data ======================
         const BIBLIOGRAPHY_DATA = {
-            "Socrates-examined": "Socrates, J. (470-399 BC). <em>Apology</em>.",
-            "weber": "Weber, M. (1946). <em>From Max Weber: Essays in Sociology</em> (H. H. Gerth & C. Wright Mills, Eds.). Oxford University Press.",
-            "sima": "Sima, Q. (1993). <em>Records of the Grand Historian</em> (B. Watson, Trans.). Columbia University Press."
+            "Turing": "Turing, Alan. (1950). <em>Computing Machinery and Intelligence</em>. Mind, 49(236), 433-460.",
+            "Socrates-examined": "Socrates. (470-399 BC). <em>Apology</em>.",
+            "weber": "Weber, Max. (1919). <em>Science as Vocation</em>.",
+            "sima": "Sima, Qian. and Sima, Tan. (100 BC). <em>Records of the Grand Historian</em>.",
+            "dasein": "Heidegger, Martin. (1927). <em>Being and Time</em>.",
+            "dartmouth": "John McCarthy et al. (1955). <em>A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence</em>",
+            "david_marr_vision": "David Marr. (1982). <em>Vision: A Computational Investigation into the Human Representation and Processing of Visual Information</em>.",
+            "shannon-information": "Shannon, Claude E. (1948). <em>A Mathematical Theory of Communication</em>. Bell System Technical Journal, 27(3), 379-423.",
+            "turbo-code": "Berrou, C., Glavieux, A., & Thitimajshima, P. (1993). Near Shannon limit error-correcting coding and decoding: Turbo-codes. Proceedings of ICC'93.",
+            "ldpc-code": "Gallager, R. G. (1962). Low-density parity-check codes. IRE Transactions on Information Theory, 8(1), 21-28."
         };
 
         // ====================== Footnote Data ======================
         const FOOTNOTE_DATA = {
-            "sima-story": "史记 in Chinese, the very first history book in China; I personally consider its position as important as the Bible in the West. It was written by a father and son: Sima Tan and Sima Qian, two grand historians in 100 BC. The way they wrote it largely laid down the foundation for the later history books in China. If you have ever heard any Chinese say they are proud that their ancient civilization is never lost, that pride is due in a fair share to this great work. The point is, if you look into it, this great work was written purely based on their own feeling of responsibility for history — a side-work in today’s language.",
-            "anxiety-story": 'If you are in the AI field, you must know the current "AI researchers" are actually dominated by young Ph.D./ M.S. students, or even undergraduate students. Each year, many "top - tier" AI papers are produced by them. I have to admit, when I was their age, I am very confused about my life. Learning the fast-paced AI techniques, reading papers, experimenting with code, at the same time, are no doubt a tough job, not to mention AI is actually the most important research of all time. The youth now, is shouldering the responsibility beyond their years. For most of them, they are expected to input; while the field now seems to "force" them to output. The tone on social media makes it worse. The rapidly increasing submissions and low-quality reviews are not a surprise, as a result.',
-            "full-stack": "To junior students: If you have ambition to know both the AI and hardware, efficient AI is a good direction to go.",
-            "AGI": "There is actually no formal definition of AGI or Strong AI. The most common definition is: an AI system that can perform any intellectual task that a human can do. In this statement, I use the term AGI=Strong AI=Human-level AI. Actually, when the AI term was coined by John McCarthy in 1956, he meant the term to be more general, including the ability to learn and reason. The word `Artifical` in AI alreay portrays their expectation of the intelligence level should be on par with human. Namely, the term AI per se means human-level intelligence.",
-            "different": "https://www.notion.com/blog/steam-steel-and-infinite-minds-ai",
-            "consider-other-disciplines": "Therefore, I (personally, not my students; one of the funny facts is that many of my students think I am chanting something useless; while I try to encurage them to `think bigger` and convince them of the words by pioneers like Judea Pearl and Bernhard Schölkopf, etc.) also keep close attention to the modeling level, in a way that a philosophical perspective is heavily taken, although, I am not sure if any of my `research` in philosophy (or actually nonsense thoughts) will turn into tangible publications in a short term.",
+            "sima-story": "Shiji (Records of the Grand Historian) in Chinese, the very first biographical history book in China; I personally consider its position as important as the Bible in the West. It was written by a father and son: Sima Tan and Sima Qian, two grand historians in 100 BC. The way they wrote it largely laid down the foundation for the later history books in China. If you have ever heard any Chinese say they are proud that their ancient civilization is never lost, that pride is due in a fair share to this great work. The point is, if you look into it, this great work was written purely based on their own feeling of responsibility for history — a side-work in today’s language.",
+            "anxiety-story": 'If you are in the AI field, you must know the current "AI researchers" are actually dominated by young Ph.D./ M.S. students, or even undergraduate students. Each year, many "top-tier" AI papers are produced by them. I have to admit, when I was their age, I was very confused about my life. Learning the fast-paced AI techniques, reading papers, experimenting with code, at the same time, are no doubt a tough job, not to mention AI is actually the most important research of all time. The youth now, is shouldering the responsibility beyond their years. For most of them, they are expected to input; while the field now seems to "force" them to output. The tone on social media makes it worse. The rapidly increasing submissions and low-quality reviews are not a surprise, as a result.',
+            "full-stack": "To junior students: If you have ambition to know both the AI and hardware, efficient AI is a good direction to go. The industry is very fond of this kind of people. Welcome to join my lab!",
+            "AGI": "Though many believe meantime, it is still quite far, me included.",
+            "consider-other-disciplines": "Therefore, I (personally, not my students; one of the funny facts is that many of my students think I am chanting something useless; while I try to encourage them to `think bigger` and convince them of the words by pioneers like Judea Pearl and Bernhard Schölkopf, etc.) also keep close attention to the modeling level, in a way that a philosophical perspective is heavily taken, although, I am not sure if any of my `research` in philosophy (or actually nonsense thoughts) will turn into tangible publications in a short term.",
             "want-to-be-replaced": "Speaking of AI replacing human, I have a short summary of current AI development, the Tale of Three Tools: One tool (AI researchers) is creating a powerful tool (AI) so as to replace another tool (common human labor in various economic sectors).",
-            "AGI": "Though many believe meantime, it is still quite far, me included. ",
+            "take-seriously": "Many important questions become a question, only if we take it seriously.",
+            "computable": "As a researcher in Efficient AI, I guess this argument may seem to diminish the importance of efficient AI; but this is the truth in my view. Efficient AI has its practical value in the implementation level, not the modeling level. Those who work on efficient AI are better to claim themselves as `computer systems` researchers."
         };
 
         // ====================== Initialize Citations and Footnotes ======================
@@ -455,16 +631,10 @@
     </script>
 
     <!-- Counter -->
-    <script async src="https://cdn.jsdelivr.net/npm/counterapi@1.14.0/dist/index.umd.min.js"></script>
-    <script>
-        window.addEventListener('load', () => {
-            if (window.counterapi) {
-                counterapi.up('westlake_phd_page').then(r => {
-                    document.getElementById('visits').innerText = r.value;
-                });
-            }
-        });
-    </script>
+    <a href="https://clustrmaps.com/site/1c9s3" title="ClustrMaps"><img
+            src="//www.clustrmaps.com/map_v2.png?d=X0KP7WS7p_n02lpezqt3HP5BpqU8KRti3A_J0LESfD8&cl=ffffff" /></a>
+    <!-- <script type="text/javascript" id="clustrmaps"
+        src="//clustrmaps.com/map_v2.js?d=X0KP7WS7p_n02lpezqt3HP5BpqU8KRti3A_J0LESfD8&cl=ffffff&w=a"></script> -->
 
 </body>
 
