@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huan's Research Statement</title>
+    <style>
+        body {
+            font-family: 'Optima', 'Georgia', 'Times New Roman', serif;
+            line-height: 1.7;
+            max-width: 780px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #222;
+            background-color: #fdfdfd;
+            scroll-behavior: smooth;
+        }
+
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: normal;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+            font-style: italic;
+        }
+
+        h2,
+        h3 {
+            margin-top: 2.2em;
+            margin-bottom: 1.1em;
+        }
+
+        p {
+            margin-bottom: 1.3em;
+            text-align: justify;
+        }
+
+        /* Citation style */
+        .citation {
+            /* font-size: 0.8em;
+            vertical-align: super; */
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        .citation:hover {
+            text-decoration: underline;
+        }
+
+        /* Footnote style */
+        .footnote-ref {
+            font-size: 0.78em;
+            vertical-align: super;
+            color: #8b0000;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+            margin-left: 2px;
+        }
+
+        .footnote-ref:hover {
+            text-decoration: underline;
+        }
+
+        .footnotes {
+            margin-top: 70px;
+            padding-top: 35px;
+            border-top: 2px solid #eee;
+            font-size: 14.5px;
+            line-height: 1.65;
+        }
+
+        .footnotes h2 {
+            font-size: 18px;
+            margin-bottom: 22px;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        .footnotes ol {
+            padding-left: 24px;
+        }
+
+        .footnotes li {
+            margin-bottom: 16px;
+            scroll-margin-top: 30px;
+        }
+
+        .footnote-back {
+            color: #666;
+            text-decoration: none;
+            margin-left: 10px;
+            font-size: 0.92em;
+        }
+
+        .footnote-back:hover {
+            text-decoration: underline;
+        }
+
+        /* Author info */
+        .author-info {
+            text-align: center;
+            margin-bottom: 45px;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .author-name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .references {
+            margin-top: 70px;
+            padding-top: 35px;
+            border-top: 2px solid #eee;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .references h2 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        .references ol {
+            padding-left: 22px;
+        }
+
+        .references li {
+            margin-bottom: 12px;
+            scroll-margin-top: 20px;
+        }
+
+        .backref {
+            color: #666;
+            text-decoration: none;
+            margin-left: 8px;
+            font-size: 0.9em;
+        }
+
+        /* Clustrmaps style */
+        .clustrmaps-container {
+            margin-top: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Research Statement</h1>
+    <div class="subtitle">-- The Problems Should be Considered as One</div>
+
+    <div class="author-info">
+        <span class="author-name">Huan Wang</span><br>
+        <span class="author-email">wanghuan@westlake.edu.cn</span><br>
+        <span class="author-institution">Westlake University, Hangzhou, China</span><br>
+        <span class="author-website"><a href="https://huanwang.tech/rs"
+                target="_blank">https://huanwang.tech/rs</a></span>
+    </div>
+
+    This statement is meant to help prospective students and collaborators know what I am doing and how I do it. It is
+    also a roadmap for my internal reflection on my research.
+
+    <h2>1. Brief Introduction</h2>
+
+    <p>I am doing "AI research", as a
+        Tenure-Track Assistant Professor at Westlake University, Hangzhou, China. My group, ENCODE Lab, focuses on
+        <b>Efficient AI</b>,
+        an area trying
+        to build efficient and reliable AI systems that are scalable and self-improving. In layman's terms, we try to
+        make AI models run faster and/or consume less resources (energy, memory, etc.) on hardware. Speed/energy/memory
+        are all about your time/money. So simply put, our job is to save your time/money when you are using AI :-).
+    </p>
+
+    <h2>2. What is Efficient AI Essentially?</h2>
+
+
+    <p><b>Efficient AI is more about computing systems, at the implementation level of AI</b>.
+        If we look at the past
+        history
+        of AI (roughly starting
+        from Turing's great paper in 1950<cite data-key="turing-1950-paper"></cite>), we might be impressed by the fact
+        that AI is
+        so
+        interdisciplinary a topic that has
+        been studied so broadly by many diverse groups. They try to answer what is human-level intelligence, especially
+        what is the difference between human intelligence and animal intelligence<cite
+            data-key="dartmouth-proposal"></cite>.</p>
+
+
+    <p>We humans approach scientific problems through different levels (by using a kind of very special capability that
+        we still know
+        little about except its name: "abstraction"). In the AI field, if we
+        borrow the wisdom from David Marr<cite data-key="david-marr-vision"></cite>, the problem can be split into three
+        levels: the "Computational theory" level (or, I personally prefer to call it the "Modelling Level"), the
+        "Representation and Algorithm" level,
+        and the "Hardware
+        Implementation" level. For simplicity, if we consider the "Representation and Algorithm" level as the
+        "software implementation" level and merged with the "Hardware Implementation" level, then we have two levels:
+        the modelling level and the implementation level.</p>
+
+    <p>Both the modelling level and the implementation level are indispensable towards the final goal of solving the
+        problem in the real world. But, in terms
+        of scientific
+        value, nuanced yet important distinction still exists (this distinction usually arises when we try to answer why
+        one
+        paper is
+        more
+        novel or important than another): the modelling level is about <em>what</em> and <em>why</em>;
+        the implementation level is mostly about <em>how</em>.
+    </p>
+
+    <p>The computing systems based on the
+        semiconductor
+        are
+        well
+        developed. They are the "body" of AI today. Most works in the efficient AI area are actually about how to
+        improve
+        the
+        efficiency of the "body" (computing systems),
+        of AI. In this sense, efficient AI, in my opinion, is mostly at the implementation level of AI, not
+        the
+        modeling level - I dare to believe that most papers in the efficient AI area
+        prove my opinion. This is why the current efficient AI area works like a <i>post-processing</i> stage in the
+        whole
+        AI pipeline: after we
+        have some super powerful model, we try
+        to compress/accelerate it through various techniques (model compression, token compression, memory optimization,
+        etc.). Another fact to see this is
+        that:
+        many
+        researchers (esp. those with computer system background) may approach the AI efficiency problem by optimizing
+        the memory access,
+        where they do not even
+        care whether the AI model is smart or dumb.
+    </p>
+
+
+    <p><b>Efficient AI is like a "bridge"; tradeoff is everywhere</b>. What we are doing is deploy AI
+        models (deep neural networks) on hardware, and the work we do acts as a
+        "bridge" between the two. Efficient AI is basically about getting the model training and deployment, and
+        inference more efficient. My group is more focused on model deployment and inference (since we do not have many
+        GPUs :()).
+
+    <p>Efficiency is never a free lunch. Tradeoffs are unavoidable within different
+        aspects: time, space (memory), energy, accuracy, etc. A good man in efficient AI is usually who is familiar
+        with the model (deep neural network architecture), the algorithm (how model is used), and the underlying
+        hardware (e.g., GPU/CPU/NPU/ASIC/FPGA, etc.), namely, a full-stack guy.<sup class="footnote"
+            data-fn="full-stack"></sup>
+    </p>
+
+    <p><b>Computing systems are hierarchical</b>. For today's AI computing systems, the problem can be split into
+        usually four levels: the algorithm level, the model level, the system
+        level, and the hardware level. We can get efficiency gains from each level. But different levels come with
+        different
+        potential gains and workloads - developing a fast AI inference algorithm (such as INT4 quantization) is easy (in
+        1 month), but the gain is also relatively limited (e.g., 2-3x speedup). During my Ph.D. period, I focused
+        primarily on the algorithm level; now, my research spans all the
+        spectrum of the computing systems.
+
+    <p><b>Efficient AI is less about the task</b>. AI tasks are unifying in the past several years. Efficient AI is
+        therefore less about specific tasks. We are
+        dealing with deep models, which are typically transformers. The data now is all token flow. As a result, we
+        place no
+        restrictions on the specific tasks we work on; we pursue new topics as they
+        emerge (in Chinese: "chasing hot topics"). This is why you may see that my works have covered a wide range of
+        tasks, including
+        image classification,
+        style transfer, super-resolution, text-to-image generation, large video models, robot manipulation, and
+        SCI (snapshot compressed imaging), among others.
+    </p>
+
+
+    <h2>3. The Problems Should be Considered as One - in a Technical Meaning</h2>
+
+    <p>If we ask "What is the next big problem in AI now?", it is no surprise to hear many would say: "Obviously,
+        how to
+        achieve strong AI or AGI is the next big problem". The success of LLMs is astonishing that many people are
+        convinced
+        that strong AI or AGI is just around the corner, for the first time in
+        history. The path leading us here is said
+        in many different ways, but
+        the
+        core is the same: <a href=http://www.incompleteideas.net/IncIdeas/BitterLesson.html>"Scaling
+            Law"</a> - scaling the
+        model and feed it with more data, supported with more GPUs. Finger crossed: When
+        the
+        model/data/GPUs are enough, intelligence/magic will "emerge" on its own. This path is phrased in many different
+        ways, such as "data fitting", "data-driven", "trial-and-error", etc. I personally prefer to call it the
+        "<em>empirical path</em>", citing the philosophical <a
+            href="https://plato.stanford.edu/entries/rationalism-empiricism/">dispute</a> between empiricism and
+        rationalism.</p>
+
+    <p>I believe in the empirical path, i.e., <b>fitting the data can lead to intelligence, but the key question is:
+            <em>to which
+                level</em>?</b> The empirical path can lead us to a certain distance, nonetheless, no sufficient
+        evidence
+        convinces me
+        that this
+        trial-and-error approach can lead us for very far. I thereby firmly believe, <em>a good computational theory is
+            a must
+            to
+            bring us the next level of artificial intelligence in the road to so-called strong AI or AGI</em>. Some may
+        argue,
+        ChatGPT/LLMs are so successful with the black-box deep neural networks, isn't this enough to show mathematics
+        are not indispensable?
+    </p>
+
+    <p>Well, a good theory is something arising from empirical data but gets beyond. The value of a good theory may have
+        been well
+        said by Kurt Lewin: "<em>Nothing is more practical than a good
+            theory</em> (in the long run)".
+        If this argument is not strong enough, I wish the following example can say something: Before
+        Claude
+        Shannon
+        formalizes the mathematical definition of "information" in 1948<cite data-key="shannon-information"></cite>,
+        radio and
+        wireless communication already existed for
+        quite a while (the first radio was invented by Guglielmo Marconi in 1895), just in the dark. Without the light
+        of information
+        theory, we probably can still listen to
+        Lennon's "<a href="https://www.youtube.com/watch?v=uVXR2LYeFBI">Watching the Wheel</a>" via radio; yet Turbo
+        code<cite data-key="turbo-code"></cite> and LDPC code<cite data-key="ldpc-code"></cite> will very unlikely
+        appear, and we cannot have the
+        Internet as we know it today. Big data will also very unlikely be possible, let alone the current AI boom.
+        So basically, I consider the success of today's LLMs, which might appear so astonishing, is still at a very
+        early stage, like the time when radio was
+        just invented. We are in grave need of the "light".
+    </p>
+
+
+    <p>Speaking of a good theory, if we look at the AI history, we can
+        see
+        many great minds from a variety of fields have been trying to answer the AI modeling problem:
+        philosophy,
+        psychology, neuroscience, cognitive science, in addition to the computer science and engineering. Now,
+        it seems
+        the room is (too) crowded with people of only a few kinds. The computer guys are the dominant force in the
+        AI field; among them, LLM guys are the dominant -- "LLM sucks the oxygen out of the room". No wonder, Yann
+        LeCun <a href="https://x.com/ylecun/status/1796982509567180927">chanted</a>: "<em>If you
+            are
+            a PhD student, don't work on LLMs</em>".</p>
+
+    <p>No need to think it hard, we will see that AI problem is clearly not just about
+        computer science
+        and engineering. Opinions from all disciplines should be considered, especially philosophy, psychology,
+        neuroscience, cognitive science, etc<sup class="footnote" data-fn="consider-other-disciplines"></sup>. However,
+        here we will encounter a practically critical question: <b>We involve the ideas
+            from other disciplines, <em>in what capacity, to what level</em></b>?</p>
+
+
+    <p>I never doubt even a little bit about the formality and seriousness of the researchers in humanities and social
+        sciences, regarding their interest and contributions to the AI problem. Yet, we (I mean those with a
+        science or engineering
+        background) are still self-identified as <em>scientists</em>, vs.
+        those claiming themselves as philosophers or anthropologists, etc. We must set an important boundary to avoid
+        our discussion
+        from slipping into an ambiguous territory that loses our unique identity.
+        The boundary is actually easy to see, if we recall the key characteristic of being scientific,
+        <em>falsifiability</em><cite data-key="falsifiability"></cite>: <b>measurable, computable,
+            and replicable</b>.
+    </p>
+
+    <p>Philosophers or thinkers can discuss AI in an
+        ambiguous (玄学) fashion - they are entitled with that kind of right, while we, scientist, have to be precise,
+        clearly define
+        what
+        we try to discuss<sup class="footnote" data-fn="consistent"></sup>. In some situations, where we have reached
+        the
+        boundary between science
+        and non-science (by
+        non-science,
+        I do not
+        mean they are wrong - just yet to be precisely defined in a scientific way), there is no rigorous tools or
+        concepts at hand, then we are
+        "compromised" to use
+        ambiguous terms. We ought to be careful and realize that is not the ultimate situation it
+        should stay. Respect should be given to those who bravely attempt to make these ambiguous concepts
+        precise, like Claude Shannon did with the measure of information and Alan Turing did with computability<sup
+            class="footnote" data-fn="measurable-computable"></sup>.
+
+        Here, it is worth mentioning the great contributions made by Kant, Wittgenstein, among others, in the philosophy
+        field - <b>before recognizing the world, we need to examine in what capacity the tools (our rationality,
+            language, to name a few) we
+            use
+            are
+            reliable</b>. For the
+        concepts we cannot
+        clearly
+        define now, we should
+        be cautious and refrain from using the terms, yet to be scientific,
+        in
+        a
+        seemingly scientific way - Daemons often hide in these misuesed details, just like how Wittgenstein
+        has warned: "Most propositions and questions that have been written about philosophical matters are
+        <b>not false, but nonsensical</b>"<cite data-key="TLP"></cite>.
+    </p>
+
+    <p>Hereby, I believe that the problems should be considered as one.</p>
+
+
+    <h2>4. The Problems Should be Considered as One - in a Broader Meaning</h2>
+
+    <p>When I write this part, I try to figure out why I am writing this, along with other questions like what I
+        am
+        living for, etc. Being a researcher is an occupation, a means of livelihood. It is also a vocation<cite
+            data-key="weber"></cite>,
+        a way of "dasein"<cite data-key="dasein"></cite>, which should be <i>examined</i><cite
+            data-key="socrates-apology"></cite>.</p>
+
+    <p>On many occasions, we are accustomed to defining ourselves by a school, a department, a narrow field. I
+        deem this
+        as a necessity brought by industrial division of labor, not the way things ought to be, especially when
+        what we
+        study is <i>AI</i>.</p>
+
+    <p>It is not hard to see that AI is a very fundamental topic, one of the "holy grail" problems. No
+        discipline in the
+        past is like this: The
+        creature is to be like the
+        creator.
+        Even if we refrain from a religious perspective such as "we are doing something like playing God", nor
+        can we
+        deny
+        that AI research is
+        probably the most important research of all time, if we take it really seriously<sup class="footnote"
+            data-fn="take-seriously"></sup>.</p>
+
+    <p>This means we should not, and cannot, consider it a problem that is purely technical; nor deprive others
+        (including those who do not even code) of the interest in the problem.
+        At least, many AI researchers are
+        electrified by the idea of inventing a super intelligent system (strong AI or AGI)
+        that
+        aims to replace common humans laboring in various fields, as many pieces
+        of evidence have projected. But have
+        we ever asked if they want to be replaced<sup class="footnote" data-fn="want-to-be-replaced"></sup>? Or,
+        more
+        broadly, why the technology <i>has to</i> keep going?
+        Where will we end up?</p>
+
+    <p>Now, let’s just look at the builders of AI. As human beings, AI researchers
+        must also answer questions like the
+        meaning of life, and the deeper significance of doing AI. We can explain the technical motivation of a
+        method,
+        but we must also explain the motivation of the people who build this technology — the "hidden
+        motivation", I
+        would call it. From my even limited experience, I have found that this hidden motivation determines the
+        external
+        outcomes, and also shapes the technical motivation itself.</p>
+
+    <p>If we consider the profound importance of the AI problem and the fact that the main producers of current
+        AI
+        papers are actually a very young group (Ph.D., master, or even undergraduate, high-school students), we might be
+        shocked by this counterintuitive fact: a critical problem that concerns the
+        fate of humanity is entrusted to a group of young people.
+    </p>
+
+    <p>
+        Now, the problem is, these students
+        or young
+        researchers
+        (me included), as a group, have
+        been shouldering a burden in a weird way: as scientists, we
+        are supposed to be
+        precise and
+        clear, while the
+        papers are filled with vague and ambiguous terms - what's worse, as time goes by, the newcomers even think it is
+        the
+        norm. In
+        addition,
+        To accomplish the important mission of AI research, we are supposed to input and
+        think carefully;
+        while
+        most young researchers are "forced" to output (publish papers) at an unusually high pace (in Chinese: "卷") -
+        always
+        busy with
+        publishing;
+        no time to think, and hard to stop. The rapidly increasing submissions and low-quality reviews
+        are not a surprise,
+        as a result. Collectively, the community, both the academia
+        and industry, now seems to be rampant with, in Max Weber's words, <em>instrumental rationality</em>. Anxiety is
+        pervasive — something I can
+        clearly sense within my own group — many are burning out. This state itself is non-technical. It hides
+        behind the papers and influences the technical outcomes we see, yet it is not fully discussed.</p>
+
+    <p>In my group, I try to help my students to keep up with the pace and meanwhile seeking ways to "jump out".
+        The way
+        out hinges on the motivation of doing research / publishing papers. I personally am greatly inspired by
+        two
+        stories: 1) the address <em><a
+                href="https://www.site.uottawa.ca/~yymao/misc/Einstein_PlanckBirthday.html">Principles of
+                Research</a></em> by
+        Albert
+        Einstein in 1918 for Max Planck's 60th birthday; 2) the story how <em>Records of the Grand
+            Historian</em> <cite data-key="sima-shiji"></cite> was written by a father and son: SIMA Tan and SIMA
+        Qian, two
+        grand historians in
+        China in 100 BC<sup class="footnote" data-fn="sima-story"></sup>.
+    </p>
+
+    <p>Here we say, motivation matters; perspective matters.</p>
+
+    <p>Some may argue these problems belong to philosophy and sociology, psychologists, etc., while we are
+        computer
+        scientists or engineers. They are not our areas. I think this is a valid argument, yet merely in a
+        narrow sense.
+        In a broader sense, we have no other choice but to accept the challenge, once it is realized that we
+        cannot
+        really
+        outsource
+        our own personal questions — the meaning of life, the purpose of existence,
+        what kind of work, research, family, friendship, and relationships we want — to people called
+        "scientists",
+        "philosophers", "psychologists", or "sociologists", simply because they are deemed more "expert" in
+        these areas
+        than we are.</p>
+
+    <p>Hereby, I believe that the problems should be considered as one.</p>
+
+    <h2>5. To Prospective Students and Collaborators</h2>
+
+    <p>If you are interested in joining my lab, please feel free to contact me (refer to the <a
+            href="https://huanwang.tech/admission.pdf" target="_blank">admission.pdf</a>). I also look forward to
+        collaborating interdisciplinarily with researchers from different fields, including philosophy &
+        social sciences, physics, and sustainability, etc.</p>
+
+    <center>
+        <img src="https://huanwang.tech/images/bridge.jpg" alt="bridge" width="73%">
+        <br>
+        Beautiful view on the Eberhardsbrücke bridge in Tübingen, Germany.
+    </center>
+
+
+    <!-- Footnotes -->
+    <section class="footnotes">
+        <h2>Footnotes</h2>
+        <ol id="footnotes-list"></ol>
+    </section>
+
+    <!-- References -->
+    <section class="references">
+        <h2>References</h2>
+        <ol id="references-list"></ol>
+    </section>
+
+
+    <script>
+        // ====================== Bibliography Data ======================
+        const BIBLIOGRAPHY_DATA = {
+            "turing-1950-paper": "Turing, Alan. (1950). <em>Computing Machinery and Intelligence</em>. Mind, 49(236), 433-460.",
+            "socrates-apology": "Socrates. (470-399 BC). <em>Apology</em>.",
+            "weber": "Weber, Max. (1919). <em>Science as Vocation</em>.",
+            "sima-shiji": "Sima, Qian. and Sima, Tan. (100 BC). <em>Records of the Grand Historian</em>.",
+            "dasein": "Heidegger, Martin. (1927). <em>Being and Time</em>.",
+            "dartmouth-proposal": "John McCarthy et al. (1955). <em>A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence</em>.",
+            "david-marr-vision": "David Marr. (1982). <em>Vision: A Computational Investigation into the Human Representation and Processing of Visual Information</em>.",
+            "shannon-information": "Shannon, Claude E. (1948). <em>A Mathematical Theory of Communication</em>. Bell System Technical Journal, 27(3), 379-423.",
+            "turbo-code": "Berrou, C., Glavieux, A., & Thitimajshima, P. (1993). <em>Near Shannon limit error-correcting coding and decoding: Turbo-codes</em>. Proceedings of ICC'93.",
+            "ldpc-code": "Gallager, R. G. (1962). <em>Low-density parity-check codes</em>. IRE Transactions on Information Theory, 8(1), 21-28.",
+            "instrumental-rationality": "Weber, Max. (1922). <em>Science as Vocation</em>.",
+            "TLP": "Wittgenstein, Ludwig. (1922). <em>Tractatus Logico-Philosophicus</em>.",
+            "falsifiability": "Popper, Karl. (1934). <em>The Logic of Scientific Discovery</em>."
+        };
+
+        // ====================== Footnote Data ======================
+        const FOOTNOTE_DATA = {
+            "sima-story": "Records of the Grand Historian ('史记' in Chinese), the very first biographical history book in China. It was written by a father and son: SIMA Tan and SIMA Qian, two grand historians in 100 BC. I personally consider the Records of the Grand Historian is to China what the Bible is to the West. The way they wrote it largely laid down the foundation for the later official history books in China. If you have ever heard any Chinese say they are proud that the Chinese ancient civilization is never lost, that pride is due in a fair share to this great work. The point is, if you look into it, this great work was written purely out of SIMA's personal sense of responsibility to history, in the tradition inherited from Confucius in their view - compiling the Records of the Grand Historian was by no means their official duty — merely a side‑work in today’s language. What is more, SIMA Qian endured the humiliation of castration to complete the book, a dishonor that was considered even harder to bear than death in his time.",
+            "full-stack": "To junior students: If you have ambition to know both the AI and hardware, efficient AI is a good direction to go. The industry is very fond of this kind of people. Welcome to join my lab!",
+            "consider-other-disciplines": "I personally believe in this, while I cannot force my students to follow at current stage. One of the funny facts is that many of my students, and the lab admin assistant, think I am chanting something useless; while I try to encourage them to `think bigger` and convince them of the words by pioneers like Judea Pearl and Bernhard Schölkopf. I am right, with equal probability to be wrong. Views on the contrary side are helpful to sharpen my thinking. Thereby, I am grateful for any opinions.",
+            "want-to-be-replaced": "Speaking of AI replacing human, I have a short summary of current AI development, the Tale of Three Tools: One tool (AI researchers) is creating a powerful tool (AI) so as to replace another tool (common human labor in various economic sectors).",
+            "take-seriously": "Many important questions become a question, only if we take it seriously.",
+            "computable": "As a researcher in Efficient AI, I guess this argument may seem to diminish the importance of efficient AI; but this is the truth in my view. Efficient AI has its practical value in the implementation level, not the modeling level. Those who work on efficient AI are better to claim themselves as `computer systems` researchers.",
+            "measurable-computable": "This part is largely owing to several conversations with <a href='https://people.eecs.berkeley.edu/~yima/'>Prof. Yi Ma</a> at University of Hong Kong.",
+            "identity": "I personally have met many who said there is no point discussing these 'high level' (玄学) things because we do not even have a common ground or they are not 'our area'. I do not doubt a bit the formality and seriousness of the explorations. To me, science, humanities, art are not side-by-side. They all serve a central purpose: to understand the world and ourselves. Just, they are at different positions of a spectrum. Science is based on measurable and computable quantities. Philosophy may not be computable, but still needs logic and reasoning. Art goes even more bold, highlighting what we feel instead of what we think -- This part is owing to my discussion with the admin assistant of our lab, Ms Xinjun Lin.) ",
+            "consistent": "When I say we should be precise and clear, it may be interpreted that failure to do so is 'wrong'. No, I do not mean this way. Just like, philosophers are not precise and we have no problem with that. The point here is not about being right or wrong, but a matter of being <em>consistent</em> with the claimed identity / role."
+        }
+
+        // ====================== Initialize Citations and Footnotes ======================
+        document.addEventListener('DOMContentLoaded', function () {
+            // Handle Citations
+            const citeTags = document.querySelectorAll('cite[data-key]');
+            const refList = document.getElementById('references-list');
+            const citationOrder = {};
+            let citationIndex = 1;
+
+            citeTags.forEach(tag => {
+                const key = tag.getAttribute('data-key');
+                if (!citationOrder[key]) {
+                    citationOrder[key] = citationIndex++;
+                }
+                const index = citationOrder[key];
+
+                const link = document.createElement('a');
+                link.href = `#ref-${key}`;
+                link.id = `cite-${key}`;
+                link.className = 'citation';
+                link.textContent = ` [${index}]`;
+
+                tag.parentNode.replaceChild(link, tag);
+            });
+
+            // Generate References
+            Object.keys(citationOrder).sort((a, b) => citationOrder[a] - citationOrder[b]).forEach(key => {
+                const li = document.createElement('li');
+                li.id = `ref-${key}`;
+                li.innerHTML = `${BIBLIOGRAPHY_DATA[key] || `Missing ref for ${key}`} <a href="#cite-${key}" class="backref">↩</a>`;
+                refList.appendChild(li);
+            });
+
+            // Handle Footnotes
+            const footnoteRefs = document.querySelectorAll('sup.footnote');
+            const fnList = document.getElementById('footnotes-list');
+            const fnOrder = {};
+            let fnIndex = 1;
+
+            footnoteRefs.forEach(ref => {
+                let key = ref.getAttribute('data-fn');
+                if (!key) key = 'fn-' + fnIndex;
+
+                if (!fnOrder[key]) {
+                    fnOrder[key] = fnIndex++;
+                }
+                const index = fnOrder[key];
+
+                const link = document.createElement('a');
+                link.href = `#fn-${key}`;
+                link.id = `fnref-${key}`;
+                link.className = 'footnote-ref';
+                link.textContent = `${index}`;
+
+                ref.parentNode.replaceChild(link, ref);
+            });
+
+            // Generate Footnotes
+            Object.keys(fnOrder).sort((a, b) => fnOrder[a] - fnOrder[b]).forEach(key => {
+                const content = FOOTNOTE_DATA[key] || "Footnote content missing.";
+                const li = document.createElement('li');
+                li.id = `fn-${key}`;
+                li.innerHTML = `${content} <a href="#fnref-${key}" class="footnote-back">↩</a>`;
+                fnList.appendChild(li);
+            });
+        });
+    </script>
+
+    <!-- Clustrmaps Visitor Counter -->
+    <div class="clustrmaps-container">
+        <a href="https://clustrmaps.com/site/1c9s3" title="ClustrMaps"><img
+                src="//www.clustrmaps.com/map_v2.png?d=X0KP7WS7p_n02lpezqt3HP5BpqU8KRti3A_J0LESfD8&cl=ffffff" /></a>
+    </div>
+</body>
+
+</html>
