@@ -47,8 +47,8 @@
 
         /* Citation style */
         .citation {
-            font-size: 0.8em;
-            vertical-align: super;
+            /* font-size: 0.8em;
+            vertical-align: super; */
             color: #0056b3;
             text-decoration: none;
             font-weight: 500;
@@ -63,10 +63,11 @@
         .footnote-ref {
             font-size: 0.78em;
             vertical-align: super;
-            color: #0066cc;
+            color: #8b0000;
+            font-weight: bold;
             text-decoration: none;
             cursor: pointer;
-            margin-left: 3px;
+            margin-left: 2px;
         }
 
         .footnote-ref:hover {
@@ -199,13 +200,14 @@
         so
         interdisciplinary a topic that has
         been studied so broadly by many diverse groups. They try to answer what is human-level intelligence, especially
-        what is the difference between human intelligence and animal intelligence<cite data-key="dartmouth"></cite>.</p>
+        what is the difference between human intelligence and animal intelligence<cite
+            data-key="dartmouth-proposal"></cite>.</p>
 
 
     <p>We humans approach scientific problems through different levels (by using a kind of very special capability that
         we still know
         little about except its name: "abstraction"). In the AI field, if we
-        borrow the wisdom from David Marr<cite data-key="david_marr_vision"></cite>, the problem can be split into three
+        borrow the wisdom from David Marr<cite data-key="david-marr-vision"></cite>, the problem can be split into three
         levels: the "Computational theory" level (or, I personally prefer to call it the "Modelling Level"), the
         "Representation and Algorithm" level,
         and the "Hardware
@@ -221,7 +223,8 @@
         paper is
         more
         novel or important than another): the modelling level is about <em>what</em> and <em>why</em>;
-        the implementation level is mostly about <em>how</em><cite data-key="david_marr_vision"></cite>.</p>
+        the implementation level is mostly about <em>how</em>.
+    </p>
 
     <p>The computing systems based on the
         semiconductor
@@ -245,7 +248,8 @@
         researchers (esp. those with computer system background) may approach the AI efficiency problem by optimizing
         the memory access,
         where they do not even
-        care whether the AI model is smart or dumb.</p>
+        care whether the AI model is smart or dumb.
+    </p>
 
 
     <p><b>Efficient AI is like a "bridge"; tradeoff is everywhere</b>. What we are doing is deploy AI
@@ -367,15 +371,16 @@
         those claiming themselves as philosophers or anthropologists, etc. We must set an important boundary to avoid
         our discussion
         from slipping into an ambiguous territory that loses our unique identity.
-        The boundary is actually easy to see, if we recall the key definition of <em>
-            science</em>, falsifiability<cite data-key=""></cite>: <b>measurable, computable,
-            and replicable</b>.</p>
+        The boundary is actually easy to see, if we recall the key characteristic of being scientific,
+        <em>falsifiability</em><cite data-key="falsifiability"></cite>: <b>measurable, computable,
+            and replicable</b>.
+    </p>
 
     <p>Philosophers or thinkers can discuss AI in an
         ambiguous (玄学) fashion - they are entitled with that kind of right, while we, scientist, have to be precise,
         clearly define
         what
-        we try to discuss, namely, be <em>consistent</em> with our identity. In some situations, where we have reached
+        we try to discuss<sup class="footnote" data-fn="consistent"></sup>. In some situations, where we have reached
         the
         boundary between science
         and non-science (by
@@ -416,7 +421,7 @@
         living for, etc. Being a researcher is an occupation, a means of livelihood. It is also a vocation<cite
             data-key="weber"></cite>,
         a way of "dasein"<cite data-key="dasein"></cite>, which should be <i>examined</i><cite
-            data-key="Socrates-examined"></cite>.</p>
+            data-key="socrates-apology"></cite>.</p>
 
     <p>On many occasions, we are accustomed to defining ourselves by a school, a department, a narrow field. I
         deem this
@@ -465,31 +470,33 @@
         fate of humanity is entrusted to a group of young people.
     </p>
 
-    <p></p>
-    Now the problem is, these students
-    or young
-    researchers
-    (me included), as a group, have
-    been shouldering a burden in a weird way: as scientists, we
-    are supposed to be
-    precise and
-    clear, while the
-    papers are filled with vague and ambiguous terms - what's worse, as time goes by, the newcomers even think it is the
-    norm. In
-    addition,
-    To accomplish the important mission of AI research, we are supposed to input and
-    think carefully;
-    while
-    most young researchers are "forced" to output (publish papers) at an unusually high pace (in Chinese: "卷") - always
-    busy with
-    publishing;
-    no time to think, and hard to stop. The rapidly increasing submissions and low-quality reviews
-    are not a surprise,
-    as a result. Collectively, the community, both the academia
-    and industry, now seems to be rampant with, in Max Weber's words, <em>instrumental rationality</em>. Anxiety is
-    pervasive — something I can
-    clearly sense within my own group — many are burning out. This state itself is non-technical. It hides
-    behind the papers and influences the technical outcomes we see, yet it is not fully discussed.</p>
+    <p>
+        Now, the problem is, these students
+        or young
+        researchers
+        (me included), as a group, have
+        been shouldering a burden in a weird way: as scientists, we
+        are supposed to be
+        precise and
+        clear, while the
+        papers are filled with vague and ambiguous terms - what's worse, as time goes by, the newcomers even think it is
+        the
+        norm. In
+        addition,
+        To accomplish the important mission of AI research, we are supposed to input and
+        think carefully;
+        while
+        most young researchers are "forced" to output (publish papers) at an unusually high pace (in Chinese: "卷") -
+        always
+        busy with
+        publishing;
+        no time to think, and hard to stop. The rapidly increasing submissions and low-quality reviews
+        are not a surprise,
+        as a result. Collectively, the community, both the academia
+        and industry, now seems to be rampant with, in Max Weber's words, <em>instrumental rationality</em>. Anxiety is
+        pervasive — something I can
+        clearly sense within my own group — many are burning out. This state itself is non-technical. It hides
+        behind the papers and influences the technical outcomes we see, yet it is not fully discussed.</p>
 
     <p>In my group, I try to help my students to keep up with the pace and meanwhile seeking ways to "jump out".
         The way
@@ -566,7 +573,8 @@
             "turbo-code": "Berrou, C., Glavieux, A., & Thitimajshima, P. (1993). <em>Near Shannon limit error-correcting coding and decoding: Turbo-codes</em>. Proceedings of ICC'93.",
             "ldpc-code": "Gallager, R. G. (1962). <em>Low-density parity-check codes</em>. IRE Transactions on Information Theory, 8(1), 21-28.",
             "instrumental-rationality": "Weber, Max. (1922). <em>Science as Vocation</em>.",
-            "TLP": "Wittgenstein, Ludwig. (1922). <em>Tractatus Logico-Philosophicus</em>."
+            "TLP": "Wittgenstein, Ludwig. (1922). <em>Tractatus Logico-Philosophicus</em>.",
+            "falsifiability": "Popper, Karl. (1934). <em>The Logic of Scientific Discovery</em>."
         };
 
         // ====================== Footnote Data ======================
@@ -578,7 +586,8 @@
             "take-seriously": "Many important questions become a question, only if we take it seriously.",
             "computable": "As a researcher in Efficient AI, I guess this argument may seem to diminish the importance of efficient AI; but this is the truth in my view. Efficient AI has its practical value in the implementation level, not the modeling level. Those who work on efficient AI are better to claim themselves as `computer systems` researchers.",
             "measurable-computable": "This part is largely owing to several conversations with <a href='https://people.eecs.berkeley.edu/~yima/'>Prof. Yi Ma</a> at University of Hong Kong.",
-            "identity": "I personally have met many who said there is no point discussing these 'high level' (玄学) things because we do not even have a common ground or they are not 'our area'. I do not doubt a bit the formality and seriousness of the explorations. To me, science, humanities, art are not side-by-side. They all serve a central purpose: to understand the world and ourselves. Just, they are at different positions of a spectrum. Science is based on measurable and computable quantities. Philosophy may not be computable, but still needs logic and reasoning. Art goes even more bold, highlighting what we feel instead of what we think -- This part is owing to my discussion with the admin assistant of our lab, Ms Xinjun Lin.) "
+            "identity": "I personally have met many who said there is no point discussing these 'high level' (玄学) things because we do not even have a common ground or they are not 'our area'. I do not doubt a bit the formality and seriousness of the explorations. To me, science, humanities, art are not side-by-side. They all serve a central purpose: to understand the world and ourselves. Just, they are at different positions of a spectrum. Science is based on measurable and computable quantities. Philosophy may not be computable, but still needs logic and reasoning. Art goes even more bold, highlighting what we feel instead of what we think -- This part is owing to my discussion with the admin assistant of our lab, Ms Xinjun Lin.) ",
+            "consistent": "When I say we should be precise and clear, it may be interpreted that failure to do so is 'wrong'. No, I do not mean this way. Just like, philosophers are not precise and we have no problem with that. The point here is not about being right or wrong, but a matter of being <em>consistent</em> with the claimed identity / role."
         }
 
         // ====================== Initialize Citations and Footnotes ======================
@@ -600,7 +609,7 @@
                 link.href = `#ref-${key}`;
                 link.id = `cite-${key}`;
                 link.className = 'citation';
-                link.textContent = `[${index}]`;
+                link.textContent = ` [${index}]`;
 
                 tag.parentNode.replaceChild(link, tag);
             });
@@ -632,7 +641,7 @@
                 link.href = `#fn-${key}`;
                 link.id = `fnref-${key}`;
                 link.className = 'footnote-ref';
-                link.textContent = `[${index}]`;
+                link.textContent = `${index}`;
 
                 ref.parentNode.replaceChild(link, ref);
             });
