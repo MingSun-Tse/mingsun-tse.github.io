@@ -572,76 +572,77 @@
     </tbody>
   </table>
   <script>
-  (function () {
-  var docEl = document.documentElement;
-  var btn = document.getElementById('theme-toggle');
-  function setTheme(t) { docEl.setAttribute('data-theme', t); try { localStorage.setItem('theme', t); } catch (e) { } }
-  if (btn) {
-  btn.addEventListener('click', function () {
-  var cur = docEl.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'; setTheme(cur);
-  });
-  }
-  })();
+    (function () {
+      var docEl = document.documentElement;
+      var btn = document.getElementById('theme-toggle');
+      function setTheme(t) { docEl.setAttribute('data-theme', t); try { localStorage.setItem('theme', t); } catch (e) { } }
+      if (btn) {
+        btn.addEventListener('click', function () {
+          var cur = docEl.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'; setTheme(cur);
+        });
+      }
+    })();
 
 
-  (function () {
-  var box = document.querySelector('.news-container');
-  if (!box) return;
-  var ul = box.querySelector('ul'); if (!ul) return;
-  var items = Array.prototype.slice.call(ul.children).filter(function (li) {
-  return li.nodeType === 1 && li.getAttribute && li.getAttribute('data-label');
-  });
-  var ORDER = ["Publications", "Talks", "Funds", "Services", "Awards", "Teaching", "Misc"];
-  var counts = {};
-  items.forEach(function (li) { var l = li.getAttribute('data-label'); counts[l] = (counts[l] || 0) + 1; });
-  var labels = ORDER.filter(function (l) { return counts[l]; });
-  var bar = document.getElementById('news-filter'); if (!bar) return;
-  var countEl = document.getElementById('news-count');
-  var active = {};
+    (function () {
+      var box = document.querySelector('.news-container');
+      if (!box) return;
+      var ul = box.querySelector('ul'); if (!ul) return;
+      var items = Array.prototype.slice.call(ul.children).filter(function (li) {
+        return li.nodeType === 1 && li.getAttribute && li.getAttribute('data-label');
+      });
+      var ORDER = ["Publications", "Talks", "Funds", "Services", "Awards", "Teaching", "Misc"];
+      var counts = {};
+      items.forEach(function (li) { var l = li.getAttribute('data-label'); counts[l] = (counts[l] || 0) + 1; });
+      var labels = ORDER.filter(function (l) { return counts[l]; });
+      var bar = document.getElementById('news-filter'); if (!bar) return;
+      var countEl = document.getElementById('news-count');
+      var active = {};
 
-  function render() {
-  var sel = Object.keys(active);
-  var n = 0;
-  items.forEach(function (li) {
-  var show = !sel.length || sel.indexOf(li.getAttribute('data-label')) !== -1;
-  li.style.display = show ? '' : 'none';
-  if (show) n++;
-  });
-  if (countEl) countEl.textContent = n + (n === 1 ? ' item' : ' items') + (sel.length ? ' \u00b7 ' + sel.join(', ') :
-  '');
-  allBtn.classList.toggle('on', sel.length === 0);
-  }
+      function render() {
+        var sel = Object.keys(active);
+        var n = 0;
+        items.forEach(function (li) {
+          var show = !sel.length || sel.indexOf(li.getAttribute('data-label')) !== -1;
+          li.style.display = show ? '' : 'none';
+          if (show) n++;
+        });
+        if (countEl) countEl.textContent = n + (n === 1 ? ' item' : ' items') + (sel.length ? ' \u00b7 ' + sel.join(', ') :
+          '');
+        allBtn.classList.toggle('on', sel.length === 0);
+      }
 
-  var allBtn = document.createElement('button');
-  allBtn.type = 'button'; allBtn.className = 'tag-btn on'; allBtn.textContent = 'All';
-  allBtn.addEventListener('click', function () {
-  active = {};
-  bar.querySelectorAll('.tag-btn.on').forEach(function (x) { if (x !== allBtn) x.classList.remove('on'); });
-  render();
-  });
-  bar.appendChild(allBtn);
+      var allBtn = document.createElement('button');
+      allBtn.type = 'button'; allBtn.className = 'tag-btn on'; allBtn.textContent = 'All';
+      allBtn.addEventListener('click', function () {
+        active = {};
+        bar.querySelectorAll('.tag-btn.on').forEach(function (x) { if (x !== allBtn) x.classList.remove('on'); });
+        render();
+      });
+      bar.appendChild(allBtn);
 
-  labels.forEach(function (l) {
-  var b = document.createElement('button');
-  b.type = 'button'; b.className = 'tag-btn'; b.setAttribute('data-label', l);
-  b.innerHTML = l + ' <em>' + counts[l] + '</em>';
-  b.addEventListener('click', function () {
-  if (active[l]) { delete active[l]; b.classList.remove('on'); }
-  else { active[l] = 1; b.classList.add('on'); }
-  render();
-  });
-  bar.appendChild(b);
-  });
-  render();
-  })();
+      labels.forEach(function (l) {
+        var b = document.createElement('button');
+        b.type = 'button'; b.className = 'tag-btn'; b.setAttribute('data-label', l);
+        b.innerHTML = l + ' <em>' + counts[l] + '</em>';
+        b.addEventListener('click', function () {
+          if (active[l]) { delete active[l]; b.classList.remove('on'); }
+          else { active[l] = 1; b.classList.add('on'); }
+          render();
+        });
+        bar.appendChild(b);
+      });
+      render();
+    })();
   </script>
 
   <!-- MapMyVisitors tracker (loads, but rendered invisibly) -->
-  <a href="https://mapmyvisitors.com/web/1c53t" title="Visit tracker"
+  <a href="https://mapmyvisitors.com/web/1c53y" title="Visit tracker"
     style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);opacity:0;pointer-events:none;"
     aria-hidden="true" tabindex="-1"><img
-      src="https://mapmyvisitors.com/map.png?d=uLBsUzWDk-HGYm6t7CZI6PRryLvGVwlmGNOhuNHG1xU&cl=ffffff" alt=""
-      style="width:1px;height:1px;border:0;" /></a>
+      src="https://mapmyvisitors.com/map.png?d=ateLD3nyAOSdjP_DrujqqF3xo36lE1bRjOVzAfDJGo4&cl=ffffff" alt=""
+      style="width:1px;height:1px;border:0;" />
+  </a>
 </body>
 
 </html>
