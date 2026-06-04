@@ -38,31 +38,23 @@
               <tr>
                 <td style="padding-top:14px;vertical-align:middle">
                   <heading>Misc</heading>
-                  <p style="margin-top:1em;color:var(--fg-soft)">Some personal stuff here. Coming soon.</p>
-                  <div class="gallery">
-                    <div class="gallery-item">photo 1 · replace in images/</div>
-                    <div class="gallery-item">photo 2 · replace in images/</div>
-                    <div class="gallery-item">photo 3 · replace in images/</div>
+                  <p style="margin-top:1em;color:var(--fg-soft)">Some personal stuff here.</p>
+                  <div class="photo-gallery" id="photo-gallery">
+                    <button class="gallery-nav prev" type="button" aria-label="Previous photo">&#8249;</button>
+                    <div class="gallery-track">
+                      <figure class="gallery-slide">
+                        <img src="images/24.6.3.jpg" alt="My first day at Westlake." loading="lazy" />
+                        <figcaption>My first day at Westlake.</figcaption>
+                      </figure>
+                      <figure class="gallery-slide">
+                        <img src="images/26.6.3_students_cvpr26.jpg" alt="My students attending CVPR26 in Denver."
+                          loading="lazy" />
+                        <figcaption>My students attending CVPR26 in Denver.</figcaption>
+                      </figure>
+                    </div>
+                    <button class="gallery-nav next" type="button" aria-label="Next photo">&#8250;</button>
+                    <div class="gallery-dots" aria-hidden="true"></div>
                   </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table style="width:100%;
-                                                          border:0px;
-                                                          border-spacing:0px;
-                                                          border-collapse:separate;
-                                                          margin-right:auto;
-                                                          margin-left:auto;
-                                                          text-align:justify">
-            <tbody>
-              <tr>
-                <td style="padding:0px">
-                  <br />
-                  <p style="text-align:center;font-size:small;">
-                    (This webpage template is stolen from <a href="https://jonbarron.info/" style="font-size: small">Jon
-                      Barron</a>)
-                  </p>
                 </td>
               </tr>
             </tbody>
@@ -82,6 +74,47 @@
           var cur = docEl.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'; setTheme(cur);
         });
       }
+    })();
+
+    (function () {
+      var g = document.getElementById('photo-gallery');
+      if (!g) return;
+      var track = g.querySelector('.gallery-track');
+      var slides = Array.prototype.slice.call(track.querySelectorAll('.gallery-slide'));
+      var prev = g.querySelector('.gallery-nav.prev');
+      var next = g.querySelector('.gallery-nav.next');
+      var dotsBox = g.querySelector('.gallery-dots');
+      if (slides.length < 2) { if (prev) prev.style.display = 'none'; if (next) next.style.display = 'none'; }
+
+      var dots = slides.map(function (s, i) {
+        var d = document.createElement('button');
+        d.type = 'button'; d.className = 'gallery-dot'; d.setAttribute('aria-label', 'Go to photo ' + (i + 1));
+        d.addEventListener('click', function () { go(i); });
+        dotsBox.appendChild(d); return d;
+      });
+
+      function current() {
+        var w = track.clientWidth || 1;
+        return Math.round(track.scrollLeft / w);
+      }
+      function go(i) {
+        i = Math.max(0, Math.min(slides.length - 1, i));
+        track.scrollTo({ left: i * track.clientWidth, behavior: 'smooth' });
+      }
+      function sync() {
+        var i = current();
+        dots.forEach(function (d, k) { d.classList.toggle('on', k === i); });
+      }
+      if (prev) prev.addEventListener('click', function () { go(current() - 1); });
+      if (next) next.addEventListener('click', function () { go(current() + 1); });
+
+      var raf;
+      track.addEventListener('scroll', function () {
+        if (raf) cancelAnimationFrame(raf);
+        raf = requestAnimationFrame(sync);
+      });
+      window.addEventListener('resize', sync);
+      sync();
     })();
 
   </script>
