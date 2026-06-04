@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Talks | Huan Wang</title>
+<meta content="Huan Wang" name="author"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;&lt;/text&gt;&lt;/svg&gt;" rel="icon"/>
+<script>(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<style>
+  table { width: 100%; }
+  li { margin-bottom: 2px; }
+</style>
+</head>
+<body>
+<button aria-label="Toggle dark / light theme" id="theme-toggle" title="Toggle theme" type="button"><span aria-hidden="true" class="ti-sun">☀️</span><span aria-hidden="true" class="ti-moon">🌙</span></button>
+<nav class="site-nav"><a href="index.html">Home</a><a href="publications.html">Publications</a><a href="blogs.html">Blogs</a><a class="active" href="talks.html">Talks</a><a href="teaching.html">Teaching</a><a href="services.html">Services</a><a href="misc.html">Misc</a><a href="contact.html">Contact</a></nav>
+<table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto"><tbody><tr style="padding:0px"><td style="padding:0px">
+<table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody><tr><td style="padding-top:14px;vertical-align:middle"><heading>Talks</heading><p style="margin-top:1em;color:var(--fg-soft)">内容待补 / Content coming soon.</p></td></tr></tbody></table>
+<table style="width:100%;
+                                                          border:0px;
+                                                          border-spacing:0px;
+                                                          border-collapse:separate;
+                                                          margin-right:auto;
+                                                          margin-left:auto;
+                                                          text-align:justify">
+<tbody>
+<tr>
+<td style="padding:0px">
+<br/>
+<p style="text-align:center;font-size:small;">
+                    (This webpage template is stolen from <a href="https://jonbarron.info/" style="font-size: small">Jon
+                      Barron</a>)
+                  </p>
+</td>
+</tr>
+</tbody>
+</table>
+</td></tr></tbody></table>
+<script>
+
+(function(){
+  var docEl = document.documentElement;
+  var btn = document.getElementById('theme-toggle');
+  function setTheme(t){ docEl.setAttribute('data-theme', t); try{ localStorage.setItem('theme', t); }catch(e){} }
+  if(btn){ btn.addEventListener('click', function(){
+    var cur = docEl.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'; setTheme(cur);
+  }); }
+})();
+
+</script>
+</body>
+</html>

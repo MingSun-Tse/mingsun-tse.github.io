@@ -303,3 +303,325 @@ span.highlight {
     /* 使用实心圆点作为项目符号 */
     list-style-type: square;
 }
+/* =========================================================================
+   Additions: dark/light theming, keyword tags + clustering, funding section
+   (Appended; original rules above are preserved.)
+   ========================================================================= */
+
+:root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --fg-soft: #555555;
+    --link: #1772d0;
+    --link-hover: #f09228;
+    --border: #e3e3e3;
+    --surface: #f6f7f9;
+    --surface-2: #eef0f3;
+    --pill-bg: #eef2f7;
+    --pill-fg: #3a4a5e;
+    --pill-border: #d7dee7;
+    --pill-on-bg: #1772d0;
+    --pill-on-fg: #ffffff;
+    --highlight: #ffffd0;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] {
+    --bg: #16181c;
+    --fg: #d6d8dc;
+    --fg-soft: #9aa0a8;
+    --link: #6cb6ff;
+    --link-hover: #ffb35c;
+    --border: #2a2e35;
+    --surface: #1d2025;
+    --surface-2: #23272e;
+    --pill-bg: #23272e;
+    --pill-fg: #b7c2d0;
+    --pill-border: #343a43;
+    --pill-on-bg: #6cb6ff;
+    --pill-on-fg: #16181c;
+    --highlight: #4a431f;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+html { background: var(--bg); }
+
+body {
+    background: var(--bg);
+    color: var(--fg);
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+body, td, th, tr, p, a, heading, name { color: var(--fg); }
+
+a { color: var(--link); }
+a:focus, a:hover { color: var(--link-hover); }
+
+span.highlight { background-color: var(--highlight); }
+
+/* keep "Oral / Spotlight" red markers legible on dark */
+[data-theme="dark"] font[color="red"] { color: #ff7a6b !important; }
+
+/* ---- theme toggle button ---- */
+#theme-toggle {
+    position: fixed;
+    top: 14px;
+    right: 14px;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--fg);
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+#theme-toggle:hover { transform: scale(1.08); }
+#theme-toggle .ti-sun  { display: none; }
+#theme-toggle .ti-moon { display: inline; }
+[data-theme="dark"] #theme-toggle .ti-sun  { display: inline; }
+[data-theme="dark"] #theme-toggle .ti-moon { display: none; }
+
+/* ---- publication controls (filter + cluster) ---- */
+#pub-controls { margin: 6px 0 14px 0; }
+.pc-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.pc-label {
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--fg-soft);
+}
+.view-toggle {
+    font-family: inherit;
+    font-size: 13px;
+    padding: 5px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--fg);
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.view-toggle:hover { border-color: var(--link); color: var(--link); }
+.view-toggle.on { background: var(--link); color: var(--pill-on-fg); border-color: var(--link); }
+
+.tag-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin: 10px 0 8px 0;
+}
+.tag-btn {
+    font-family: inherit;
+    font-size: 13px;
+    padding: 4px 11px;
+    border-radius: 999px;
+    border: 1px solid var(--pill-border);
+    background: var(--pill-bg);
+    color: var(--pill-fg);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    line-height: 1.5;
+}
+.tag-btn em { font-style: normal; opacity: 0.6; font-size: 11px; }
+.tag-btn:hover { border-color: var(--link); color: var(--link); }
+.tag-btn.on {
+    background: var(--pill-on-bg);
+    color: var(--pill-on-fg);
+    border-color: var(--pill-on-bg);
+}
+.tag-btn.on em { opacity: 0.85; }
+
+.pc-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: var(--fg-soft);
+}
+#clear-tags {
+    font-family: inherit;
+    font-size: 12px;
+    padding: 2px 9px;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--fg-soft);
+    cursor: pointer;
+}
+#clear-tags:hover { color: var(--link); border-color: var(--link); }
+
+/* ---- per-paper keyword pills ---- */
+.paper-tags {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.tag-pill {
+    font-size: 11.5px;
+    line-height: 1.4;
+    padding: 1px 8px;
+    border-radius: 999px;
+    background: var(--pill-bg);
+    color: var(--pill-fg);
+    border: 1px solid var(--pill-border);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    user-select: none;
+}
+.tag-pill:hover { border-color: var(--link); color: var(--link); }
+
+/* ---- clustered view ---- */
+#cluster-view { margin-top: 4px; }
+.cluster-group { margin: 0 0 26px 0; }
+.cluster-head {
+    font-family: Optima, "Lato", Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--link);
+    display: inline-block;
+}
+.cluster-count {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--fg-soft);
+    margin-left: 6px;
+}
+.cluster-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border);
+}
+.cluster-thumb {
+    width: 96px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    background: var(--surface-2);
+    flex-shrink: 0;
+}
+.cluster-body { flex: 1; min-width: 0; }
+.cluster-title { font-weight: 700; }
+.cluster-venue { font-size: 13px; color: var(--fg-soft); margin-top: 2px; }
+
+/* ---- funding / acknowledgements ---- */
+.ack-table heading { display: block; margin-bottom: 4px; }
+.funding-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+}
+.funding-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 20px;
+    min-width: 150px;
+    height: 78px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--surface);
+    box-shadow: var(--shadow);
+    transition: transform 0.15s ease, border-color 0.15s ease;
+}
+.funding-item:hover { transform: translateY(-2px); border-color: var(--link); }
+.funding-item img { max-width: 100%; max-height: 100%; object-fit: contain; display: block; }
+/* placeholder logos use currentColor strokes/fills so they adapt to theme */
+.funding-item img { color: var(--fg); }
+
+@media screen and (max-width: 800px) {
+    #theme-toggle { top: 8px; right: 8px; width: 36px; height: 36px; font-size: 16px; }
+    .funding-item { min-width: 0; flex: 1 1 40%; }
+    .cluster-thumb { width: 72px; height: 46px; }
+}
+
+/* =========================================================================
+   Top navigation (multi-page site)
+   ========================================================================= */
+.site-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px 4px;
+    max-width: 900px;
+    margin: 8px auto 6px auto;
+    padding: 4px 10px;
+    border-bottom: 1px solid var(--border);
+}
+.site-nav a {
+    font-family: Optima, "Lato", Verdana, Helvetica, sans-serif;
+    font-size: 17px;
+    color: var(--fg-soft);
+    padding: 7px 16px;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+.site-nav a:hover {
+    color: var(--link);
+    background: var(--surface);
+}
+.site-nav a.active {
+    color: var(--link);
+    font-weight: 700;
+    border-bottom-color: var(--link);
+}
+
+#news-controls { margin: 4px 0 12px 0; }
+
+@media screen and (max-width: 800px) {
+    .site-nav { gap: 0 2px; padding: 4px 4px; }
+    .site-nav a { font-size: 15px; padding: 6px 9px; }
+}
+
+/* =========================================================================
+   Contact email images (anti-scraper) + Misc gallery
+   ========================================================================= */
+.email-img {
+    height: 26px;
+    width: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+/* dark theme: invert the dark-text PNG to light */
+[data-theme="dark"] .email-img { filter: invert(0.88); }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 14px;
+    margin-top: 1.2em;
+}
+.gallery-item {
+    aspect-ratio: 4 / 3;
+    border: 1px dashed var(--border);
+    border-radius: 10px;
+    background: var(--surface);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--fg-soft);
+    font-size: 13px;
+    text-align: center;
+    padding: 8px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Services | Huan Wang</title>
+  <meta name="author" content="Huan Wang">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
+  <script>(function () { try { var t = localStorage.getItem('theme'); if (!t) { t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; } document.documentElement.setAttribute('data-theme', t); } catch (e) { } })();</script>
+  <style>
+    table {
+      width: 100%;
+    }
+
+    li {
+      margin-bottom: 2px;
+    }
+  </style>
+</head>
+
+<body>
+  <button aria-label="Toggle dark / light theme" id="theme-toggle" title="Toggle theme" type="button"><span
+      aria-hidden="true" class="ti-sun">☀️</span><span aria-hidden="true" class="ti-moon">🌙</span></button>
+  <nav class="site-nav"><a href="index.html">Home</a><a href="publications.html">Publications</a><a
+      href="blogs.html">Blogs</a><a href="talks.html">Talks</a><a href="teaching.html">Teaching</a><a
+      href="services.html" class="active">Services</a><a href="misc.html">Misc</a><a href="contact.html">Contact</a>
+  </nav>
+  <table
+    style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;
+                                                          border:0px;
+                                                          border-spacing:0px;
+                                                          border-collapse:separate;
+                                                          margin-right:auto;
+                                                          margin-left:auto">
+            <tbody>
+              <tr>
+                <td style="td-left">
+                  <heading>Professional Services</heading>
+                  <ul style="“list-style-type:square;”">
+                    <li>
+                      <b>Area Chair</b> - AAAI 2026, ICLR 2026, CVPR 2026, NeurIPS 2026
+                    </li>
+                    <li>
+                      <b>Journal Reviewer</b> - TPAMI, IJCV, TIP, TNNLS, TMM, PR, IoT, JSTSP, TCSVT, <i>etc</i>.
+                    </li>
+                    <li>
+                      <b>Conference Reviewer</b> - CVPR/ECCV/ICCV/SIGGRAPH Asia, ICML/ICLR/NeurIPS, AAAI/IJCAI,
+                      MLSys, COLM, <i>etc</i>.
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="width:100%;
+                                                          border:0px;
+                                                          border-spacing:0px;
+                                                          border-collapse:separate;
+                                                          margin-right:auto;
+                                                          margin-left:auto;
+                                                          text-align:justify">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <br />
+                  <p style="text-align:center;font-size:small;">
+                    (This webpage template is stolen from <a href="https://jonbarron.info/" style="font-size: small">Jon
+                      Barron</a>)
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <script>
+
+    (function () {
+      var docEl = document.documentElement;
+      var btn = document.getElementById('theme-toggle');
+      function setTheme(t) { docEl.setAttribute('data-theme', t); try { localStorage.setItem('theme', t); } catch (e) { } }
+      if (btn) {
+        btn.addEventListener('click', function () {
+          var cur = docEl.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'; setTheme(cur);
+        });
+      }
+    })();
+
+  </script>
+</body>
+
+</html>
