@@ -28,9 +28,12 @@
       text-align: justify;
     }
 
-    .td_bio_photo img {
-      display: block;
-      margin: 0 auto;
+    @media (max-width: 800px) {
+
+      .social-links,
+      .social-links a {
+        font-size: 2.88vw;
+      }
     }
   </style>
 </head>
@@ -97,13 +100,16 @@
                     postmodernism, with a focus on the critical theory of technology.
                   </p>
 
-                  <p style="text-align:center"><a
-                      href="https://scholar.google.com/citations?user=0-On0y4AAAAJ&amp;hl=en">Google Scholar</a> / <a
-                      href="https://openreview.net/profile?id=%7EHuan_Wang3">OpenReview</a> / <a
-                      href="https://github.com/mingsun-tse">GitHub</a> / <a
-                      href="https://www.linkedin.com/in/huanwangx">LinkedIn</a> / <a
-                      href="https://twitter.com/huanwangx">X</a> / <a
-                      href="https://www.xiaohongshu.com/user/profile/608b6f77000000000101e626">Rednote (小红书)</a></p>
+
+                  <p class="social-links" style="text-align:center; margin: 0 auto; white-space: nowrap">
+                    <a class="social-link"
+                      href=" https://scholar.google.com/citations?user=0-On0y4AAAAJ&amp;hl=en">Google Scholar</a> ·
+                    <a class="social-link" href="https://openreview.net/profile?id=%7EHuan_Wang3">OpenReview</a> · <a
+                      class="social-link" href="https://github.com/mingsun-tse">GitHub</a> · <a class="social-link"
+                      href="https://www.linkedin.com/in/huanwangx">LinkedIn</a> · <a class="social-link"
+                      href="https://twitter.com/huanwangx">X</a> · <a class="social-link"
+                      href="https://www.xiaohongshu.com/user/profile/608b6f77000000000101e626">Rednote (小红书)</a>
+                  </p>
                 </td>
 
                 <!-- Bio photo -->
@@ -113,7 +119,7 @@
                       style="width:100%" />
                   </a>
                   <p
-                    style="margin-top: 8px; font-family: 'Caveat', cursive; font-size: 1.0rem; opacity: 0.6; letter-spacing: 0.3px; white-space: nowrap">
+                    style="margin-top: 8px; font-family: 'Caveat', cursive; font-size: 0.9rem; opacity: 0.6; letter-spacing: 0.3px; white-space: nowrap">
                     To create something beautiful.</p>
                 </td>
 
@@ -132,14 +138,13 @@
                 <td style="width:100%;vertical-align:middle;text-align:justify">
                   <heading>Openings / Collaborations</heading>
                   <ul style="“list-style-type:square”">
-                    <li>Hiring PhD students, research assistants, and visiting students. We do not have postdoc
+                    <li>We hire PhD students, research assistants, and visiting students. We do not have postdoc
                       positions now unfortunately.</li>
                     <li>I am actively looking for PhD (Fall 2027)
                       and visiting students (targetting CVPR'27, ICML'27) for research-oriented projects.
                     </li>
                     <li>How to apply? Please check this <a href="admission.pdf">admission.pdf</a>
-                      (this document is maintained up to date and contains <i>all</i> guidelines you need to apply).
-                      Thanks!
+                      (this doc contains all the guidelines you need to apply).
                     </li>
                   </ul>
                 </td>
@@ -390,7 +395,8 @@
                           Fu</a>, Prof. <a
                           href="https://scholar.google.com/citations?user=htt9T1AAAAAJ&amp;hl=en">Octavia
                           Camps</a>, Prof.
-                        <a href="https://ztao.cc/">Zhiqiang Tao</a>) and co-authors!
+                        <a href="https://ztao.cc/">Zhiqiang Tao</a>) and co-authors! I am grateful to my family and
+                        friends for their support and encouragement during the PhD journey.
                       </li>
                     </ul>
                   </div>
